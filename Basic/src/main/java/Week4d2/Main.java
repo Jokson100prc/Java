@@ -8,7 +8,11 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
     String fromConsole = scanner.nextLine();
     String regex = "^[0-9]{3}([-]?|[ ]?)[0-9]{3}([-]?|[ ]?)[0-9]{3}$";
-//    Pattern pattern = Pattern.compile("^[0-9]{3}([-]?|[ ]?)[0-9]{3}([-]?|[ ]?)[0-9]{3}$"); równoprawna metoda ale szybsza w działąniu;
+
+//Pattern pattern = Pattern.compile("^[0-9]{3}([-]?|[ ]?)[0-9]{3}([-]?|[ ]?)[0-9]{3}$");
+//Pattern.compile() more code but quicker version;
+
+
     TelephoneValidator validator = new TelephoneValidator();
     boolean isValid = validator.validate(regex, fromConsole);
     if (isValid) {
