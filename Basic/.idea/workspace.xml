@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/src/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 5/src/DemoAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/AbstractTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TaskContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TextTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/ReferenceInheritanceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/ReferenceInheritanceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Cześć 2/out/production/classes/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 3/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 3/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 7/src/AbstractDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 7/src/AbstractDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 5/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 5/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +32,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="160">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-40">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -53,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/Contains.java" />
-        <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/CopyArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/Equals.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/Exercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/PrintArray.java" />
@@ -104,6 +131,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" />
       </list>
     </option>
   </component>
@@ -159,15 +188,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Week4d2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Week4dAfterClassDemoStatic" type="462c0819:PsiDirectoryNode" />
+              <item name="W147daysExercisesBasicExercisesArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +203,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547885884799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547918607326" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -202,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="W147daysDemosBasicDemos.ArrayDemo" />
       <module name="basic" />
@@ -222,6 +243,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="W147daysDemosBasicDemos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="W147daysExercisesBasicExercisesArray.Main" />
+      <module name="basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="W147daysExercisesBasicExercisesArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,26 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="W147daysAbcPerson.PersonDemo" />
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="W147daysAbcPerson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PackageDemo" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.LoopDemo" />
-        <item itemvalue="Application.PersonDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +330,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29745042" />
@@ -319,7 +340,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -365,41 +386,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicListsDemoAndExercices/ReverceArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicListsDemoAndExercices/CopyArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/Calculations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -705,14 +691,49 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>

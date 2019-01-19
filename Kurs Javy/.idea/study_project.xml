@@ -116,7 +116,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Customer.java" />
                                       <option name="text" value="&#10;" />
                                       <option name="trackChanges" value="true" />
@@ -132,7 +132,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Person.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;class Person{&#10;  public String firstName;&#10;  public String lastName;&#10;  public LocalDate birthDate;&#10;&#10;  public Person(String firstName, String lastName, LocalDate birthDate) {&#10;    this.firstName = firstName;&#10;    this.lastName = lastName;&#10;    this.birthDate = birthDate;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return &quot;Person{&quot; +&#10;            &quot;firstName='&quot; + firstName + '\'' +&#10;            &quot;, lastName='&quot; + lastName + '\'' +&#10;            &quot;, birthDate=&quot; + birthDate +&#10;            '}';&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -193,7 +193,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Person.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;class Person{&#10;  public String firstName;&#10;  public String lastName;&#10;  public LocalDate birthDate;&#10;&#10;  public Person(String firstName, String lastName, LocalDate birthDate) {&#10;    this.firstName = firstName;&#10;    this.lastName = lastName;&#10;    this.birthDate = birthDate;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return &quot;Person{&quot; +&#10;            &quot;firstName='&quot; + firstName + '\'' +&#10;            &quot;, lastName='&quot; + lastName + '\'' +&#10;            &quot;, birthDate=&quot; + birthDate +&#10;            '}';&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -414,7 +414,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="" />
                                       <option name="trackChanges" value="true" />
@@ -774,7 +774,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/AbstractDemo.java" />
                                       <option name="text" value="abstract class Vehicle {&#10;  protected final double weight;&#10;  protected double mileage;&#10;&#10;  public Vehicle(double weight){&#10;    this.weight = weight;&#10;  }&#10;&#10;  public double getMileage(){&#10;    return mileage;&#10;  }&#10;&#10;  public double getWeigth(){&#10;    return weight;&#10;  }&#10;&#10;  public abstract void start()&#10;          ;&#10;  public abstract void stop();&#10;}&#10;&#10;class AbstractDemo {&#10;  public static void main(String[] args) {&#10;&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -829,6 +829,22 @@
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="taskFiles">
                               <map>
+                                <entry key="src/DemoAnimal.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/DemoAnimal.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
                                 <entry key="src/Task.java">
                                   <value>
                                     <TaskFile>
@@ -846,19 +862,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="28" />
-                                            <option name="offset" value="25" />
+                                            <option name="length" value="112" />
+                                            <option name="offset" value="23" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="uzupełnij klasę abstrakcyjną" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="abstract class Animal{&#10;  uzupełnij klasę abstrakcyjną&#10;}&#10;&#10;class Dog extends Animal{&#10;&#10;  public Dog(String name) {&#10;    super(name);&#10;  }&#10;&#10;  public String getSound(){&#10;    return name + &quot; makes wuff wuff&quot;;&#10;  }&#10;}&#10;&#10;class Cat extends Animal{&#10;  public Cat(String name) {&#10;    super(name);&#10;  }&#10;&#10;  public String getSound(){&#10;    return name + &quot; makes miau miau&quot;;&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args) {&#10;    Animal[] pets = new Animal[2];&#10;    pets[0] = new Dog(&quot;Szarik&quot;);&#10;    pets[1] = new Cat(&quot;Filemon&quot;);&#10;    for (Animal a: pets){&#10;      System.out.println(a.getSound());&#10;    }&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -1044,12 +1060,28 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="class Truck extends Car{&#10;  int wheels;&#10;&#10;  public Truck(double weight, int power, int fuel, int wheels) {&#10;    super(weight, power, fuel);&#10;    this.wheels = wheels;&#10;  }&#10;&#10;  public int getWheels() {&#10;    return wheels;&#10;  }&#10;}&#10;&#10;class Task{&#10;  public static void main(String[] args) {&#10;    Vehicle[] flota = new Vehicle[3];&#10;    flota[0] = new Car(900, 90, 23);&#10;    flota[1] = new Truck(5300, 300, 120, 8);&#10;    flota[2] = new Car(1200, 160, 34);&#10;    for (Vehicle v: flota){&#10;      if (v instanceof Truck)&#10;        System.out.println(&quot;Truck - fuel &quot;+((Truck) v).getFuelLevel() +&quot; wheels &quot;+((Truck) v).getWheels());&#10;      else&#10;      if (v instanceof Car)&#10;        System.out.println(&quot;Car - fueal &quot;+ ((Car) v).getFuelLevel());&#10;    }&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
                                       <option name="trackLengths" value="true" />
                                       <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/Train.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Train.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
                                       <option name="visible" value="true" />
                                     </TaskFile>
                                   </value>

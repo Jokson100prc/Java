@@ -1,25 +1,64 @@
-abstract class Animal{
-  uzupełnij klasę abstrakcyjną
+abstract class Animal {
+  String name;
+
+  public Animal(String name) {
+    this.name = name;
+  }
+
+  abstract public String getSound();
 }
 
-class Dog extends Animal{
+class Dog extends Animal {
 
   public Dog(String name) {
     super(name);
   }
 
-  public String getSound(){
+  public String getSound() {
     return name + " makes wuff wuff";
   }
 }
 
-class Cat extends Animal{
+class Cat extends Animal {
   public Cat(String name) {
     super(name);
   }
 
-  public String getSound(){
+  public String getSound() {
     return name + " makes miau miau";
+  }
+}
+
+class Fish extends Animal {
+  public Fish(String name) {
+    super(name);
+  }
+
+  @Override
+  public String getSound() {
+    return name + " pook...";
+  }
+}
+
+class Horse extends Animal {
+  public Horse(String name) {
+    super(name);
+  }
+
+  @Override
+  public String getSound() {
+    return name + " makes Iiiiiihhjjaa";
+  }
+}
+
+class AnAnimal extends Animal {
+  public AnAnimal(String name) {
+    super(name);
+  }
+
+  @Override
+  public String getSound() {
+    return "noise";
   }
 }
 
@@ -28,7 +67,7 @@ class Task {
     Animal[] pets = new Animal[2];
     pets[0] = new Dog("Szarik");
     pets[1] = new Cat("Filemon");
-    for (Animal a: pets){
+    for (Animal a : pets) {
       System.out.println(a.getSound());
     }
   }

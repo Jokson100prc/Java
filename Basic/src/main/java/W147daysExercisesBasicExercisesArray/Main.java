@@ -1,10 +1,14 @@
 package W147daysExercisesBasicExercisesArray;
 
+import java.util.ArrayList;
+
 public class Main {
   public static void main(String[] args) {
 
     int[] numbers = new int[10];
     System.out.println(numbers + " initialized array");
+
+    ArrayList<Double> DoubleArr = null;
 
     FirstExerciseArray addToArray = new FirstExerciseArray();
     addToArray.incrementation(numbers);
@@ -14,7 +18,7 @@ public class Main {
     addAndProduct.product(numbers);
 
     FirstExerciseArray give = new FirstExerciseArray();
-    System.out.println( give.giveItBack());
+    System.out.println(give.giveItBack());
 
     FirstExerciseArray giveMeTheQueen = new FirstExerciseArray();
     System.out.println(giveMeTheQueen.givArrayBack() + " QUEEN");
@@ -22,8 +26,13 @@ public class Main {
     FirstExerciseArray giveMeTheQueen2 = new FirstExerciseArray();
     System.out.println(giveMeTheQueen2.givArrayBack2(numbers) + " MainQueen");
 
-SecondExerciseArrayList show = new SecondExerciseArrayList();
-      System.out.println(show.addToArrayList());
+    SecondExerciseArrayList show = new SecondExerciseArrayList();
+    System.out.println(show.addToArrayList());
+
+    ThirdExerciseArrLiDouble printThird = new ThirdExerciseArrLiDouble();
+    printThird.addToDoubleList(DoubleArr);
+    printThird.summaryDouble();
+
   }
 }
 

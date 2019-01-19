@@ -11,7 +11,7 @@ import java.util.List;
 //***   ***   ***   ***   ***   ***   ***   ***   ***   ***   ***   ******   ***   ***   ***   ***   ***
 public class ThirdExerciseArrLiDouble {
 
-  List<Double> addToDoubleList(List<Double> doubleList) {
+  public List<Double> addToDoubleList(List<Double> doubleList) {
 
     doubleList.add(45.4);
     doubleList.add(7.1);
@@ -28,7 +28,7 @@ public class ThirdExerciseArrLiDouble {
 
     Double summaryDouble (Double firstNum, Double secondNum) {
       double sum = firstNum + secondNum;
-      System.out.println(sum);
+      System.out.println("\n" + sum + " sum: here I am!" +"\n");
       return sum;
 
   }
