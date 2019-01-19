@@ -36,17 +36,17 @@ public class FirstExerciseArray {
     System.out.println(numbers[9] + " !!!");
   }
 
-  int giveItBack(){
+  int giveItBack() {
     return 5;
   }
 
-  int[] givArrayBack(){
+  int[] givArrayBack() {
 
     int[] arrayQueen = {123, 456, 789};
     return arrayQueen;
   }
 
-  int[] givArrayBack2(int[] arr){
+  int[] givArrayBack2(int[] arr) {
 
     int[] arrayQueen = arr;
     return arrayQueen;

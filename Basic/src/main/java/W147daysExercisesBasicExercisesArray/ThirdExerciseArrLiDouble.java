@@ -23,13 +23,16 @@ public class ThirdExerciseArrLiDouble {
     doubleList.add(6.6);
     doubleList.add(.44);
     doubleList.add(537.784);
-    return doubleList;
+
+    return doubleList;  // It is working!! look at main Constructor and printer printThird
   }
 
-    Double summaryDouble (Double firstNum, Double secondNum) {
-      double sum = firstNum + secondNum;
-      System.out.println("\n" + sum + " sum: here I am!" +"\n");
-      return sum;
+  Double summaryDouble(Double firstNum, Double secondNum) {
+
+    double sum = firstNum + secondNum;
+    System.out.println("\n" + sum + " sum: here I am!" + "\n");
+
+    return sum;
 
   }
 }
