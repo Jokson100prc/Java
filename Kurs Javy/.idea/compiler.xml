@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Agregacja_main" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Agregacja_test" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Kompozycja_jako_alternatywa_dziedziczenia_main" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Kompozycja_jako_alternatywa_dziedziczenia_test" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Kompozycja_main" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Kompozycja_test" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Zadanie_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Agregacja_i_kompozycja-Zadanie_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_5_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_6_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_6_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_7_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_7_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_8_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_8_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Podsumowanie_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Podsumowanie_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_5_test" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_6_main" target="1.8" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_6_test" target="1.8" />
+      <module name="Java_zaawansowana-Hermetyzacja-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Hermetyzacja-Część_1_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

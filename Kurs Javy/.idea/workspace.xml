@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcCar/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcCar/CarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcPerson/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_person/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcPerson/PersonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/CreateShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/CreateShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/RectangleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/RectangleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/PatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/PatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/RegExpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/RegExpDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/ReplaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/ReplaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/StringBuilderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/StringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalDateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalDateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalDateTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalTimeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/PeriodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/PeriodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/MainConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/MainConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/RepeatPARAMAndARG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/RepeatPARAMAndARG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/BaseForDemoMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/BaseForDemoMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Inmate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Inmate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Propertys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Propertys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Rent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ConditionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ConditionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/IfContinueAndBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/IfContinueAndBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/LoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/LoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/PackageDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/PackageDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/SwithDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/SwithDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/ConsoleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/ConsoleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/ConsoleDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/ConsoleDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/FirstExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/FirstExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/UserNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/UserNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Contains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/CopyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/PrintArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/PrintArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/PrintArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/PrintArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/ReverceArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/ReverceArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/FirstExerciseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/SecondExerciseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/ThirdExerciseArrLiDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/CountingSortExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/CountingSortExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/WeDoTogetherExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/BaseConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/CheckCityCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/CheckCityCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/CheckNumberOddIven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/DatePatternValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/LoginValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/SerialNumberValidatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/SerialNumberValidatin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/StatisticFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/StatisticFromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/StringValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/StringValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/VATInvoiceValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/VATInvoiceValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/regularExpressionsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/regularExpressionsExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTestFalse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTestFalse.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Agregacja/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Agregacja/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Agregacja/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja jako alternatywa dziedziczenia/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja jako alternatywa dziedziczenia/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Kompozycja jako alternatywa dziedziczenia/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Zadanie 1/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Zadanie 1/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Agregacja i kompozycja/Zadanie 1/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 4/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 4/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 4/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 5/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 5/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 5/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 3/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 3/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 3/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 6/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 6/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 6/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 7/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 7/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 7/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 8/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 8/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 8/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/out/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Hermetyzacja/Część 1/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Hermetyzacja/Część 1/build/" />
+    <ignored path="$PROJECT_DIR$/Java zaawansowana/Hermetyzacja/Część 1/out/" />
+    <ignored path="$PROJECT_DIR$/util/.gradle/" />
+    <ignored path="$PROJECT_DIR$/util/build/" />
+    <ignored path="$PROJECT_DIR$/util/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="40">
+                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="85" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Course" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
+              <item name="Kurs Javy" type="ed842865:CourseNode" />
+            </path>
+            <path>
+              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
+              <item name="Kurs Javy" type="ed842865:CourseNode" />
+              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
+            </path>
+            <path>
+              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
+              <item name="Kurs Javy" type="ed842865:CourseNode" />
+              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
+              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="gradle.experimental" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="" />
+      <created>1547885849747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547885849747</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Task" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="40">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
