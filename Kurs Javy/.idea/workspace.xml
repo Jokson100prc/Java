@@ -2,73 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcCar/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_car/CarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcCar/CarDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcPerson/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_person/PersonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcPerson/PersonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/CreateShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/CreateShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_shape/RectangleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcShape/RectangleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/PatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/PatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/RegExpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/RegExpDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/ReplaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/ReplaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/StringBuilderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_string/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcString/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalDateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalDateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalDateTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalDateTimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/LocalTimeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/LocalTimeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_abc_time/PeriodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/PeriodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/MainConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/MainConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoConstructor/RepeatPARAMAndARG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoConstructor/RepeatPARAMAndARG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/BaseForDemoMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/BaseForDemoMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Inmate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Inmate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Propertys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Propertys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_DemoMethod/Rent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemoMethod/Rent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ConditionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ConditionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/IfContinueAndBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/IfContinueAndBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/LoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/LoopDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/PackageDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/PackageDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_Demos/SwithDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicDemos/SwithDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/ConsoleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/ConsoleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/ConsoleDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/ConsoleDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/FirstExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/FirstExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_FirstLesson/UserNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicFirstLesson/UserNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Contains.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Contains.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/CopyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Equals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/PrintArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/PrintArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/PrintArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/PrintArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_demosBasic_ListsDemoAndExercices/ReverceArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysDemosBasicListsDemoAndExercices/ReverceArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/FirstExerciseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/SecondExerciseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesArray/ThirdExerciseArrLiDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/CountingSortExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/CountingSortExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_ExercisesSortAndAlgorithms/WeDoTogetherExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/BaseConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/CheckCityCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/CheckCityCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/CheckNumberOddIven.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/DatePatternValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/LoginValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/SerialNumberValidatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/SerialNumberValidatin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/StatisticFromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/StatisticFromString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/StringValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/StringValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/VATInvoiceValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/VATInvoiceValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W1-4_7days_exercisesBasic_RegularExpressionsExercises/regularExpressionsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/regularExpressionsExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTestFalse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/test-classes/Week4d2/TelephoneValidatorTestFalse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -154,24 +95,113 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="40">
-                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                <MainEditorState relative-caret-position="220">
+                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#71#72#0" expanded="true" />
+                    <element signature="e#105#106#0" expanded="true" />
+                  </folding>
                 </MainEditorState>
               </EduEditorState>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState />
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState />
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Person.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState />
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="272">
+                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="160">
+                  <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="24" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Manager.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -203,6 +233,13 @@
               <item name="Java zaawansowana" type="76d92c43:SectionNode" />
               <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
             </path>
+            <path>
+              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
+              <item name="Kurs Javy" type="ed842865:CourseNode" />
+              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
+              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
+              <item name="src" type="4928525d:TaskNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,6 +250,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547892420023" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
@@ -227,6 +266,28 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.ReferenceInheritanceDemo">
+    <configuration name="ReferenceInheritanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReferenceInheritanceDemo" />
+      <module name="Java_zaawansowana-Dziedziczenie-Cześć_2_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
+      <module name="Java_zaawansowana-Dziedziczenie-Część_1_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReferenceInheritanceDemo" />
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -243,37 +304,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Task" visible="true" weight="0.3295302" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Task" order="4" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -281,8 +344,68 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="40">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <MainEditorState relative-caret-position="220">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Person.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Worker.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 2/src/ReferenceInheritanceDemo.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="160">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="24" />
             </MainEditorState>
           </EduEditorState>
         </state>

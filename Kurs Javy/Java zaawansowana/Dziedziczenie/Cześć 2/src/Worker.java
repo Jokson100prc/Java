@@ -13,7 +13,8 @@ public class Worker extends Person{
   @Override
   public String toString() {
     return "Worker{" +
-            "salary=" + salary +
+            "position='" + position + '\'' +
+            ", salary=" + salary +
             ", firstName='" + firstName + '\'' +
             ", lastName='" + lastName + '\'' +
             ", birthDate=" + birthDate +

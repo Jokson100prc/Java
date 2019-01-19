@@ -70,7 +70,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -171,6 +171,22 @@
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="taskFiles">
                               <map>
+                                <entry key="src/Manager.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Manager.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
                                 <entry key="src/Person.java">
                                   <value>
                                     <TaskFile>
@@ -193,7 +209,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/ReferenceInheritanceDemo.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;class ReferenceInheritanceDemo {&#10;  public static void main(String[] args) {&#10;    Person employee = new Worker(&#10;            &quot;Adam&quot;,&#10;            &quot;Kowalski&quot;,&#10;            LocalDate.of(1978, 10,19),&#10;            &quot;magazynier&quot;,&#10;            2400.0);&#10;    Person wife = new Person(&#10;            &quot;Zofia&quot;,&#10;            &quot;Nowak&quot;,&#10;            LocalDate.of(1978, 10,19));&#10;    System.out.println(employee);&#10;    System.out.println(wife);&#10;    Worker w = (Worker) employee;&#10;    System.out.println(employee);&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -209,7 +225,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Worker.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;public class Worker extends Person{&#10;  public String position;&#10;  public double salary;&#10;&#10;  public Worker(String firstName, String lastName, LocalDate birthDate, String position, double salary) {&#10;    super(firstName, lastName, birthDate);&#10;    this.position = position;&#10;    this.salary = salary;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return &quot;Worker{&quot; +&#10;            &quot;salary=&quot; + salary +&#10;            &quot;, firstName='&quot; + firstName + '\'' +&#10;            &quot;, lastName='&quot; + lastName + '\'' +&#10;            &quot;, birthDate=&quot; + birthDate +&#10;            '}';&#10;  }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
