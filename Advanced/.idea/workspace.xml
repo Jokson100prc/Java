@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Egg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Hen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Hen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InheritansEggAndHen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/AbstractTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ClientTodoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TaskContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TextTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/AbstractTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ClientTodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/ClientTodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/TaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TextTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/TextTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/client/LimitedTaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,8 +42,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Hen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +113,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritansEggAndHen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -136,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997040840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548005203084" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
   </component>
@@ -189,7 +184,7 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -199,7 +194,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,8 +234,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Hen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

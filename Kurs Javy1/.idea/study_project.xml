@@ -616,6 +616,22 @@
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="taskFiles">
                               <map>
+                                <entry key="src/NoNameClass.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/NoNameClass.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
                                 <entry key="src/Task.java">
                                   <value>
                                     <TaskFile>

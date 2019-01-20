@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/AbstractTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ClientTodoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/TaskContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/TextTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/ClientTodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/ClientTodoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/TextTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +53,7 @@
             <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
-                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -204,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997040808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548005203062" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -311,7 +294,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -397,7 +379,7 @@
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
