@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskContainer {
-  private List<AbstractTask> container;
+  private final List<AbstractTask> container;
 
   public TaskContainer() {
     container = new ArrayList<>();
@@ -31,6 +31,10 @@ public class TaskContainer {
     AbstractTask t = getTask(i);
     t.setDone(true);
     t.setComplited(LocalDate.now());
+  }
+
+  public int size(){
+    return container.size();
   }
 
   public void print() {
