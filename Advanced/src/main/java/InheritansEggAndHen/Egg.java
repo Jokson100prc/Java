@@ -6,15 +6,11 @@ public class Egg {
   // Hen Extended/child fild:life , mainColor, secondColor, comeFrom, kind, method: grow, dead, run, peack, shittingOnTheBushes
   // Eagle extend/child fild: life , mainColor, secondColor, comeFrom, kind, method: grow, dead, fly, making nest,
 
-  boolean life = true;
-  int eggTemperature;
-  char size;
-  String kind;
-  String color;
-  String originOrEnviro;
+  int eggTemperature = (int) 31.3;
+  boolean life = eggTemperature >30 && eggTemperature <33? true: false;
+  String shape= "elipse";
 
-
-  public Egg(boolean b, String white, String chicken, String bio_village) {
+  public Egg(boolean life) {
 
 
   }
@@ -22,19 +18,12 @@ public class Egg {
   @Override
   public String toString() {
     return "Egg{" +
-            "life=" + life +
             ", eggTemperature=" + eggTemperature +
-            ", size=" + size +
-            ", kind='" + kind + '\'' +
-            ", color='" + color + '\'' +
-            ", originOrEnviro='" + originOrEnviro + '\'' +
+            "life=" + life +
+            ", shape='" + shape + '\'' +
             '}';
   }
 
-  public void setOriginOrEnviro(String originOrEnviro) {
-
-    this.originOrEnviro = originOrEnviro;
-  }
 
   public void setLife(boolean life) {
     if (eggTemperature > 30 && eggTemperature < 33) {

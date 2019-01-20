@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Advanced/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -145,7 +139,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547926781539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547968208817" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kurs Javy" />
   </component>
   <component name="RunDashboard">

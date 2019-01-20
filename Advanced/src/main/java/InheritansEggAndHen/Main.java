@@ -3,10 +3,10 @@ package InheritansEggAndHen;
 public class Main {
   public static void main(String[] args) {
 
-    Egg chickenEgg = new Egg(false, "white", "chicken", "bio village");
+    Egg chickenEgg = new Egg( true);
     System.out.println(chickenEgg);
 
-  Hen hen = new Hen(31,'m', "poultry", "red brown", "village");
+  Hen hen = new Hen(true);
 
   System.out.println(hen);
 }
