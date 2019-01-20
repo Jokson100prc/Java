@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tarr/app/ClientTodoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/TaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/AbstractTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ClientTodoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/TaskContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/TextTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/ClientTodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/ClientTodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/TextTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,106 +35,92 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ToDoList" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/ClientTodoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/AbstractTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/TextTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/TaskContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1130#1131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.804698">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="358">
+                  <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#500#501#0" expanded="true" />
+                    <element signature="e#931#932#0" expanded="true" />
+                    <element signature="e#1071#1072#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="142">
+                  <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,10 +143,18 @@
         <option value="$PROJECT_DIR$/src/tarr/app/Main.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/TaskContainer.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ClientTodoList.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/Todoable.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver1/Todoable.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver1/Main.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -154,6 +163,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -182,7 +194,7 @@
               <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ver1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,8 +204,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547985402096" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997040808" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,13 +222,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientTodoList">
-    <configuration name="ClientTodoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.ClientTodoList" />
+  <component name="RunManager" selected="Application.ClientApp">
+    <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.ver2.ClientApp" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarr.app.*" />
+          <option name="PATTERN" value="tarr.app.ver2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTodoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.ver1.ClientTodoList" />
+      <module name="ToDoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tarr.app.ver2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,11 +260,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.Main" />
+      <option name="MAIN_CLASS_NAME" value="tarr.app.ver1.Main" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarr.app.*" />
+          <option name="PATTERN" value="tarr.app.ver2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,9 +276,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.ClientTodoList" />
+      <item itemvalue="Application.ClientApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientApp" />
         <item itemvalue="Application.ClientTodoList" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -280,17 +310,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Learn" order="3" />
+      <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25302014" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.25302014" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info x="652" y="222" width="377" height="474" id="Structure" order="7" sideWeight="0.57383966" side_tool="true" type="FLOATING" weight="0.25302014" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
@@ -298,7 +328,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -312,120 +342,181 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Learn" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25302014" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.3286119" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/AbstractTask.java">
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainerSuper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="20">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/client/LimitedTaskContainer.java">
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/ClientTodoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/TextTask.java">
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/TaskContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ClientTodoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ToDoList</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

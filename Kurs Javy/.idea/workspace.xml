@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ClientTodoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/InheritansEggAndHen/Hen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Egg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Hen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/InheritansEggAndHen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TaskContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TaskContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainerSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/AbstractTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ClientTodoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TaskContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/TextTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/client/LimitedTaskContainerSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/AbstractTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ClientTodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/ClientTodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/TaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/TextTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/TextTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/client/LimitedTaskContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/client/LimitedTaskContainerSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />

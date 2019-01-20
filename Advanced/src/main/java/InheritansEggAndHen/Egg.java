@@ -6,8 +6,8 @@ public class Egg {
   // Hen Extended/child fild:life , mainColor, secondColor, comeFrom, kind, method: grow, dead, run, peack, shittingOnTheBushes
   // Eagle extend/child fild: life , mainColor, secondColor, comeFrom, kind, method: grow, dead, fly, making nest,
 
-  int eggTemperature = (int) 31.3;
-  boolean life = eggTemperature >30 && eggTemperature <33? true: false;
+  int eggTemperature = (int) 29.3;
+  boolean life = eggTemperature > 30 && eggTemperature <33? true: false;
   String shape= "elipse";
 
   public Egg(boolean life) {
@@ -18,9 +18,9 @@ public class Egg {
   @Override
   public String toString() {
     return "Egg{" +
-            ", eggTemperature=" + eggTemperature +
-            "life=" + life +
-            ", shape='" + shape + '\'' +
+            ", eggTemperature = " + eggTemperature +
+            " life = " + life +
+            ", shape = '" + shape + '\'' +
             '}';
   }
 

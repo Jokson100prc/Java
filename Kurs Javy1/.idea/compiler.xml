@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Java_zaawansowana-Interfejsy-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Podsumowanie_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Podsumowanie_test" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Zadanie_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Zadanie_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Zadanie_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Interfejsy-Zadanie_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Klasy_wewnętrzne_i_anonimowe-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-CZęść_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-CZęść_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Podsumowanie_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Podsumowanie_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

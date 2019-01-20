@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTask" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-20T13:05:16" hostname="DESKTOP-R24R31B" time="0.028">
+  <properties/>
+  <testcase name="testComputer" classname="TestTask" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

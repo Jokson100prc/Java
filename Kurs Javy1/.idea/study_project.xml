@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="11" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="Kurs języka Java dla SDA" />
+          <option name="fromZip" value="true" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Kurs Javy" />
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="items">
+            <list>
+              <Section>
+                <option name="courseId" value="0" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Java zaawansowana" />
+                <option name="position" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="units" />
+                <option name="items">
+                  <list>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Interfejsy" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;&#10;    Podstawy&#10;&lt;/h1&gt;&#10;&lt;p&gt;&#10;  Interfejsy możemy traktować jak wyspecjalizowane klasy, których zadaniem jest tylko wskazywanie innym&#10;  klasom jakie muszą posiadać zachowania (metody), ale nie określają jak te zachowania mają być realizowane.&#10;  &lt;p&gt;&#10;  Interfejs można porównać do klasy abstrakcyjnej, kóra posiada tylko metody abstrakcyjne. Każdy typ wyprowadzony&#10;  z takiej klasy musi implementować odziedziczone metody. Każda klasa wyprowadzona z takiej klasy abstrakcyjnej, posługuje&#10;  się tym samym językiem metod, które zostały wymienione w abstrakcyjnym typie bazowym.&#10;&lt;/p&gt;&#10;  Istotną jednak różnicą w stosunku do klasy abstrakcyjnej jest to, że klasy mogą 'dziedziczyć&quot; wiele interfejsów,&#10;jak i to, że same interfejsy moga dziedziczyć wiele innych. Interfejsy mogą posiadać pola, jednak są on domyślnie&#10;stałymi.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Rola interfejsów jest jednak znacznie szersza. O ile w dziedziczeniu klas, ten wspólny język dotyczył klas silnie ze&#10;  sobą związanych i bliskich, to interfejsy mogą łączyć klasy bardzo odległe. Możliwość zapewnienia drukowania,&#10;  zapisywania do pliku, transmisji siecią itd. może dotyczyć różnych klas.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Zbudujmy interfejs, który będzie realizował jednolite sterowanie pojazdami:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;interface Driveable {&#10;  void start();&#10;  void stop();&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Słowo kluczowe &lt;samp&gt;interface&lt;/samp&gt; służy do definiowania  interfejsu, który&#10;  zawiera tylko sygnatury metod. Metody wymienione w intefejsie są abstrakcyjne i zawsze publiczne.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Klasy pojazdów, którymi chcemy kierować, możemy tworzyć bez potrzeby dziedziczenia.&#10;  Pojazd, który ma reagować na polecenia interfejsu, musi go implementować:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  class Car implements Driveable{&#10;    double power;&#10;    double fuelLevel;&#10;    double fuelCapacity;&#10;    public Car(double power, double fuelCapacity){&#10;      this.power = power;&#10;      this.fuelCapacity = fuelCapacity;&#10;    }&#10;&#10;    @Override&#10;    public void start(){&#10;      System.out.println(&quot;The car starts moving&quot;);&#10;    }&#10;&#10;    @Override&#10;    public void stop(){&#10;      System.out.println(&quot;The car stops&quot;);&#10;    }&#10;  }&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Wskazanie jaki interfejs klasa ma zaimplementować odbywa się słowem kluczowym &lt;samp&gt;implements&lt;/samp&gt;,&#10;  po którym możemy podawać dowolną liczbę interfejsów. W klasie obowiązkowo&#10;  należy zdefiniować wszystkie metody każdego podanego interfejsu. Metody implementowane&#10;  powinny być poprzedzone adnotacją &lt;samp&gt;@Override&lt;/samp&gt;, aby uniknąć pomyłki przy podaniu sygnatury metody.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Zdefiniujmy kolejną klasę, która będzie implementować ten sam interfejs. Ty razem będzie to&#10;  klasa, której trudno by wyprowdzić z klasy &lt;samp&gt;Vehicle&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  class Horse implements Driveable{&#10;    String name;&#10;&#10;    public Horse(String horse){&#10;      this.name = name;&#10;    }&#10;&#10;    @Override&#10;    public void start(){&#10;      System.out.println(&quot;The horse starts moving&quot;);&#10;    }&#10;&#10;    @Override&#10;    public void stop(){&#10;      System.out.println(&quot;The horse stops&quot;);&#10;    }&#10;  }&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Podobnie jak przy dziedziczeniu, obiekty ze wspólnym interfejsem mogą być przypisane do jego referencji.&#10;  Popatrzmy na poniższy przykład:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  Driveable porsche = new Car(245, 45);&#10;  Driveable horse = new Horse(&quot;kasztanka&quot;);&#10;  porsche.start();&#10;  horse.start();&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Auto jak i koń mogą być typu ineterfejsu, choć obu zmiennym przypisane zostaną obiekty&#10;  różnych typów.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Przykład ilustruje, że interfejsy wymuszają takie same działanie jak&#10;  dziedziczenie z klasy bazowej. Także tutaj działa polimorfizm, bo wywoływane są metody zgodne z typem obiektu,&#10;  a nie referencji. Istotną różnicą jest to, że metody interfejsowe w klasie bazowej moga być definiowane,&#10;  a w interfejsie nie. Interfejs raczej narzuca  na klasę implementującą obowiązek&#10;  zdefiniowanie swoich metod, podobnie jak klasa abstrakcyjna z wyłącznie metodami abstrakcyjnymi.&#10;&lt;/p&gt;&#10;&lt;p&gt;Korzyści wynikającę z interfejsu ilustruje poniższy przykład:&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;interface Soundable{&#10;    String getSound();&#10;}&#10;&#10;class Car implements Driveable, Soundable{&#10;    double power;&#10;    double fuelLevel;&#10;    double fuelCapacity;&#10;    public Car(double power, double fuelCapacity){&#10;      this.power = power;&#10;      this.fuelCapacity = fuelCapacity;&#10;    }&#10;&#10;    @Override&#10;    public void start(){&#10;      System.out.println(&quot;The car starts moving&quot;);&#10;    }&#10;&#10;    @Override&#10;    public void stop(){&#10;      System.out.println(&quot;The car stops&quot;);&#10;    }&#10;&#10;    @Override&#10;    public String getSound(){&#10;        return &quot;BEEB&quot;;&#10;    }&#10;  }&#10;&#10;class Horse implements Driveable, Soundable{&#10;    String name;&#10;&#10;    public Horse(String horse){&#10;      this.name = name;&#10;    }&#10;&#10;    @Override&#10;    public void start(){&#10;      System.out.println(&quot;The horse starts moving&quot;);&#10;    }&#10;&#10;    @Override&#10;    public void stop(){&#10;      System.out.println(&quot;The horse stops&quot;);&#10;    }&#10;&#10;    @Override&#10;    public String getSound(){&#10;        return &quot;IHAA&quot;;&#10;    }&#10;  }&#10;&#10;  ..&#10;&#10;  Soundable porsche = new Car(245, 45);&#10;  Soundable horse = new Horse(&quot;kasztanka&quot;);&#10;  System.out.println(porsche.getSound());&#10;  System.out.println(horse.getSound());&#10;  ((Driveable)porsche).start();&#10;  ((Driveable)horse).start();&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Klasy moga implementować wiele interfejsów, co daje możliwość obiektom&#10;  reagować na wiele różnych zachowań.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="interface Radiusable {&#10;&#10;  double getRadius();&#10;&#10;  double getAngle();&#10;&#10;  default double getPerimeter(){&#10;    return normalizeAngle(getAngle())*2 * Math.PI * getRadius() / (2 * Math.PI);&#10;  }&#10;&#10;  static double normalizeAngle(double a){&#10;    a = Math.abs(a);&#10;    return a &gt; Math.PI*2 ? a - Math.round(a/(Math.PI*2)-1)*2*Math.PI : a;&#10;  }&#10;}&#10;&#10;class Circle implements Radiusable{&#10;  private double radius;&#10;&#10;  public Circle(double radius){&#10;    this.radius = radius;&#10;  }&#10;&#10;  @Override&#10;  public double getRadius() {&#10;    return radius;&#10;  }&#10;&#10;  @Override&#10;  public double getAngle() {&#10;    return Math.PI * 2;&#10;  }&#10;}&#10;&#10;class Arc extends Circle{&#10;  private double angle;&#10;&#10;  public Arc(double radius, double angle){&#10;    super(radius);&#10;    this.angle = angle;&#10;  }&#10;&#10;  public Arc(double radius){&#10;    super(radius);&#10;    this.angle = 2 * Math.PI;&#10;  }&#10;&#10;  @Override&#10;  public double getAngle(){&#10;    return angle;&#10;  }&#10;}&#10;&#10;class Ellipse extends Circle{&#10;  private double focusDistance;&#10;&#10;  public Ellipse(double radius, double focusDistance){&#10;    super(radius);&#10;    this.focusDistance = focusDistance;&#10;  }&#10;&#10;  public Ellipse(double radius){&#10;    super(radius);&#10;    this.focusDistance = radius;&#10;  }&#10;&#10;  @Override&#10;  public double getPerimeter() {&#10;    double a = getVertex();&#10;    double b = getCoVertex();&#10;    if (getRadius() == focusDistance){&#10;      return super.getPerimeter();&#10;    }&#10;    return Math.PI * ( 3.0/2.0 * (a+b) - Math.sqrt(a*b));&#10;  }&#10;&#10;  public double getFocusDistance() {&#10;    return focusDistance;&#10;  }&#10;&#10;  public double getCoVertex(){&#10;    return Math.sqrt(getRadius()*getRadius()+focusDistance*focusDistance);&#10;  }&#10;&#10;  public double getVertex(){&#10;    return getRadius();&#10;  }&#10;}&#10;&#10;class BestWishes{&#10;&#10;}&#10;&#10;class Task {&#10;  static public void main(String[] args){&#10;    Circle a = new Circle(10);&#10;    Circle b = new Arc(10, Math.PI/4);&#10;    Radiusable c = new Circle(10);&#10;    Radiusable d = new Arc(10, Math.PI /4);&#10;    Radiusable e = new Ellipse(10);&#10;    Circle f = new Ellipse(10, 0);&#10;&#10;    System.out.println(a.getPerimeter());&#10;    System.out.println(b.getPerimeter());&#10;    System.out.println(c.getPerimeter());&#10;    System.out.println(d.getPerimeter());&#10;    System.out.println(e.getPerimeter());&#10;    System.out.println(f.getPerimeter());&#10;    System.out.println(((Ellipse) f).getCoVertex());&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;  Zdefiniuj interfejs &lt;samp&gt;Flyable&lt;/samp&gt;, który posiada metody:&#10;  &lt;ul&gt;&#10;  &lt;li&gt;&#10;    &lt;code&gt;LocalDate takeOff()&lt;/code&gt;&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;code&gt;LocalDate land()&lt;/code&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;&#10;oraz zdefiniuj klasę &lt;samp&gt;Duck&lt;/samp&gt;, która implementuje interfejs &lt;samp&gt;Flyable&lt;/samp&gt;, tak, aby obie funkcje zwracały datę wywołania metody.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Zadanie 1" />
+                            <option name="status" value="Solved" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="23" />
+                                                <option name="offset" value="51" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="40" />
+                                            <option name="offset" value="51" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="wpisz metody interfejsu" />
+                                            <option name="possibleAnswer" value="type here" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="1" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="15" />
+                                                <option name="offset" value="110" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="145" />
+                                            <option name="offset" value="127" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="uzupełnij klasę" />
+                                            <option name="possibleAnswer" value="type here" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.time.LocalDate;&#10;&#10;interface Flyable {&#10;  wpisz metody interfejsu&#10;}&#10;class Duck implements Flyable{&#10;  uzupełnij klasę&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/TestTask.java" value="import org.junit.Test;&#10;&#10;import java.time.LocalDate;&#10;&#10;import static org.junit.Assert.*;&#10;&#10;public class TestTask{&#10;  @Test&#10;  public void testComputer() {&#10;    Flyable duck = new Duck();&#10;    assertEquals(&quot;Nie powinien istnieć obiekt&quot;, duck.takeOff(), LocalDate.now());&#10;    assertEquals(&quot;Nie powinien istnieć obiekt&quot;, duck.land(), LocalDate.now());&#10;  }&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;H1&gt;&#10;  Dziedziczenie interfejsów&#10;&lt;/H1&gt;&#10;&lt;p&gt;&#10;&#10;  Cechą odróżniającą interfejsy od klas abstrakcyjnych jest możliwość tworzenia jednych drogą&#10;  dziedziczenia z kilku innych. W poprzedniej części utworzyliśmy dwa interfejsy, które&#10;  były implementowane przez klasy Car i Horse. Jeśli wiele klas musi implementować oba, to można&#10;  utworzyć jeden interfejs korzystając z wielodziedziczenia:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;    interface DriveAndSound extends Driveable, Soundable{&#10;    }&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  W ten sposób utworzyliśmy jeden interfejs, więc łatwiej będzie się odwoływać&#10;  do metod obu interfejsów dla obiektów z referencją:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;    class Car implements DriveAndSound{&#10;      ...&#10;    }&#10;&#10;    class Horse implements DriveAndSound{&#10;      ...&#10;    }&#10;&#10;    ...&#10;&#10;    DriveAndSound porsche = new Porsche(250, 50);&#10;    DriveAndSound horse = new Horse(&quot;kasztanka&quot;);&#10;    System.out.println(porsche.getSound());&#10;    System.out.println(horse.getSound());&#10;    porsche.start();&#10;    horse.start();&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;  Zdefiniuj interfejs &lt;samp&gt;ElectricPower&lt;/samp&gt;, który posiada metody abstrakcyjne:&#10;  &lt;ul&gt;&#10;  &lt;li&gt;&#10;    &lt;code&gt;&#10;      void setPower(int power);&#10;    &lt;/code&gt;&#10;    - która ustawia poziom energii urządzenia&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;code&gt;int getPower();&lt;/code&gt;&#10;  &lt;/li&gt;&#10;  - zwraca poziom energii&#10;  &lt;li&gt;&#10;    &lt;code&gt;void recharge();&lt;/code&gt;&#10;  &lt;/li&gt;&#10;   przywraca poziom energi do maksymalnego pozionu&#10;&lt;/ul&gt;&#10;oraz metodę domyślną &lt;code&gt;int supply(int power)&lt;/code&gt;, która zwraca wartość energii jaką może dostarczyć źródło gdy potrzebujemy energii o wartości &lt;code&gt;power&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;Zdefiniuj klasę &lt;code&gt;Smartphone&lt;/code&gt; implementującą interfejs &lt;code&gt;ElectricPower&lt;/code&gt;, która ma żródło akumulator o pojemności podaje w konstruktorze. Zdefiniuj metody interfejsu tak, aby smarfon przy wywołaniu kolejnych metod zachowywał się jak poniżej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;&lt;code&gt;&#10;  ElectricPower smart = new Smartphone(4000);&#10;  smart.getPower();   - zwróci 0&#10;  smart.recharge();&#10;  smart.getPower();   - zwróci 4000&#10;  smart.supply(1000); - zwróci 1000&#10;  smart.getPower();   - zwróci 3000&#10;  smart.supply(4000); - zwróci 3000&#10;  smart.getPower();   - zwróci 0&#10;  smart.supply(1000); - zwróci 0&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="Zadanie 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="12" />
+                                                <option name="offset" value="63" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="12" />
+                                            <option name="offset" value="63" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="uzupełni kod" />
+                                            <option name="possibleAnswer" value="type here" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="1" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="16" />
+                                                <option name="offset" value="393" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="16" />
+                                            <option name="offset" value="393" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="zdefiniuj metodę" />
+                                            <option name="possibleAnswer" value="type here" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="2" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="16" />
+                                                <option name="offset" value="466" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="16" />
+                                            <option name="offset" value="466" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="zdefiniuj metodę" />
+                                            <option name="possibleAnswer" value=" type here" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list />
+                                            </option>
+                                            <option name="index" value="3" />
+                                            <option name="initialState">
+                                              <MyInitialState>
+                                                <option name="length" value="16" />
+                                                <option name="offset" value="531" />
+                                              </MyInitialState>
+                                            </option>
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="16" />
+                                            <option name="offset" value="531" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="zdefiniuj metodę" />
+                                            <option name="possibleAnswer" value="type here" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="true" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="interface ElectricPower{&#10;&#10;  default int supply(int power){&#10;    uzupełni kod&#10;  }&#10;&#10;  int getPower();&#10;  void setPower(int level);&#10;  void recharge();&#10;}&#10;&#10;class Smartphone implements ElectricPower {&#10;  private int power;&#10;  private final int powerCapacity;&#10;&#10;  public Smartphone(int powerCapacity) {&#10;    this.powerCapacity = powerCapacity;&#10;    power = 0;&#10;  }&#10;&#10;  @Override&#10;  public int getPower() {&#10;    zdefiniuj metodę&#10;  }&#10;&#10;  @Override&#10;  public void setPower(int level) {&#10;   zdefiniuj metodę&#10;  }&#10;&#10;  @Override&#10;  public void recharge() {&#10;    zdefiniuj metodę&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/TestTask.java" value="import org.junit.Test;&#10;&#10;import java.time.LocalDate;&#10;&#10;import static org.junit.Assert.*;&#10;&#10;public class TestTask{&#10;  @Test&#10;  public void testComputer() {&#10;    ElectricPower apple = new Smartphone(4000);&#10;    assertEquals(&quot;Niepoprawna wartość power&quot;, apple.getPower(), 0 );&#10;    apple.recharge();&#10;    assertEquals(&quot;Niepoprawna wartość power po wywołaniu recharge&quot;, apple.getPower(), 4000 );&#10;    assertEquals(&quot;Niepoprawna wartość power o wywołaniu supply 1&quot;, apple.supply(1000), 1000);&#10;    assertEquals(&quot;Niepoprawna wartość power o wywołaniu supply 2&quot;, apple.supply(-1000), 0);&#10;    assertEquals(&quot;Niepoprawna wartość power o wywołaniu supply 3&quot;, apple.supply(3000), 3000);&#10;    assertEquals(&quot;Niepoprawna wartość power o wywołaniu supply 4&quot;, apple.supply(3000), 0);&#10;  }&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;H1&gt;&#10;  Interfejsy dla zaawansowanych&#10;&lt;/H1&gt;&#10;&lt;p&gt;&#10;  Począwszy od wersji 8 interfejsy mogą posiadać, oprócz metod abstrakcyjnych, zdefiniowane&#10;  metody statyczne i domyślne.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Przykładowy interfejs służy do implementacji siatki dwuwymiarowej łańcuchów. Posługując się&#10;  numerem kolumny i wiersza można odczytać znajdujący się tam łańcuch. Interfejs&#10;  dostarcza także metod zwracających liczbę kolumn i wierszy.&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;interface Grid{&#10;&#10;  String getAt(int row, int column);&#10;  int getColumns();&#10;  int getRows();&#10;&#10;  static String toString(String[] arr){&#10;    String result = &quot;|&quot;;&#10;    for (String s: arr){&#10;      result += s +&quot;|&quot;;&#10;    }&#10;    return result;&#10;  }&#10;&#10;  default String[] getRow(int row){&#10;    String[] rowValues = new String[getColumns()];&#10;    for(int column = 0; column &lt; rowValues.length; column++){&#10;      rowValues[column] = getAt(row, column);&#10;    }&#10;    return rowValues;&#10;  }&#10;&#10;  default String[] getColumn(int column){&#10;    String[] values = new String[getRows()];&#10;    for(int row = 0; row &lt; values.length; row++){&#10;      values[row] = getAt(row, column);&#10;    }&#10;    return values;&#10;  }&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&#10;  Oprócz trzech metod abstakcyjnych interfejs zawiera dwie metody domyślne, sygnalizowane słowem &lt;samp&gt;default&#10;&lt;/samp&gt;, które zwracają tablicę łańcuchów dla podanego wiersza lub kolumny. W obu metodach domyślnych posługujemy się&#10;  zadeklarowanymi metodami abstrakcyjnymi &lt;samp&gt;getAt()&lt;/samp&gt;, &lt;samp&gt;getColumns()&lt;/samp&gt;&#10;  i &lt;samp&gt;getRows()&lt;/samp&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Obie metody domyślne są tak zdefiniowane, że ich kod zależy tylko od metod interfejsu &lt;samp&gt;Grid&lt;/samp&gt;.&#10;  Żeby z nich skorzystać, trzeba interfejs zaimplementować, a klasa je implementująca&#10;  musi zdefiniować wszystkie metody abstrakcyjne, więc, gdy wywołamy np. metodę&#10;  &lt;samp&gt;getRow(int row)&lt;/samp&gt;, to wszystkie w niej wykorzystane metody będą już zdefiniowane.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Tak zdefiniowany interfejs jest niezależny do metody implementacji samej siatki.&#10;  Możne to być dwuwymiarowa tablica, kolekcja w postaci listy list lub jeszcze inne rozwiązanie.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Wykorzystamy interfejs do stworzenia diagramu, który będzie przechowywał łańcuchy w&#10;  tablicy dwuwymiarowej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;class ArrayDiagram implements Grid {&#10;  private String[][] grid;&#10;&#10;  public Diagram(int rows, int columns){&#10;    grid = new String[rows][columns];&#10;  }&#10;&#10;  public void fill(String pattern){&#10;    for(int row = 0; row &lt; getRows(); row++){&#10;      for (int column = 0; column &lt; getColumns(); column++){&#10;        grid[row][column] = pattern+&quot; &quot;+row+&quot; &quot;+column;&#10;      }&#10;    }&#10;  }&#10;&#10;  @Override&#10;  public String getAt(int row , int column) {&#10;    return grid[row][column];&#10;  }&#10;&#10;  @Override&#10;  public int getColumns() {&#10;    return grid[0].length;&#10;  }&#10;&#10;  @Override&#10;  public int getRows() {&#10;    return grid.length;&#10;  }&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;Przedstawiona klasa musi implementować wszystkie abstrakcyjne metody, natomiast metody&#10;  domyślne są dziedziczone. Jeśli działanie metod domyślnych byłoby niewystarczające,&#10;  to można je ponownie zaimplementować w klasie &lt;samp&gt;Diagram&lt;/samp&gt;.&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;Grid diagram = new ArrayDiagram(5, 10);&#10;((ArrayDiagram)diagram).fill(&quot;&quot;);&#10;&#10;System.out.println(diagram.getColumns());&#10;String[] row5 = diagram.getRow(4);&#10;System.out.println(Grid.toString(row5));&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  W przykładzie wykorzystaliśmy także metodę statyczną interfejsu, której kod musi być&#10;  niezależny od składowych  niestatycznych interfejsu. W przypadku funkcji&#10;  &lt;samp&gt;toString(String[] arr)&lt;/samp&gt;, jej zadanie, jest zwrócenie w postaci łańcucha&#10;  argumentu czyli tablicy łańcuchów.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Istotną cechą typów interfejsowych jest łatwa możliwość wymiany klas je implemntujących.&#10;  Trzy ostatnie wiersze  są niezalezne od klas implementujących interfejs, więc jeśli&#10;  zmienna &lt;samp&gt;diagram&lt;/samp&gt; byłaby&#10;  klasy &lt;samp&gt;ListDiagram&lt;/samp&gt;, która implementowałaby &lt;samp&gt;Grid&lt;/samp&gt;, to te trzy ostatnie&#10;  wiersze działały by poprawnie.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="5" />
+                            <option name="name" value="Część 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;interface Grid{&#10;&#10;  String getAt(int row, int column);&#10;  int getColumns();&#10;  int getRows();&#10;&#10;  static String toString(String[] arr){&#10;    String result = &quot;|&quot;;&#10;    for (String s: arr){&#10;      result += s +&quot;|&quot;;&#10;    }&#10;    return result;&#10;  }&#10;&#10;  default String[] getRow(int row){&#10;    String[] rowValues = new String[getColumns()];&#10;    for(int column = 0; column &lt; rowValues.length; column++){&#10;      rowValues[column] = getAt(row, column);&#10;    }&#10;    return rowValues;&#10;  }&#10;&#10;  default String[] getColumn(int column){&#10;    String[] values = new String[getRows()];&#10;    for(int row = 0; row &lt; values.length; row++){&#10;      values[row] = getAt(row, column);&#10;    }&#10;    return values;&#10;  }&#10;}&#10;&#10;class Diagram implements Grid {&#10;  private String[][] grid;&#10;&#10;  public Diagram(int rows, int columns){&#10;    grid = new String[rows][columns];&#10;  }&#10;&#10;  public void fill(String pattern){&#10;    for(int row = 0; row &lt; getRows(); row++){&#10;      for (int column = 0; column &lt; getColumns(); column++){&#10;        grid[row][column] = pattern+&quot; &quot;+row+&quot; &quot;+column;&#10;      }&#10;    }&#10;  }&#10;&#10;  @Override&#10;  public String getAt(int row , int column) {&#10;    return grid[row][column];&#10;  }&#10;&#10;  @Override&#10;  public int getColumns() {&#10;    return grid[0].length;&#10;  }&#10;&#10;  @Override&#10;  public int getRows() {&#10;    return grid.length;&#10;  }&#10;}&#10;class Task {&#10;  public static void main(String[] args) {&#10;    Grid diagram = new Diagram(5, 10);&#10;    System.out.println(diagram.getColumns());&#10;    ((Diagram)diagram).fill(&quot;&quot;);&#10;    String[] row5 = diagram.getRow(4);&#10;    System.out.println(Grid.toString(row5));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;  Właściwości interfejsów w Java:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&#10;   składowymi interfejsów mogą być pola, które są statycznymi stałymi, i metody abstrakcyjne,&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;   domyślnie składowe są publiczne,&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;   klasy mogą implementować wiele interfejsów,&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;  interfejsy mogą dziedziczyć z wielu innych inerfejsów,&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;   obiekty klas implementujących interfejs mogą być umieszczane w zmiennych typu tego interfejsu,&#10;&lt;/li&gt;&#10;&lt;li&gt;&#10;  metody interfejsu są wywoływane polimorficznie&#10;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="6" />
+                            <option name="name" value="Podsumowanie" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Klasy wewnętrzne i anonimowe" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Rodzaje klas wewnętrznych&lt;/h1&gt;&#10;&lt;p&gt;&#10;Klasa wewnętrza to typ definiowany wewnątrz definicji innej klasy. Ponieważ taka klasa może być deklarowana&#10;    także ze słowem kluczowym &lt;samp&gt;static&lt;/samp&gt; więc rozróżniane są następujące rodzaje klas wewnętrznych:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;    &lt;li&gt;&#10;        Klasy zagnieżdżone (ang. &lt;i&gt;nested class&lt;/i&gt;), które są klasami wewnętrznymi statycznymi&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Klasy wewnętrzne (ang. &lt;i&gt;inner class&lt;/i&gt;), które są klasami wewnętrznymi niestatycznymi&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;&#10;    W tej części zajmiemy się klasami wewnętrznymi niestatycznymi. Klasy takie można deklarować z wszystkimi&#10;    modyfikatorami zasięgu. Poniższy przykład ilustruje zastosowanie klasy wewnętrznej publicznej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;class Car {&#10;  private Engine engine = null;&#10;  private String registerNumber;&#10;&#10;  public Car(double power, int pistonNumber, String registerNumber){&#10;    this.engine = new Engine(power, pistonNumber);&#10;    this.registerNumber = registerNumber;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return engine.power+&quot; &quot;+engine.pistonNumber+&quot; &quot;+registerNumber;&#10;  }&#10;&#10;  public class Engine{&#10;    private double power;&#10;    private int pistonNumber;&#10;&#10;    public Engine(double  power, int pistonNumber){&#10;      this.power = power;&#10;      this.pistonNumber = pistonNumber;&#10;    }&#10;&#10;    double getPower(){&#10;      return power;&#10;    }&#10;&#10;    int getPistonNumber(){&#10;      return pistonNumber;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;      return &quot;należy do: &quot;+registerNumber+&quot;, moc: &quot;+this.power+&quot;, liczba cylindrów: &quot;+this.pistonNumber;&#10;    }&#10;  }&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Przykład ilustruje kilka istotnych właściwości klas wewnętrznych. Klasa zewnętrzna &lt;samp&gt;Car&lt;/samp&gt; ma dostęp&#10;    do wszystkich składowych klasy wewnętrznej &lt;samp&gt;Engine&lt;/samp&gt;, także do prywatnych, a klasa&#10;    wewnętrzna ma również dostęp do wszystkich składowych klasy zewnętrznej. Widać to w metodach &lt;samp&gt;toString()&lt;/samp&gt;&#10;    obu klas.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;   Klasy wewnętrzne służą do tworzenia obiektów wewnątrz klasy zewnętrznej, możliwe jest&#10;    jednak tworzenie obiektów klas wewnętrznych poza, pod warunkiem, że są publiczne.&#10;    W przykładzie pokazano jak tworzyć obiekty klas wewnętrznych.&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;    Car porsche = new Car(250, 8, &quot;TK 6789E&quot;);&#10;    System.out.println(porsche);&#10;    Car.Engine engine = porsche.new Engine(405, 12);&#10;    System.out.println(engine);&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Obiekt klasy wewnętrznej może powstać tylko wtedy, gdy istnieje obiekt klasy zewnętrznej. W przykładzie&#10;    wykorzystaliśmy obiekt &lt;samp&gt;porsche&lt;/samp&gt;, dla którego wywołaliśmy operator &lt;samp&gt;new&lt;/samp&gt;.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Car {&#10;  private Engine engine = null;&#10;  private String registerNumber;&#10;&#10;  public Car(double power, int pistonNumber, String registerNumber){&#10;    this.engine = new Engine(power, pistonNumber);&#10;    this.registerNumber = registerNumber;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return engine.power+&quot; &quot;+engine.pistonNumber+&quot; &quot;+registerNumber;&#10;  }&#10;&#10;  public class Engine{&#10;    private double power;&#10;    private int pistonNumber;&#10;&#10;    public Engine(double  power, int pistonNumber){&#10;      this.power = power;&#10;      this.pistonNumber = pistonNumber;&#10;    }&#10;&#10;    double getPower(){&#10;      return power;&#10;    }&#10;&#10;    int getPistonNumber(){&#10;      return pistonNumber;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;      return &quot;należy do: &quot;+registerNumber+&quot;, moc: &quot;+this.power+&quot;, liczba cylindrów: &quot;+this.pistonNumber;&#10;    }&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args){&#10;    Car porsche = new Car(250, 8, &quot;TK 6789E&quot;);&#10;    System.out.println(porsche);&#10;    Car.Engine engine = porsche. new Engine(405, 12);&#10;    System.out.println(engine);&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Klasa zagnieżdżona&lt;/h1&gt;&#10;&lt;p&gt;&#10;  Klasy zagnieżdźone deklarowane są ze słowem &lt;samp&gt;static&lt;/samp&gt;. Klasa statyczna nie ma dostępu do pól&#10;  klasy zewnętrznej, bo można do tej klasy odwoływać się bezpośrednio:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class Diagram {&#10;  private Field[] fields;&#10;&#10;  public Diagram(String theme) {&#10;    fields = new Field[theme.length()];&#10;    int i = 0;&#10;    for(char c: theme.toCharArray()){&#10;      fields[i++] = new Field(c, i);&#10;    }&#10;  }&#10;&#10;  public Field fieldAt(int i){&#10;    return i &gt; -1 &amp;&amp; i &lt; fields.length ? fields[i]: null;&#10;  }&#10;&#10;  public char letterAt(int i){&#10;    return fields[i].letter;&#10;  }&#10;&#10;  public static class Field{&#10;    private final char letter;&#10;    private final int number;&#10;&#10;    public Field(char letter, int number){&#10;      this.letter = letter;&#10;      this.number = number;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;      return letter+&quot; &quot;+number;&#10;    }&#10;  }&#10;}&#10;&#10;...&#10;&#10;Diagram diagram = new Diagram(&quot;JAVA&quot;);&#10;System.out.println(diagram.fieldAt(2));&#10;System.out.println(diagram.letterAt(2));&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  W konstruktorze klasy &lt;samp&gt;Diagram&lt;/samp&gt; utworzyliśmy obiekty klasy wewnętrznej &lt;samp&gt;Field&lt;/samp&gt;.&#10;  Klasa zagnieżdżona nie może odwoływać się do pól klasy zewnętrznej, ale klasa zewnętrzna&#10;    ma prawo dostępu do wszystkich składowych.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Tworzenie obiektów publicznej klasy zagnieżdżonej wymaga podania&#10;    nazwy klasy poprzedzonej klasą zewnętrzną:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;Diagram.Field f = new Diagram.Field('D', 8);&#10;System.out.println(f);&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Diagram {&#10;  private Field[] fields;&#10;&#10;  public Diagram(String theme) {&#10;    fields = new Field[theme.length()];&#10;    int i = 0;&#10;    for(char c: theme.toCharArray()){&#10;      fields[i++] = new Field(c, i);&#10;    }&#10;  }&#10;&#10;  public Field fieldAt(int i){&#10;    return i &gt; -1 &amp;&amp; i &lt; fields.length ? fields[i]: null;&#10;  }&#10;&#10;  public char letterAt(int i){&#10;    return fields[i].letter;&#10;  }&#10;&#10;  public static class Field{&#10;    private final char letter;&#10;    private final int number;&#10;&#10;    public Field(char letter, int number){&#10;      this.letter = letter;&#10;      this.number = number;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;      return letter+&quot; &quot;+number;&#10;    }&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args) {&#10;    Diagram diagram = new Diagram(&quot;JAVA&quot;);&#10;    System.out.println(diagram.fieldAt(2));&#10;    System.out.println(diagram.letterAt(2));&#10;    Diagram.Field f = new Diagram.Field('D', 8);&#10;    System.out.println(f);&#10;}&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Klasa anonimowa&lt;/h1&gt;&#10;&lt;p&gt;&#10;  Klasa anonimowa to kolejny szczególny rodzaj klasy. Służy do &quot;natychmiastowego&quot; tworzenia obiektów, bez osobnej&#10;  definicji klasy. Określenie &quot;anonimowa&quot; dość jasnow skazuje, że klasa taka nie posiada nazwy. Jest ona&#10;  zbędna, bo celem takiej klasy jest utworzenie tylko jednej jej instancji.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Głównym celem takich klas, jest implementowanie metod interfejsowych. Przy definiowaniu klas anomimowych&#10;  podajemy jaki interfejs ma implementować lub jaką klasę ma rozszerzać.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Przykład interfejs, który zwraca komunikat:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;interface Message{&#10;  String getMessage();&#10;}&#10; &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Możemy teraz zdefiniować zmienne zwracające komunikat w różnych językach.&#10;  Tradycyjnie zrobiliśmy to definiując klasy dla każdego języka i tworząc potem obiekty:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;class EnglishMessage implements Message {&#10;&#10;  @Override&#10;  public String getMessage() {&#10;    return &quot;Programming in JAVA&quot;;&#10;  }&#10;}&#10;&#10;...&#10;&#10;Message englishMessage = new EnglishMessage();&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Stosując klasę anonimową możemy zrobić to krócej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  Message englishMessage = new Message() {&#10;      @Override&#10;      public String getMessage() {&#10;        return &quot;Programming in JAVA&quot;;&#10;      }&#10;  };&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Część 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="interface Message{&#10;  String getMessage();&#10;}&#10;&#10;class EnglishMessage implements Message {&#10;&#10;  @Override&#10;  public String getMessage() {&#10;    return &quot;Programming in JAVA&quot;;&#10;  }&#10;}&#10;&#10;class Task {&#10;&#10;  public static void main(String[] args) {&#10;    Message polishMessage = new Message() {&#10;      @Override&#10;      public String getMessage() {&#10;        return &quot;Programowanie w JAVA&quot;;&#10;      }&#10;    };&#10;&#10;    Message englishMessage = new Message() {&#10;      @Override&#10;      public String getMessage() {&#10;        return &quot;Programming in JAVA&quot;;&#10;      }&#10;    };&#10;    System.out.println(polishMessage.getMessage());&#10;    System.out.println(englishMessage.getMessage());&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Klasa anonimowa a argument funkcyjny&lt;/h1&gt;&#10;&lt;p&gt;&#10;Klasy anonimowe służa najczęściej do realizacji przekazywania argumentu funkcyjnego.&#10;Ponieważ w JAVA nie ma możliwości zdefiniowania funkcji bez klasy, więc argumentem funkcji&#10;nie może być funkcja. Możemy przekazywać tylko obiekty klas, które posiadają metody funkcyjne.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Tym razem zadeklarujemy klasę abstrakcyjną, która posiada jedną metodę abstrakcyjną:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;abstract class Operation{&#10;  abstract public double apply(double a);&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Klasa posiada interfejs w postaci metody &lt;samp&gt;apply&lt;/samp&gt; z jednym argumentem. Klasy&#10;    potomne będą implementować tę metodę dostarczając konkretną operację na argumencie i zwracając wynik.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Wykorzystamy utworzoną klasę do zdefiniowania metody przetwarzającej tablicę wartości:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;static void recalc(double[] arr, Operation a){&#10;    for (int i = 0; i &lt; arr.length; i++) {&#10;        arr[i] = a.apply(arr[i]);&#10;    }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Aby skorzystać z tej metody musimy zdefiniować operację wykonywaną na każdej wartości. Wykorzystamy&#10;    metodę tworzenia klasy anonimowej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;Operation vat = new Operation() {&#10;    @Override&#10;    public double calc(double a) {&#10;        return a*1.23;&#10;    }&#10;};&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Wywołanie metody wykorzystującej interfejs  &lt;samp&gt;Action&lt;/samp&gt; i metodę &lt;samp&gt;calc()&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;double[] values = {1.34, 34.6 , 455, 78.56};&#10;recalc(values, vat);&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;Można też zdefiniować akcję podczas wywołania metody &lt;samp&gt;recalc()&lt;/samp&gt;, tak jak zdefiniowane&#10;    poniżej pierwiastkowanie:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;apply(values, new Operation() {&#10;      @Override&#10;      public double calc(double a) {&#10;        return Math.sqrt(a);&#10;      }&#10;    });&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="Część 4" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="abstract class Operation{&#10;  abstract public double apply(double a);&#10;}&#10;&#10;class Task {&#10;  static void apply(double[] arr, Operation a){&#10;    for (int i = 0; i &lt; arr.length; i++) {&#10;      arr[i] = a.apply(arr[i]);&#10;    }&#10;  }&#10;&#10;  static void printArray(double[] arr){&#10;    for(double d: arr){&#10;      System.out.println(d);&#10;    }&#10;  }&#10;&#10;  public static void main(String[] args) {&#10;&#10;    Operation vat = new Operation() {&#10;      @Override&#10;      public double apply(double a) {&#10;        return a*1.23;&#10;      }&#10;    };&#10;&#10;    double[] values = {1.34, 34.6 , 455, 78.56};&#10;    apply(values, vat);&#10;    printArray(values);&#10;&#10;    apply(values, new Operation() {&#10;      @Override&#10;      public double apply(double a) {&#10;        return Math.sqrt(a);&#10;      }&#10;    });&#10;&#10;    printArray(values);&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Typ wyliczeniowy" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;Typ wyliczeniowy służy do przechowywania skończonej liczby wartości. Typowym przykładem zastosowania&#10;typu wyliczeniowego są dni tygodnia, miesiące, figury szachowe itd.&#10;&lt;/p&gt;&#10;&lt;p&gt;Do definiowania wyliczeń służy słowo kluczowe &lt;samp&gt;enum&lt;/samp&gt;. Typ wyliczeniowy przypomina definiowanie klasy, która&#10;    zwiera tylko stałe. Zwyczajowo stałe pisane są wielkimi literami.&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;enum Suits{&#10;     SPIDES, HEARTS, DIAMONDS, CLUBS&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt; Zmienna typu wyliczeniowego może przyjąć jedną z wymienionych w typie wartości:&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;Suits deck1 = Suits.SPADES;&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Przykład wykorzystania zmiennej wyliczeniowej:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;public static void main(String[] args){&#10;    Suits card;&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz jeden z kolorów kart: SPADES, HEARTS, DIAMONDS, CLUBS: &quot;);&#10;    card = Suits.valueOf(scan.nextLine());&#10;    switch(card){&#10;      case SPADES:&#10;        System.out.println(&quot;Pik ma 40 punktów&quot;);&#10;        break;&#10;      case HEARTS:&#10;        System.out.println(&quot;Kier 30 punktów&quot;);&#10;        break;&#10;      case DIAMONDS:&#10;        System.out.println(&quot;Karo 20 punktów&quot;);&#10;        break;&#10;      case CLUBS:&#10;        System.out.println(&quot;Trefl 10 punktów&quot;);&#10;        break;&#10;    }&#10;}&#10;        &lt;/code&gt;&#10;    &lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;enum Kolor{&#10;  PIK, KIER, KARO, TREFL;&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args){&#10;    Kolor card;&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz jeden z kolorów kart: PIK, KIER, KARO, TREFL: &quot;);&#10;    card = Kolor.valueOf(scan.nextLine());&#10;    System.out.println(card == Kolor.KIER);&#10;    switch(card){&#10;      case PIK:&#10;        System.out.println(&quot;Pik ma 40 punktów&quot;);&#10;        break;&#10;      case KIER:&#10;        System.out.println(&quot;Kier 30 punktów&quot;);&#10;        break;&#10;      case KARO:&#10;        System.out.println(&quot;Karo 20 punktów&quot;);&#10;        break;&#10;      case TREFL:&#10;        System.out.println(&quot;Trefl 10 punktów&quot;);&#10;        break;&#10;    }&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;  Zmienne typu wyliczeniowego są obiektami, które posiadają kilka użytecznych metod:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;name()&lt;/samp&gt; - zwraca nazwę stałej,&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;ordinal()&lt;/samp&gt; - zwraca numer pozycji na liście stałych,&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;compareTo(wartość_enum)&lt;/samp&gt;- porównuje wartość zmiennej wyliczeniowej z inną tego samego typu&#10;    i zwraca różnicę pozycji.&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;Popatrzmy na przykład wykorzystania metod:&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;    enum Team {&#10;      ADAM, TOMEK, KASIA, KAROLINA, BASIA&#10;    }&#10;&#10;    ...&#10;&#10;    Team member = Team.KASIA;&#10;    System.out.println(member.name());&#10;    System.out.println(member.ordinal());&#10;    System.out.println(member.compareTo(Team.TOMEK));&#10;    System.out.println(member.getDeclaringClass());&#10;&#10;    ---&#10;    KASIA&#10;    2&#10;    1&#10;    class Team&#10;    &lt;/pre&gt;&#10;  &lt;/code&gt;&#10;  &lt;p&gt;&#10;    Znaczenie kolejnych wartości:&#10;  &lt;/p&gt;&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&#10;        &lt;samp&gt;KASIA&lt;/samp&gt; - nazwa stałej wyliczeniowej,&#10;      &lt;/li&gt;&#10;      &lt;li&gt;&#10;        &lt;samp&gt;2&lt;/samp&gt; - stała KASIA znajduje się na pozycji nr 2 (pierwsza ma pozycję 0),&#10;      &lt;/li&gt;&#10;      &lt;li&gt;&#10;        &lt;samp&gt;1&lt;/samp&gt; - stała KASIA znajduje się 1 pozycję za stałą TOMEK,&#10;      &lt;/li&gt;&#10;      &lt;li&gt;&#10;        &lt;samp&gt;class Team&lt;/samp&gt; - nazwa typu zmiennej,&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="enum Team {&#10;  ADAM, ROMAN, KAROLINA;&#10;}&#10;class Task {&#10;  public static void main(String[] args) {&#10;    Team member = Team.KAROLINA;&#10;    System.out.println(member.name());&#10;    System.out.println(member.ordinal());&#10;    System.out.println(member.compareTo(Team.ROMAN));&#10;    System.out.println(member.getDeclaringClass());&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Możliwości dodatkowe klasy enum&lt;/h1&gt;&#10;&lt;p&gt;&#10;Deklarowany typ wyliczeniowy jest w istocie klasą, dla której możemy zdefiniować konstruktory, metody i pola. To co odróżnia&#10;typ &lt;samp&gt;enum&lt;/samp&gt; od klas właściwych jest fakt, że nie tworzymy obiektów tego typu, bo stałe&#10;wyliczeniowe są obiektami jego typu. Można założyć, że typ &lt;samp&gt;enum&lt;/samp&gt; jest klasą, która zawiera statyczne&#10;    pola typu wyliczeniowego.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Rozbudujmy typ &lt;samp&gt;Kolor&lt;/samp&gt; tak, aby przechowywać liczbę punktów każdego koloru:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;enum Kolor{&#10;    PIK(40),&#10;    KIER(30),&#10;    KARO(20),&#10;    TREFL(10);&#10;&#10;    private int points;&#10;&#10;    Kolor(int points){&#10;        this.points = points;&#10;    }&#10;&#10;    public int getPoints(){&#10;        return points;&#10;    }&#10;}&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Konstruktory typu wyliczeniowego musza być prywatne (aby nie można było tworzyć obiektów tego typu). Jawne&#10;  podawanie modyfikatora zasięgu &lt;samp&gt;private&lt;/samp&gt; nie jest potrzebne, jest przyjmowany domyślnie.&#10;    Metody i pola mogą posiadać dowolny typ zasięgu, choć &lt;samp&gt;protected&lt;/samp&gt; jest nieużyteczny, gdyż&#10;    nie można dziedziczyć typu &lt;samp&gt;enum&lt;/samp&gt;.&#10;  Dzięki takiej rozbudowie przykład z części 1 znacznie się uprości:&#10;&lt;/sampprotected&gt;&#10;&lt;pre&gt;&#10;&lt;code&gt;&#10;public static void main(String[] args){&#10;    Kolor card;&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz jeden z kolorów kart: PIK, KIER, KARO, TREFL: &quot;);&#10;    card = Kolor.valueOf(scan.nextLine());&#10;    System.out.println(&quot;Pik ma &quot; + card.getPoints() + &quot; punktów&quot;);&#10;}&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Typ &lt;samp&gt;enum&lt;/samp&gt; wyposażony jest w kilka dość istotnych metod statycznych:&#10;&lt;/p&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;       &lt;samp&gt;valueOf(nazwa_stałej)&lt;/samp&gt; - zwraca stałą wyliczeniową o podanej nazwie,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;       &lt;samp&gt;values()&lt;/samp&gt; - zwraca tablicę wszystkich stałych&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&lt;p&gt;&#10;    Poprzedni przykład można teraz rozbudować o sprawdzanie, czy wpisana wartość stałej jest poprawna:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;enum Color{&#10;  PIK(40),&#10;  KIER(30),&#10;  KARO(20),&#10;  TREFL(10);&#10;&#10;  private int points;&#10;&#10;  private Color(int points){&#10;    this.points = points;&#10;  }&#10;&#10;  public int getPoints(){&#10;    return points;&#10;  }&#10;&#10;  public static boolean contains(String name){&#10;    for(Color c: Color.values()){&#10;      if (name.equals(c.name()))&#10;        return true;&#10;    }&#10;    return false;&#10;  }&#10;}&#10;&#10;...&#10;&#10;Scanner scan = new Scanner(System.in);&#10;System.out.print(&quot;Wpisz jedną z nazw poniższych kolorów: &quot;);&#10;for(Color c: Color.values()){&#10;  System.out.print(c+&quot; &quot;);&#10;}&#10;String cName = scan.next();&#10;Color card;&#10;if (Color.contains(cName)) {&#10;  card = Color.valueOf(cName);&#10;  System.out.println(card.getPoints());&#10;} else {&#10;  System.out.println(&quot;Wpisałeś niepoprawny kolor&quot;);&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Typ wyliczeniowy wyposażyliśmy w dodatkową metodę &lt;samp&gt;containts(name)&lt;/samp&gt;, która sprawdza&#10;    czy typ zawiera stałą o podanej nazwie. Stosując tę metodę sprawdzamy, czy wpisany&#10;    z klawiatury łańcuch jest jedną ze stałych wyliczenia.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="CZęść 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;&#10;/**&#10; * Typ wyliczeniowy wykorzystujący możliwości klasy&#10; */&#10;enum Suits{&#10;  SPADES(40),&#10;  HEARTS(30),&#10;  DIMAONDS(20),&#10;  CLUBS(10);&#10;&#10;  private int points;&#10;&#10;  private Suits(int points){&#10;    this.points = points;&#10;  }&#10;&#10;  public int getPoints(){&#10;    return points;&#10;  }&#10;&#10;  public static boolean contains(String name){&#10;    for(Suits c: Suits.values()){&#10;      if (name.equals(c.name()))&#10;        return true;&#10;    }&#10;    return false;&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args){&#10;    Suits card1 = Suits.DIMAONDS;&#10;    Suits card2 = Suits.HEARTS;&#10;    Suits card3 = Suits.DIMAONDS;&#10;    System.out.println(card1 == card3);&#10;    for(Suits c: Suits.values()){&#10;      System.out.println(c);&#10;    }&#10;&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.print(&quot;Wpisz jedną z nazw poniższych kolorów: &quot;);&#10;    for(Suits c: Suits.values()){&#10;      System.out.print(c+&quot; &quot;);&#10;    }&#10;    String cName = scan.next();&#10;    Suits card;&#10;    if (Suits.contains(cName)) {&#10;      card = Suits.valueOf(cName);&#10;      System.out.println(card.getPoints());&#10;    } else {&#10;      System.out.println(&quot;Wpisałeś niepoprawny kolor&quot;);&#10;    }&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Substytu typu enum&lt;/h1&gt;&#10;&lt;p&gt;&#10; Aby łatwiej zrozumieć zaawansowane definiowanie typu &lt;samp&gt;enum&lt;/samp&gt; stworzymy tradycyjną klasę, której obiekty&#10;    będa zachowywać się jak taki typ. Wykorzystamy przykład kolorów kart do gry.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Na początek wyposażymy nasz typ tylko w stałe:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;final class Suit{&#10;    public static Suit SPADES = new Suit(&quot;SPADES&quot;);&#10;    public static Suit DIAMONDS = new Suit(&quot;DIAMONDS&quot;);&#10;    public static Suit CLUBS = new Suit(&quot;CLUBS&quot;);&#10;    public static Suit HEARTS = new Suit(&quot;HEARTS&quot;);&#10;&#10;    private String name;&#10;&#10;    private Suit(String name){&#10;        this.name = name;&#10;    }&#10;&#10;    public String name(){&#10;        return name;&#10;    }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Stworzona klasa zachowuje się podobnie jak typ &lt;samp&gt;enum&lt;/samp&gt;:&#10;&lt;p&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        ma prywatny konstruktor, nie można tworzyć obiektów tej klasy,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        posiada stałe, które są obiektami typu definiowanej klasy,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        posiada metodę &lt;samp&gt;name()&lt;/samp&gt;, która zwraca nazwę stałej,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        modyfikator &lt;samp&gt;final&lt;/samp&gt; uniemożliwia dziedziczenie.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&lt;p&gt;&#10;    Ponieważ nasza klasa udaje tylko typ wyliczeniowy, więc jej używanie może narazić nas na kilka&#10;    kłopotów, jak pomyłkę w nazwie stałej i różnicę z zawartością pola &lt;samp&gt;name&lt;/samp&gt; np.&#10;    &lt;code&gt;public static Suit SPADS = new Suit(&quot;SPADES&quot;);&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Substytut działa bardzo podobnie jak prawdziwy typ wyliczeniowy:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;    Suits player1 = Suits.SPADES;&#10;    Suits player2 = Suits.HEARTS;&#10;    Suits player3 = Suits.SPADES;&#10;    System.out.println(player1 == player2);&#10;    System.out.println(player1 == player3);&#10;    System.out.println(player1.name());&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;&#10;    Dodajmy kolejne właściwości do klasy &lt;samp&gt;Suits&lt;/samp&gt;: liczbę punktów i metodę do jej odczytu:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10; final class Suit{&#10;    public static Suit SPADES = new Suit(&quot;SPADES&quot;, 40);&#10;    public static Suit HEARTS = new Suit(&quot;HEARTS&quot;, 30);&#10;    public static Suit DIAMONDS = new Suit(&quot;DIAMONDS&quot;, 20);&#10;    public static Suit CLUBS = new Suit(&quot;CLUBS&quot;, 10);&#10;&#10;    private String name;&#10;    private int points;&#10;&#10;    private Suit(String name, int points){&#10;        this.name = name;&#10;        this.points = points;&#10;    }&#10;&#10;    public String name(){&#10;        return name;&#10;    }&#10;&#10;    public int getPoints(){&#10;        return points;&#10;    }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;    &lt;p&gt;&#10;        Porównajmy tworzenie stałych w naszej klasie ze stałymi typu &lt;samp&gt;enum&lt;/samp&gt;:&#10;    &lt;/p&gt;&#10;&#10;        &lt;table border=&quot;&quot; bgcolor=&quot;#123456&quot; cellpadding=&quot;4&quot; align=&quot;center&quot;&gt;&#10;            &lt;tr&gt;&#10;                &lt;td&gt;&#10;            Substytut&#10;        &lt;/td&gt;&#10;            &lt;td&gt;&#10;            Typ enum&#10;            &lt;/td&gt;&#10;            &lt;/tr&gt;&#10;            &lt;tr&gt;&#10;                &lt;td&gt;&#10;                    &lt;code&gt;&#10;                 public static Suit SPADES = new Suit(&quot;SPADES&quot;, 40);&#10;                    &lt;/code&gt;&#10;                &lt;/td&gt;&#10;                &lt;td&gt;&#10;                    &lt;code&gt;&#10;                  SPADES(40);&#10;                    &lt;/code&gt;&#10;                &lt;/td&gt;&#10;            &lt;/tr&gt;&#10;        &lt;/table&gt;&#10;        &lt;p&gt;Porównanie pokazuje, że dodanie nawiasów z liczbą pubktów za nazwą stałej w &lt;samp&gt;enum&lt;/samp&gt;&#10;        jest w istocie  wywołaniem konstruktora jednoargumentowego, który zwróci obiekt i przypisze go do tej  stałej.&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="Część 4" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.time.LocalDateTime;&#10;import java.util.*;&#10;&#10;/**&#10; * Klasa udająca typ enum&#10; */&#10;class SuitsC {&#10;  public static SuitsC SPADES   = new SuitsC(&quot;SPADES&quot;, 40);&#10;  public static SuitsC HEARTS   = new SuitsC(&quot;HEARTS&quot;, 40);&#10;  public static SuitsC DIAMONDS = new SuitsC(&quot;DIAMONDS&quot;, 40);&#10;  public static SuitsC CLUBS    = new SuitsC(&quot;CLUBS&quot;, 40);&#10;&#10;  private int points;&#10;  private String name;&#10;&#10;  private SuitsC(String name, int points){&#10;    this.points = points;&#10;    this.name = name;&#10;  }&#10;&#10;  public String name(){&#10;    return name;&#10;  }&#10;&#10;  public int getPoints(){&#10;    return points;&#10;  }&#10;&#10;  public String toString(){&#10;    return name;&#10;  }&#10;}&#10;&#10;/**&#10; * Klasa enum&#10; */&#10;enum SuitsE {&#10;  SPADES(40),&#10;  HEARTS(30),&#10;  DIAMONDS(20),&#10;  CLUBS(10);&#10;&#10;  private int points;&#10;&#10;  SuitsE(int points){&#10;    this.points = points;&#10;  }&#10;&#10;  public int getPoints(){&#10;    return points;&#10;  }&#10;}&#10;&#10;&#10;&#10;class Task{&#10;  public static void main(String[] args){&#10;    SuitsE pe1 = SuitsE.SPADES;&#10;    SuitsE pe2 = SuitsE.SPADES;&#10;    SuitsC pc1 = SuitsC.SPADES;&#10;    SuitsC pc2 = SuitsC.SPADES;&#10;&#10;    System.out.println(pe1 == pe2);&#10;    System.out.println(pc1 == pc2);&#10;&#10;    System.out.println(pc1.name());&#10;    System.out.println(pe2.name());&#10;&#10;    System.out.println(pc1.getPoints());&#10;    System.out.println(pe2.getPoints());&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;p&gt;&#10;  Własności typu &lt;samp&gt;enum&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;    &lt;li&gt;&#10;        Typ &lt;samp&gt;enum&lt;/samp&gt; jest specyficzną klasą, która ma szereg ograniczeń,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Stałe wyliczeniowe to obiekty klasy &lt;samp&gt;enum&lt;/samp&gt;, które są jednocześnie statycznymi polami klasy,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Nie można dziedziczyć po typie &lt;samp&gt;enum&lt;/samp&gt;,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Nie można rozszerzać typów wyliczeniowych,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Typ &lt;samp&gt;enum&lt;/samp&gt; może implementować interfejsy,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Konstruktor typu &lt;samp&gt;enum&lt;/samp&gt; jest prywatny, nie można tworzyć obiektów klasy &lt;samp&gt;enum&lt;/samp&gt; poza ciałem&#10;        klasy,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Typ &lt;samp&gt;enum&lt;/samp&gt; może posiadać pola i metody z modyfikatorami zasięgu &lt;samp&gt;private&lt;/samp&gt; lub&#10;        &lt;samp&gt;public&lt;/samp&gt;,&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="5" />
+                            <option name="name" value="Podsumowanie" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                  </list>
+                </option>
+              </Section>
+            </list>
+          </option>
+        </Course>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
