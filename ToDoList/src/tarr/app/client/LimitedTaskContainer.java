@@ -3,9 +3,16 @@ package tarr.app.client;
 import tarr.app.AbstractTask;
 import tarr.app.TaskContainer;
 
+/**
+ * Klasa wykorzystuje dziedziczenie
+ * i nie zapewnia hermetyzacji kontenera.
+ * Dostępne są wszystkie metody publiczne klasy TaskContainer
+ * oraz składowe typu protected w bieżącym pakiecie.
+ */
 public class LimitedTaskContainer extends TaskContainer {
 
   final private int limit;
+
   public LimitedTaskContainer(int limit) {
     this.limit = limit;
   }
@@ -18,7 +25,7 @@ public class LimitedTaskContainer extends TaskContainer {
 
       super.addTask(task);
 
-      return prev == size()-1;
+      return prev == size() - 1;
 //      if (prev == size() - 1) {
 //        return true;
 //      } else {

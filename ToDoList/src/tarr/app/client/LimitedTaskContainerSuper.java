@@ -3,15 +3,37 @@ package tarr.app.client;
 import tarr.app.AbstractTask;
 import tarr.app.TaskContainer;
 
+/*
+ * Klasa wykorzystuje kompozycję,
+ * posiada pole klasy TaskContainer
+ * Zapewnia  pełną hermetyzację tego pola
+ * */
 public class LimitedTaskContainerSuper {
 
+  /**
+   * maksymalna liczba zadań
+   * pole kontenera do przechowywania zadań,
+   * kompozyt - bez tego pola klasa nie ma sensu
+   *
+   * @param limit - maksymalna liczba zadań
+   */
   final private int limit;
-  TaskContainer container;
+  final private TaskContainer container;
+
 
   public LimitedTaskContainerSuper(int limit) {
     this.limit = limit;
     container = new TaskContainer();
   }
+
+  /**
+   * * Funkcja dodaje zadanie i jeśli brakuje miejsca
+   * * to usuwa najpierw najstarsze zadanie
+   * * a potem podaje nowe
+   *
+   * @param task - dodawanie zadania
+   * @return - true jeśli zadanie dodane pomyślnie
+   */
 
   public boolean addTask(AbstractTask task) {
 
