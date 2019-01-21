@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2460283e-c786-4f9d-abdd-6e8980335384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Superclass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Laptop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/out/production/classes/NoNameClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/out/production/classes/NoNameClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,22 +81,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="-220">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="e#166#167#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Java zaawansowana/Interfejsy/Część 2/src/Task.java">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
@@ -156,26 +165,6 @@
               <item name="Kurs Javy1" type="ed842865:CourseNode" />
               <item name="Java zaawansowana" type="76d92c43:SectionNode" />
             </path>
-            <path>
-              <item name="Kurs_Javy1" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy1" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Klasy wewnętrzne i anonimowe" type="d53b8fed:LessonNode" />
-            </path>
-            <path>
-              <item name="Kurs_Javy1" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy1" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Klasy wewnętrzne i anonimowe" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
-            <path>
-              <item name="Kurs_Javy1" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy1" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Klasy wewnętrzne i anonimowe" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548005203103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548082550466" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
@@ -232,6 +221,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -239,7 +229,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" weight="0.3295302" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49932885" weight="0.3286119" />
@@ -249,7 +239,7 @@
       <window_info anchor="bottom" id="Messages" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,6 +338,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java zaawansowana/Interfejsy/Część 2/src/Task.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -364,19 +369,6 @@
               </folding>
             </MainEditorState>
           </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

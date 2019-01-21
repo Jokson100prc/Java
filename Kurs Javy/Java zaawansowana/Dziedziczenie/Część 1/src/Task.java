@@ -1,4 +1,4 @@
-class Computer{
+class Computer {
   String typeName;
 
   public Computer(String typeName) {
@@ -6,14 +6,14 @@ class Computer{
   }
 
   @Override //alt+insert
-  public String toString(){
-    return"Computer{" +
-            "typeName='" +typeName +'\"' +
+  public String toString() {
+    return "Computer{ " +
+            "typeName = '" + typeName + '\"' +
             '}';
   }
 }
 
-class Laptop extends Computer{
+class Laptop extends Computer {
   int batteryCapacity;
 
   public Laptop(String typeName, int batteryCapacity) {
@@ -23,9 +23,9 @@ class Laptop extends Computer{
 
   @Override
   public String toString() {
-    return "Laptop{" +
-            "typeName='" + typeName + '\'' +
-            ", batteryCapacity=" + batteryCapacity +
+    return "Laptop{ " +
+            "typeName = '" + typeName + '\'' +
+            ", batteryCapacity = " + batteryCapacity +
             '}';
   }
 }
@@ -34,7 +34,7 @@ class Task {
   //put your task here
   public static void main(String[] args) {
     Computer ibm = new Computer("SuperFrame");
-    Laptop hp = new Laptop("Jokson%prc", 1350);
+    Laptop hp = new Laptop("Jokson100%", 1350);
     Object o = new Object();
     System.out.println(ibm);
     System.out.println(hp);

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Superclass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Laptop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/out/production/classes/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Część 1/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/out/production/classes/NoNameClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/out/production/classes/NoNameClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Klasy wewnętrzne i anonimowe/Część 4/src/NoNameClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,11 +83,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="40">
+                  <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -187,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548005203062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548082550446" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -294,6 +298,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -416,11 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
