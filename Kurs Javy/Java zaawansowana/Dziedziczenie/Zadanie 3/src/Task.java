@@ -18,7 +18,7 @@ class Airplane{
 
 class Airliner extends Airplane{
   private int numberOfPassengers;
-  //zdefiniuj konstruktor z trzema argumentami, który wywołuje konstruktor klasy Airplane
+  //zdefiniuj konstruktor z trzema (*** parametrami ?!?! ***)argumentami, który wywołuje konstruktor klasy Airplane
   public Airliner(wpisz listę parametrów){
     Wpisz kod konstruktora
   }

@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Employee extends Person{
+public class Employee extends Person {
   private String position;
   private double salary;
 
@@ -10,7 +10,7 @@ public class Employee extends Person{
     this.salary = salary;
   }
 
-  public double getSalary(){
+  public double getSalary() {
     return salary;
   }
 

@@ -126,6 +126,22 @@
                                     </TaskFile>
                                   </value>
                                 </entry>
+                                <entry key="src/Main.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Main.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
                                 <entry key="src/Person.java">
                                   <value>
                                     <TaskFile>
@@ -302,7 +318,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Employee.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;public class Employee extends Person{&#10;  private String position;&#10;  private double salary;&#10;&#10;  public Employee(String firstName, String lastName, LocalDate birthDate, String position, double salary) {&#10;    super(firstName, lastName, birthDate);&#10;    this.position = position;&#10;    this.salary = salary;&#10;  }&#10;&#10;  public double getSalary(){&#10;    return salary;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return &quot;Employee{&quot; +&#10;            &quot;position='&quot; + position + '\'' +&#10;            &quot;, salary=&quot; + salary +&#10;            &quot;, firstName='&quot; + firstName + '\'' +&#10;            &quot;, lastName='&quot; + lastName + '\'' +&#10;            &quot;, birthDate=&quot; + birthDate +&#10;            '}';&#10;  }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
@@ -318,7 +334,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Person.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;class Person{&#10;  public String firstName;&#10;  public String lastName;&#10;  public LocalDate birthDate;&#10;&#10;  public Person(String firstName, String lastName, LocalDate birthDate) {&#10;    this.firstName = firstName;&#10;    this.lastName = lastName;&#10;    this.birthDate = birthDate;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return &quot;Person{&quot; +&#10;            &quot;firstName='&quot; + firstName + '\'' +&#10;            &quot;, lastName='&quot; + lastName + '\'' +&#10;            &quot;, birthDate=&quot; + birthDate +&#10;            '}';&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -345,12 +361,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="11" />
-                                            <option name="offset" value="65" />
+                                            <option name="length" value="9" />
+                                            <option name="offset" value="62" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="typ tablicy" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -367,12 +383,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="28" />
-                                            <option name="offset" value="86" />
+                                            <option name="length" value="27" />
+                                            <option name="offset" value="78" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="utwórz tablicę dwuelementową" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -389,19 +405,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="54" />
-                                            <option name="offset" value="423" />
+                                            <option name="length" value="26" />
+                                            <option name="offset" value="403" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="przypisz do zmiennej wife drugi element z tablicy team" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="import java.time.LocalDate;&#10;&#10;public class Task {&#10;  public static typ tablicy team[] = utwórz tablicę dwuelementową;&#10;  public static Employee wife;&#10;&#10;  public static void main(String[] args) {&#10;    team[0] = new Person(&quot;ADAM&quot;,&quot;KOŁEK&quot;, LocalDate.of(2000,10,10));&#10;    team[1] = new Employee(&quot;IRENA&quot;,&quot;OCHÓCKA&quot;, LocalDate.of(1960,11,23),&quot;żona prezesa&quot;,20000);&#10;    System.out.println(team[0]);&#10;    System.out.println(team[1]);&#10;    przypisz do zmiennej wife drugi element z tablicy team&#10;&#10;    System.out.println(wife.getSalary());&#10;  }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
@@ -503,11 +519,11 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="22" />
-                                            <option name="offset" value="505" />
+                                            <option name="offset" value="531" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="wpisz listę parametrów" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -525,18 +541,18 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="22" />
-                                            <option name="offset" value="534" />
+                                            <option name="offset" value="560" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="Wpisz kod konstruktora" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="class Airplane{&#10;  private String typeName;&#10;  private int numberOfEngines;&#10;&#10;  public Airplane(){&#10;    typeName= &quot;fake&quot;;&#10;  }&#10;&#10;  public Airplane(String typeName, int numberOfEngines) {&#10;    this.typeName = typeName;&#10;    this.numberOfEngines = numberOfEngines;&#10;  }&#10;&#10;  public int getNumberOfEngines(){&#10;    return numberOfEngines;&#10;  }&#10;}&#10;&#10;class Airliner extends Airplane{&#10;  private int numberOfPassengers;&#10;  //zdefiniuj konstruktor z trzema argumentami, który wywołuje konstruktor klasy Airplane&#10;  public Airliner(wpisz listę parametrów){&#10;    Wpisz kod konstruktora&#10;  }&#10;&#10;  public int getNumberOfPassengers() {&#10;    return numberOfPassengers;&#10;  }&#10;}&#10;class Task {&#10;  public static void main(String[] args) {&#10;    Airplane plane = new Airplane(&quot;JAK23&quot;, 1);&#10;    Airplane airbus = new Airliner(&quot;A320&quot;, 2, 320);&#10;    System.out.println(airbus.getNumberOfEngines());&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
