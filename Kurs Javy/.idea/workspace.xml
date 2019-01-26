@@ -2,21 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/study_project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/images/collections.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/src/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/src/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/TreeSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/src/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/src/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/src/GenericsMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/src/GenericsInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/src/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/MultiCatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/SimpleThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/src/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/img/throwable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/course.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/AbsentTaskException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Events.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcCar/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcCar/CarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcPerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcPerson/PersonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/CreateShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/RectangleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/PatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/RegExpDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/ReplaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalDateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalDateTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/PeriodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/MainConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/RepeatPARAMAndARG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/BaseForDemoMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Inmate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Propertys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Rent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ConditionsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/IfContinueAndBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/LoopDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/PackageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/SwithDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/ConsoleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/ConsoleDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/FirstExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/UserNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Contains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/ReverceArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/FirstExerciseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Calculations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/CountingSortExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckCityCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/SerialNumberValidatin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/StringValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/VATInvoiceValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/regularExpressionsExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4d2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4d2/TelephoneValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/ClientApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/ClientApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/Todoable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/Todoable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -102,42 +246,61 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/src/Task.java">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="640">
+                  <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#69#70#0" expanded="true" />
+                    <element signature="e#95#96#0" expanded="true" />
+                    <element signature="e#496#497#0" expanded="true" />
+                    <element signature="e#517#518#0" expanded="true" />
+                    <element signature="e#655#656#0" expanded="true" />
+                    <element signature="e#676#677#0" expanded="true" />
+                    <element signature="e#831#832#0" expanded="true" />
+                    <element signature="e#852#853#0" expanded="true" />
+                    <element signature="e#894#895#0" expanded="true" />
+                    <element signature="e#918#919#0" expanded="true" />
+                  </folding>
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding>
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="220">
-                  <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="273">
-                  <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="240">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                </MainEditorState>
-              </EduEditorState>
+        <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -176,8 +339,13 @@
         <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Main.java" />
         <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" />
         <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" />
-        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" />
         <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/Stages.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java" />
+        <option value="$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java" />
       </list>
     </option>
   </component>
@@ -193,6 +361,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Course">
         <subPane>
           <expand>
@@ -218,45 +387,16 @@
               <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
               <item name="src" type="4928525d:TaskNode" />
             </path>
-            <path>
-              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
-            <path>
-              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
-            <path>
-              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
-            <path>
-              <item name="Kurs_Javy" type="a264ea2a:RootNode" />
-              <item name="Kurs Javy" type="ed842865:CourseNode" />
-              <item name="Java zaawansowana" type="76d92c43:SectionNode" />
-              <item name="Dziedziczenie" type="d53b8fed:LessonNode" />
-              <item name="src" type="4928525d:TaskNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548175355073" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548260093468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javatarr2" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
@@ -273,7 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task (3)">
+  <component name="RunManager" selected="Application.Task">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java_zaawansowana-Dziedziczenie-Zadanie_1_main" />
@@ -288,9 +428,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Task (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task" />
-      <module name="Java_zaawansowana-Dziedziczenie-Część_1_main" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_3_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,18 +444,18 @@
     </configuration>
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task" />
-      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_6_main" />
+      <module name="Java_zaawansowana-Dziedziczenie-Zadanie_4_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Application.Task (1)" />
         <item itemvalue="Application.Task (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Subclass" />
-        <item itemvalue="Application.Task (2)" />
-        <item itemvalue="Application.Task" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +476,7 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23355705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23691276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -346,7 +486,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,7 +503,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Task" order="6" visible="true" weight="0.0852349" />
+      <window_info anchor="right" id="Task" order="6" visible="true" weight="0.25033557" />
       <window_info anchor="right" id="Gradle" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -454,27 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 3/src/Task.java">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="436">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-              <folding>
-                <element signature="e#51#52#0" expanded="true" />
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 6/src/Task.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -512,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/src/DemoAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 8/src/Bicycle.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -546,33 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/src/Task.java">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="87">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-              </folding>
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Task.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -588,15 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Car.java">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState />
-          </EduEditorState>
         </state>
       </provider>
     </entry>
@@ -624,20 +700,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/SuperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/SubMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/SuperMethod.java" />
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 1/src/SubMethod.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/time/LocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -713,23 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="273">
-              <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="240">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -739,10 +792,145 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="220">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <MainEditorState relative-caret-position="140">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </MainEditorState>
           </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Część 3/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="521">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="300">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="22" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Cześć 4/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 6/src/Car.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="40">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#46#47#0" expanded="true" />
+                <element signature="e#76#77#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/src/DemoAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/Stages.java" />
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Zadanie 5/src/Task.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="640">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="e#69#70#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

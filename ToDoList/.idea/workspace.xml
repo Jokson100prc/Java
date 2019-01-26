@@ -2,21 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/study_project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/images/collections.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/src/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/src/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/TreeSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/src/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/src/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/src/GenericsMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/src/GenericsInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/src/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/MultiCatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/SimpleThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/src/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/img/throwable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/course.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/exercises/BoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/exercises/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/Events.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcCar/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcCar/CarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcPerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcPerson/PersonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/CreateShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcShape/RectangleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/PatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/RegExpDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/ReplaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcString/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalDateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalDateTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/LocalTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysAbcTime/PeriodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/MainConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoConstructor/RepeatPARAMAndARG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/BaseForDemoMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Inmate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Propertys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemoMethod/Rent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ConditionsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/IfContinueAndBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/LoopDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/PackageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicDemos/SwithDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/ConsoleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/ConsoleDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/FirstExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicFirstLesson/UserNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Contains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysDemosBasicListsDemoAndExercices/ReverceArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/FirstExerciseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Calculations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/CountingSortExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckCityCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/SerialNumberValidatin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/StringValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/VATInvoiceValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/regularExpressionsExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4d2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4d2/TelephoneValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/ClientApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/ClientApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/Todoable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/Todoable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,62 +173,53 @@
     <favorites_list name="ToDoList" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.804698">
+    <splitter split-orientation="horizontal" split-proportion="0.31946307">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+                <state relative-caret-position="140">
+                  <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Events.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#500#501#0" expanded="true" />
-                    <element signature="e#931#932#0" expanded="true" />
-                    <element signature="e#1071#1072#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="300">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                <state relative-caret-position="40">
+                  <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#137#138#0" expanded="true" />
+                    <element signature="e#165#166#0" expanded="true" />
+                    <element signature="e#210#211#0" expanded="true" />
+                    <element signature="e#243#244#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/client/LimitedTaskContainerSuper.java">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/GenericBox.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+                <state relative-caret-position="400">
+                  <caret line="25" column="3" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="25" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#240#241#0" expanded="true" />
+                    <element signature="e#269#270#0" expanded="true" />
+                    <element signature="e#290#291#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -93,14 +228,40 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+                <state relative-caret-position="260">
+                  <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#235#236#0" expanded="true" />
+                    <element signature="e#279#280#0" expanded="true" />
+                    <element signature="e#624#625#0" expanded="true" />
+                    <element signature="e#1104#1105#0" expanded="true" />
+                    <element signature="e#1244#1245#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/BoxDemo.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -115,6 +276,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>STANDARD</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -134,14 +300,20 @@
         <option value="$PROJECT_DIR$/src/tarr/app/ver1/Todoable.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver1/Main.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" />
-        <option value="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java" />
-        <option value="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" />
+        <option value="$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/Events.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/Events.java" />
+        <option value="$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/ClientApp.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/exercises/GenericBox.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/exercises/BoxDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -156,8 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,17 +351,19 @@
               <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="ver1" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548160312094" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548507097898" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -210,6 +382,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ClientApp">
+    <configuration name="BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.BoxDemo" />
+      <module name="ToDoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tarr.app.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tarr.app.ver2.ClientApp" />
       <module name="ToDoList" />
@@ -261,15 +446,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.ClientTodoList" />
       <item itemvalue="Application.ClientApp" />
+      <item itemvalue="Application.BoxDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientTodoList" />
         <item itemvalue="Application.ClientApp" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.BoxDemo" />
+        <item itemvalue="Application.ClientTodoList" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -305,7 +490,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.42616034" weight="0.23087248" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info x="652" y="222" width="377" height="474" id="Structure" order="7" sideWeight="0.57383966" side_tool="true" type="FLOATING" weight="0.25302014" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
@@ -329,62 +514,42 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" weight="0.3295302" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.23087248" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info x="652" y="222" width="377" height="474" id="Structure" order="7" sideWeight="0.57383966" side_tool="true" type="FLOATING" weight="0.25302014" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/ClientTodoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -402,10 +567,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java">
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="142">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -423,6 +598,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/Todoable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" selection-end-line="19" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/ClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="36" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/TodoList/src/tarr/app/ver2/TodoContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/GenericBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/BoxDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
         </state>
       </provider>
     </entry>

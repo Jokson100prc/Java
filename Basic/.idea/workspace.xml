@@ -2,21 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/CapoeiraField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/PlayingField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Podsumowanie/src/SockerFilds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/study_project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/images/collections.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/src/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/src/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/src/TreeSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Kolekcje/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/src/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Refleksja/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/CZęść 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typ wyliczeniowy/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/src/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/src/GenericsMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/src/GenericsInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Typy generyczne/Podsumowanie/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/src/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 1/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/src/MultiCatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 2/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/SimpleThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/src/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 3/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/src/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 4/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/src/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 5/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/img/throwable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/Java zaawansowana/Wyjątki/Część 6/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/course.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs Javy2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/AbsentTaskException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Events.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcCar/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcCar/CarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcPerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcPerson/PersonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcShape/CreateShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcShape/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcShape/RectangleDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcString/PatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcString/RegExpDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcString/ReplaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcString/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcString/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcTime/LocalDateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcTime/LocalDateTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcTime/LocalTimeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysAbcTime/PeriodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoConstructor/MainConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoConstructor/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoConstructor/RepeatPARAMAndARG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoMethod/BaseForDemoMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoMethod/Inmate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoMethod/Propertys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemoMethod/Rent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/ConditionsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/IfContinueAndBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/LoopDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/PackageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicDemos/SwithDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicFirstLesson/ConsoleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicFirstLesson/ConsoleDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicFirstLesson/FirstExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicFirstLesson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicFirstLesson/UserNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/Contains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/Equals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/Exercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/PrintArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysDemosBasicListsDemoAndExercices/ReverceArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesArray/FirstExerciseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesArray/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesArray/ThirdExerciseArrLiDouble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Calculations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/CountingSortExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckCityCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/CheckNumberOddIven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/DatePatternValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/SerialNumberValidatin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/StringValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/VATInvoiceValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/W147daysexErcisesBasicRegularExpressionsExercises/regularExpressionsExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4d2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4d2/TelephoneValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/out/production/classes/Subclass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 1/src/Subclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 2/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 3/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/Java zaawansowana/Dziedziczenie/Zadanie 4/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/ClientApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/ClientApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/TodoContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/Todoable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/ver2/Todoable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/TodoContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/ver2/Todoable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +170,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,7 +247,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -115,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +284,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +410,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="43" y="43" width="1400" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -274,7 +418,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2716418" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29745042" />

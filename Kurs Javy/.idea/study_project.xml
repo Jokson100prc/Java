@@ -406,7 +406,7 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="26" />
-                                            <option name="offset" value="403" />
+                                            <option name="offset" value="411" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="przypisz do zmiennej wife drugi element z tablicy team" />
                                             <option name="possibleAnswer" value="type here" />
@@ -518,8 +518,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="22" />
-                                            <option name="offset" value="531" />
+                                            <option name="length" value="48" />
+                                            <option name="offset" value="537" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="wpisz listę parametrów" />
                                             <option name="possibleAnswer" value="type here" />
@@ -540,8 +540,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="22" />
-                                            <option name="offset" value="560" />
+                                            <option name="length" value="71" />
+                                            <option name="offset" value="589" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="Wpisz kod konstruktora" />
                                             <option name="possibleAnswer" value="type here" />
@@ -653,12 +653,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="15" />
-                                            <option name="offset" value="33" />
+                                            <option name="length" value="43" />
+                                            <option name="offset" value="35" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="uzupełnij klasę" />
                                             <option name="possibleAnswer" value="type here&#10;" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -675,8 +675,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="9" />
-                                            <option name="offset" value="65" />
+                                            <option name="length" value="16" />
+                                            <option name="offset" value="95" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="uzuepłnij" />
                                             <option name="possibleAnswer" value="type here" />
@@ -687,7 +687,7 @@
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="class Computer{&#10;  int ramSize;&#10;  uzupełnij klasę}&#10;&#10;&#10;class Laptop uzuepłnij {&#10;  int batteryCellCapacity;&#10;  public Laptop(int batteryCellCapacity){&#10;    this.batteryCellCapacity = batteryCellCapacity;&#10;  }&#10;}&#10;&#10;public class Task {&#10;  public static void main(String[] args) {&#10;    Laptop acer = new Laptop(4000);&#10;    System.out.println(acer.ramSize);&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />
@@ -1179,6 +1179,54 @@
                             <option name="stepikChangeStatus" value="Up to date" />
                             <option name="taskFiles">
                               <map>
+                                <entry key="src/CapoeiraField.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/CapoeiraField.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/PlayingField.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/PlayingField.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/SockerFilds.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/SockerFilds.java" />
+                                      <option name="text" value="" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="true" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
                                 <entry key="src/Task.java">
                                   <value>
                                     <TaskFile>

@@ -1,11 +1,16 @@
-class Computer{
+class Computer {
   int ramSize;
-  uzupełnij klasę}
+
+  Computer() {
+    this.ramSize = 16000;
+  }
+}
 
 
-class Laptop uzuepłnij {
+class Laptop extends Computer {
   int batteryCellCapacity;
-  public Laptop(int batteryCellCapacity){
+
+  public Laptop(int batteryCellCapacity) {
     this.batteryCellCapacity = batteryCellCapacity;
   }
 }
