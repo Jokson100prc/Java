@@ -2,7 +2,8 @@ package tarr.app.ver2;
 
 import tarr.app.ver1.AbstractTask;
 
-import java.util.ArrayList;
+import java.time.LocalDate;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -70,6 +71,29 @@ public class TodoContainer implements Todoable {
     System.out.println();
   }
 
+  @Override
+  public boolean contains(LocalDate date) {
+    AbstractTask temp = new AbstractTask("", date) {
+      @Override
+      public String get() {
+        return null;
+      }
+    };
 
-  
+    return container.contains(temp);
+  }
+
+  @Override
+  public void removeDone() {
+    Iterator iterator = container.iterator();
+
+    while (iterator.hasNext()) {
+      AbstractTask temp = (AbstractTask) iterator.next();
+
+      if (temp.isDone()) {
+        iterator.remove();
+      }
+
+    }
+  }
 }

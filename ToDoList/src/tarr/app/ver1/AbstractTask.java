@@ -52,4 +52,20 @@ public abstract class AbstractTask {
   public void setComplited(LocalDate complited) {
     this.complited = complited;
   }
+
+  @Override
+  public boolean equals(Object obj) {
+
+    if (obj == null){
+      return false;
+    }
+
+
+    //rzutuje parametr obj na typ klasy która będzie porównywana
+    AbstractTask o = (AbstractTask) obj;
+
+    //this.deadLine to LocalDate
+    //this.deadLine.equals() - porównuje daty LocalDate
+    return this.deadline.equals(o.getDeadline());
+  }
 }
