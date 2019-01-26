@@ -12,4 +12,8 @@ public class TextTask extends AbstractTask {
   public String get() {
     return getContent() + " " + getCreation() + " " + getDeadline() + " " + isDone();
   }
+
+  public void setAsDone(){
+    this.setDone(true);
+  }
 }
