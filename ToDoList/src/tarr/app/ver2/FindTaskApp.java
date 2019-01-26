@@ -16,17 +16,19 @@ public class FindTaskApp {
     AbstractTask task = new TextTask( "Trzeci Task", LocalDate.now());
 
 //testowanie  metody removeDone()
-    System.out.println(todoList.contains(LocalDate.of(2019,1,20)));
-    System.out.println(todoList.contains(LocalDate.of(2099,12,12)));
+//    System.out.println(todoList.contains(LocalDate.of(2019,1,20)));
+//    System.out.println(todoList.contains(LocalDate.of(2099,12,12)));
 
 
     ((TextTask)task).setAsDone();
     todoList.addTask(task);
-    todoList.removeDone();
+//    todoList.removeDone();
+    ((TodoContainer) todoList).prinTodoTask();
 
 
+    System.out.println("\n");
     for (int i = 0; i < todoList.size(); i++) {
-      System.out.println(todoList.getAsString(i));
+      System.out.println(todoList.getAsString(i)+ " - Szukaj mnie w FindTaskApp");
     }
   }
 }

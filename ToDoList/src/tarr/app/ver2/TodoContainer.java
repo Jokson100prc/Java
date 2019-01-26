@@ -96,4 +96,18 @@ public class TodoContainer implements Todoable {
 
     }
   }
+
+
+  public void prinTodoTask(){
+    Iterator iterator = container.iterator();
+    System.out.println("\n");
+
+    while (iterator.hasNext()){
+      AbstractTask temp = (AbstractTask) iterator.next();
+
+      if(!temp.isDone()){
+        System.out.println(temp.get()+ " - Szukaj mnie w TOdoContainer");
+      }
+    }
+  }
 }
