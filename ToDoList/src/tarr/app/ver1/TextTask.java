@@ -1,8 +1,9 @@
 package tarr.app.ver1;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class TextTask extends AbstractTask {
+public class TextTask extends AbstractTask implements Serializable {
 
   public TextTask(String content, LocalDate deadline) {
     super(content, deadline);
