@@ -26,8 +26,11 @@ class Smartphone implements ElectricPower {
 
   @Override
   public void setPower(int level) {
-   if ((power = powerCapacity - level)>=0){
-     power = powerCapacity - level;
+
+//    power = power - level;
+
+    if (power - level >=0){
+     power = power - level;
    }else{
      power = 0;
    }
@@ -49,6 +52,5 @@ class Main{
     System.out.println(smart.supply(4000));
     System.out.println(smart.getPower());
     System.out.println(smart.supply(1000));
-
   }
 }

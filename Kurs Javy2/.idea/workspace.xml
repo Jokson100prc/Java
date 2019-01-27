@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94432965-12e5-4dd8-af5c-43bde09d8ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Smartphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Smartphone.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/BoxDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/BoxDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ComparableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -122,7 +125,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -169,7 +172,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548573739327" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548577965857" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
@@ -214,7 +217,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -232,7 +234,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

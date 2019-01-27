@@ -305,8 +305,8 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="107" />
-                                            <option name="offset" value="484" />
+                                            <option name="length" value="116" />
+                                            <option name="offset" value="482" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="zdefiniuj metodę" />
                                             <option name="possibleAnswer" value=" type here" />
@@ -328,7 +328,7 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="13" />
-                                            <option name="offset" value="640" />
+                                            <option name="offset" value="647" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="zdefiniuj metodę" />
                                             <option name="possibleAnswer" value="type here" />

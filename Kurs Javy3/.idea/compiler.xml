@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Java_zaawansowana-Kolekcje-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_5_test" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_6_main" target="1.8" />
+      <module name="Java_zaawansowana-Kolekcje-Część_6_test" target="1.8" />
+      <module name="Java_zaawansowana-Refleksja-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Refleksja-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-CZęść_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-CZęść_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Podsumowanie_main" target="1.8" />
+      <module name="Java_zaawansowana-Typ_wyliczeniowy-Podsumowanie_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Część_5_test" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Podsumowanie_main" target="1.8" />
+      <module name="Java_zaawansowana-Typy_generyczne-Podsumowanie_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_5_test" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_6_main" target="1.8" />
+      <module name="Java_zaawansowana-Wyjątki-Część_6_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
