@@ -261,12 +261,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="12" />
-                                            <option name="offset" value="63" />
+                                            <option name="length" value="38" />
+                                            <option name="offset" value="59" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="uzupełni kod" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -283,12 +283,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="16" />
-                                            <option name="offset" value="393" />
+                                            <option name="length" value="17" />
+                                            <option name="offset" value="410" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="zdefiniuj metodę" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -305,12 +305,12 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="16" />
-                                            <option name="offset" value="466" />
+                                            <option name="length" value="107" />
+                                            <option name="offset" value="484" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="zdefiniuj metodę" />
                                             <option name="possibleAnswer" value=" type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
@@ -327,19 +327,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="16" />
-                                            <option name="offset" value="531" />
+                                            <option name="length" value="13" />
+                                            <option name="offset" value="640" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="zdefiniuj metodę" />
                                             <option name="possibleAnswer" value="type here" />
-                                            <option name="selected" value="false" />
+                                            <option name="selected" value="true" />
                                             <option name="status" value="Unchecked" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.java" />
                                       <option name="text" value="interface ElectricPower{&#10;&#10;  default int supply(int power){&#10;    uzupełni kod&#10;  }&#10;&#10;  int getPower();&#10;  void setPower(int level);&#10;  void recharge();&#10;}&#10;&#10;class Smartphone implements ElectricPower {&#10;  private int power;&#10;  private final int powerCapacity;&#10;&#10;  public Smartphone(int powerCapacity) {&#10;    this.powerCapacity = powerCapacity;&#10;    power = 0;&#10;  }&#10;&#10;  @Override&#10;  public int getPower() {&#10;    zdefiniuj metodę&#10;  }&#10;&#10;  @Override&#10;  public void setPower(int level) {&#10;   zdefiniuj metodę&#10;  }&#10;&#10;  @Override&#10;  public void recharge() {&#10;    zdefiniuj metodę&#10;  }&#10;}" />
                                       <option name="trackChanges" value="true" />

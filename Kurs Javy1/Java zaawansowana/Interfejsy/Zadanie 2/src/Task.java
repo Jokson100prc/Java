@@ -1,7 +1,8 @@
 interface ElectricPower{
 
   default int supply(int power){
-    uzupełni kod
+    setPower(power);
+    return power;
   }
 
   int getPower();
@@ -20,16 +21,34 @@ class Smartphone implements ElectricPower {
 
   @Override
   public int getPower() {
-    zdefiniuj metodę
+   return power;
   }
 
   @Override
   public void setPower(int level) {
-   zdefiniuj metodę
+   if ((power = powerCapacity - level)>=0){
+     power = powerCapacity - level;
+   }else{
+     power = 0;
+   }
   }
 
   @Override
   public void recharge() {
-    zdefiniuj metodę
+    power = 4000;
+  }
+}
+class Main{
+  public static void main(String[] args) {
+    ElectricPower smart = new Smartphone(4000);
+    System.out.println(smart.getPower());
+    smart.recharge();
+    System.out.println(smart.getPower());
+    System.out.println(smart.supply(1000));
+    System.out.println(smart.getPower());
+    System.out.println(smart.supply(4000));
+    System.out.println(smart.getPower());
+    System.out.println(smart.supply(1000));
+
   }
 }

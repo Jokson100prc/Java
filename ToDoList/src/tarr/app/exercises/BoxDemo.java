@@ -1,24 +1,7 @@
 package tarr.app.exercises;
 
 import java.time.LocalDate;
-
-class Person{
-  String name;
-  LocalDate birth;
-
-  public Person(String name, LocalDate birth) {
-    this.name = name;
-    this.birth = birth;
-  }
-
-  @Override
-  public String toString() {
-    return "Person{ " +
-            " name=' " + name + '\'' +
-            ", birth = " + birth + " " +
-            '}';
-  }
-}
+import java.util.LinkedList;
 
 public class BoxDemo {
   public static void main(String[] args) {
@@ -32,23 +15,28 @@ public class BoxDemo {
 
     GenericBox<Boolean> logicBox = new GenericBox<>( true,"D");
 
+    GenericBox<User> userBox = new GenericBox<>(new User("Name", "Password"), "E");
+
     System.out.println(stringBox);
     System.out.println(personBox);
     System.out.println(intBox);
     System.out.println(logicBox);
+    System.out.println(userBox);
 
-//    boolean l = Boolean.valueOf("true");
-//    if (l){
-//      System.out.println("w l jest true");
-//    }else {
-//      System.out.println("w l jest false");
-//    }
 
-    GenericBox[] boxes = new GenericBox[4];
+    boolean l = Boolean.valueOf("true");
+    if (l){
+      System.out.println("w l jest true");
+    }else {
+      System.out.println("w l jest false");
+    }
+
+    GenericBox[] boxes = new GenericBox[5];
     boxes[0] = stringBox;
     boxes[1] = personBox;
     boxes[2] = intBox;
     boxes[3] = logicBox;
+    boxes[4] = userBox;
 
     for (GenericBox box: boxes){
       System.out.println(box);

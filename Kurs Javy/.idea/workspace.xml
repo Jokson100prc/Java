@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74839ee8-efd2-4ac2-9f7e-42a08ce31064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ComparableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/BoxDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/BoxDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/BoxDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -322,7 +325,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23691276" />
