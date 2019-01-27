@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Java_zaawansowana-Adnotacje-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Adnotacje-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Adnotacje-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Adnotacje-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Adnotacje-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Adnotacje-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_5_main" target="1.8" />
+      <module name="Java_zaawansowana-Elementy_współbieżności-Część_5_test" target="1.8" />
+      <module name="Java_zaawansowana-I-O_i_NEW_I-O-Cześć_1_main" target="1.8" />
+      <module name="Java_zaawansowana-I-O_i_NEW_I-O-Cześć_1_test" target="1.8" />
+      <module name="Java_zaawansowana-I-O_i_NEW_I-O-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-I-O_i_NEW_I-O-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_1_test" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_2_main" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_2_test" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_3_main" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_3_test" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_4_main" target="1.8" />
+      <module name="Java_zaawansowana-Programowanie_funkcyjne-Część_4_test" target="1.8" />
+      <module name="Java_zaawansowana-Refleksja-Część_1_main" target="1.8" />
+      <module name="Java_zaawansowana-Refleksja-Część_1_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

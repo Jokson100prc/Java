@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="11" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="Kurs języka Java dla SDA" />
+          <option name="fromZip" value="true" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Kurs Javy" />
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="items">
+            <list>
+              <Section>
+                <option name="courseId" value="0" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Java zaawansowana" />
+                <option name="position" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="units" />
+                <option name="items">
+                  <list>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Refleksja" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Refleksja&lt;/h1&gt;&#10;&lt;p&gt;&#10;  Refleksja, jak nazwa wskazuje, jest mechanizmem, który pozwala na uzyskanie w działającym programie własnego &quot;odbicia&quot;. Mechanizm ten jest realizowany przez bibliotekę &lt;samp&gt;java.lang.reflect&lt;/samp&gt;, która dostarcza klasy, które pozwalają analizować w trakcie działania programu strukturę kodu. Można uzyskać informację jakiej klasy jest dany obiekt, jak jest lista pól, metod, jakie są typy poszczególnnych pól, jakie parametry metod itd.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Głównym przeznaczeniem refleksji jest ułatwienie tworzenia narzędzi programistych, które pozwalają na automatyczne generowanie kodu i jego analize w trakcie działania programu.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Temat refleksji jest dość szeroki, a bilioteka obszerna. Poniżej zapoznamy się z prostym przykładem, który w trakcie działania pozwala na wyświetlenie wszystkich pól i metod klasy wybranego obiektu:&#10;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;    User object = new User(&quot;amin&quot;,&quot;admin@jps.pl&quot;,&quot;123456&quot;,3);&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Kod wyświetlający listę pól z ich wartościami to pętla pobierająca pola z tablicy:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  for(Field f: object.getClass().getDeclaredFields()){&#10;    f.setAccessible(true);&#10;    System.out.println(f.getName() + &quot; &quot;+f.get(member).toString());&#10;  }&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;  &lt;p&gt;&#10;    Klasa &lt;samp&gt;Field&lt;/samp&gt; służy do przechowywania informacji o polu klasy, a wywołanie metody &lt;samp&gt;setAccessible(true)&lt;/samp&gt;&#10;    daje możliwość odczytu pola, które może być prywatne.&#10;  &lt;/p&gt;&#10;&lt;p&gt;&#10;  Wyświetlenie listy metod jest dość podobne, należy pobrać listę metod i w pętli wyswietlić:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;    for(Method m: member.getClass().getMethods()){&#10;      System.out.println(m.getName());&#10;    }&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;  &lt;p&gt;&#10;    Wyświetlone zostały metody zdefiniowane w klasie jak i odziedziczone. Metoda &lt;samp&gt;getDeclaredMethods&lt;/samp&gt; zwraca lsitę metod deklarowanych tylko w klasie.&#10;  &lt;/p&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Refleksja daje możliwość manipulowania obiektami w sytuacjach, gdy w programie &quot;tradycyjną&quot; metodą nie są dostępne. Klasa &lt;samp&gt;User&lt;/samp&gt; posiada wszystkie pola prywatne, bez odpowienich setterów co uniemożliwia zmienę wartości dowolnego pola. Korzystając z refleksji możemy zmienić wartość każdego póla, nawet prywatnych:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  Field f = member.getClass().getDeclaredField(&quot;password&quot;);&#10;  f.setAccessible(true);&#10;  f.set(member, &quot;abcd&quot;);&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Przykład pokazuje dość ciekawe możliwości &quot;włamania&quot; się do kodu programu. Refleksja daje również możliwość tworzenia obiektów bez operatora &lt;samp&gt;new&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;  class Message{&#10;    public String send(){&#10;      return &quot;New Object created&quot;;&#10;    }&#10;  }&#10;  ..&#10;&#10;  Message m = Message.class.newInstance();&#10;  System.out.println(m.send());&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Przedstawiony przykład działa dla wszystkich klas posiadających konstruktor bezargumentowy. Tworzenie z użyciem konstruktorów parametrycznych jest też możliwe drogą refleksji, jednak wymaga więcej dodatkowych operacji&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/ReflectionDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ReflectionDemo.java" />
+                                      <option name="text" value="import java.lang.reflect.Field;&#10;import java.lang.reflect.InvocationTargetException;&#10;import java.lang.reflect.Method;&#10;&#10;class User{&#10;  private String name;&#10;  private String email;&#10;  private String password;&#10;  private int id;&#10;&#10;  public User(){&#10;    this.password =&quot;&quot;;&#10;    this.name = &quot;&quot;;&#10;    this.name = &quot;no name&quot;;&#10;  }&#10;&#10;  public User(String name, String email, String password, Integer id) {&#10;    this.name = name;&#10;    this.email = email;&#10;    this.password = password;&#10;    this.id = id;&#10;  }&#10;&#10;  @Override&#10;  public String toString() {&#10;    return name+&quot; &quot;+email+&quot; &quot;+password+&quot; &quot;+id;&#10;  }&#10;}&#10;&#10;class Message{&#10;  public String send(){&#10;    return &quot;New message&quot;;&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args) throws IllegalAccessException, NoSuchFieldException, InstantiationException, NoSuchMethodException, InvocationTargetException {&#10;    User member = new User(&quot;amin&quot;,&quot;admin@jps.pl&quot;,&quot;123456&quot;,3);&#10;    //wyświetlenie pól obiektu wraz z wartościami&#10;    System.out.println(&quot;Lista pól&quot;);&#10;    for(Field f: member.getClass().getDeclaredFields()){&#10;      //udostępniamy pola do odczytu&#10;      f.setAccessible(true);&#10;      System.out.println(f.getName() + &quot; &quot;+f.get(member).toString());&#10;    }&#10;    System.out.println();&#10;    //wyświetlenie metod&#10;    System.out.println(&quot;Lista metod&quot;);&#10;    for(Method m: member.getClass().getMethods()){&#10;      System.out.println(m.getName());&#10;    }&#10;    System.out.println();&#10;    //zmieniamy wartość wybranego pola&#10;    System.out.println(&quot;Zmiana wartości pola password&quot;);&#10;    System.out.println(&quot;Obiekt przed zmianą&quot;);&#10;    System.out.println(member);&#10;    Field f = member.getClass().getDeclaredField(&quot;password&quot;);&#10;    f.setAccessible(true);&#10;    f.set(member, &quot;abcd&quot;);&#10;    System.out.println(&quot;Obiekt po zmianie zmianą&quot;);&#10;    System.out.println(member);&#10;&#10;    Message m = Message.class.newInstance();&#10;    System.out.println(m.send());&#10;    User u = User.class.newInstance();&#10;    System.out.println(u);&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Adnotacje" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Adnotacje&lt;/h1&gt;&#10;&lt;p&gt;&#10;W wielu sytuacjach pojawia się konieczność przekazywania dodatkowych informacji na temat kodu. Ich funkcją nie jest komentowanie kodu ale sterowanie jego generacją przed kompilacją. Są to metadane, a więc dane opisujące sposób traktowania kodu. Nie wpływają na działanie programu, ale dają dodatkowe możliwości na generowanie kodu i są bardzo użyteczne w narzędziach programistycznych&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Ilustracją działania adnotacji jest poznana wcześniej adnotacja &lt;samp&gt;@Override&lt;/samp&gt;:&lt;/p&gt;&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class Car{&#10;  String name;&#10;  public Car(String name){&#10;    this.name = name;&#10;  }&#10;  @Override&#10;  public String toString(){&#10;    return name;&#10;  }&#10;}&#10;&#10;class AdnotationDemo {&#10;  public static void main(String[] args) {&#10;    System.out.println(new Car(&quot;Porsche&quot;));&#10;  }&#10;}&#10;--&#10;Porsche&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Jej działanie polega na sprawdzeniu sygnatury metody znajdujące się pod nią czy jest identyczna z jakąkolwiek metodą odziedziczoną z klasy bazowej. Zobaczmy cos się stanie, gdy pomylimy sygnaturę tej funkcji przy pozostawieniu adnotacji:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class Car{&#10;  String name;&#10;  public Car(String name){&#10;    this.name = name;&#10;  }&#10;  @Override&#10;  public String toString(int a){&#10;    return name;&#10;  }&#10;}&#10;&#10;class AdnotationDemo {&#10;  public static void main(String[] args) {&#10;    System.out.println(new Car(&quot;Porsche&quot;));&#10;  }&#10;}&#10;        &lt;/code&gt;&#10;    &lt;/pre&gt;&#10;&lt;p&gt;W większości środowisk IDE adnotacja zostanie zaznaczona z informacją, że funkcja nie nadpisuje żadnej metody z superklasy. Próba kompilacji programu&#10;spowoduje sygnalizację błędu:&lt;/p&gt;&#10;&lt;pre&gt;&#10;    Error:(6, 3) java: method does not override or implement a method from a supertype&#10;&lt;/pre&gt;&#10;&lt;p&gt;Gdy usuniemy adnotację program się skompiluje i uruchomi, ale działanie będzie odmienne niż w pierwszym przykładzie, bo zostanie wywołana odzoedziczona z klasy &lt;samp&gt;Object&lt;/samp &gt; metoda &lt;samp&gt;toString()&lt;/samp&gt;, która wyświetli wartość referencji obiektu:&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class Car{&#10;  String name;&#10;  public Car(String name){&#10;    this.name = name;&#10;  }&#10;&#10;  public String toString(int a){&#10;    return name;&#10;  }&#10;}&#10;&#10;class AdnotationDemo {&#10;  public static void main(String[] args) {&#10;    System.out.println(new Car(&quot;Porsche&quot;));&#10;  }&#10;}&#10;--&#10;Car@1540e19d&#10;        &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Z przykładów wynika, że adnotacje mogą kontrolować intencje programisty na poziomie generowania samego kodu źródłowego, ale informacje mogą zostać wykorzystane w czasie działania programu.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/AnnotationDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/AnnotationDemo.java" />
+                                      <option name="text" value="class Car{&#10;  String name;&#10;&#10;  public Car(String name){&#10;    this.name = name;&#10;  }&#10;&#10;  @Override&#10;  public String toString(){&#10;    return name;&#10;  }&#10;}&#10;&#10;class AnnotationDemo{&#10;  public static void main(String[] args) {&#10;    System.out.println(new Car(&quot;Porsche&quot;));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;  &lt;h1&gt;Tworzenie adnotacji&lt;/h1&gt;&#10;&lt;p&gt;&#10;  Adnotacje moga dotyczyć różnych elementów kodu źródłowego: pól, metod, klas. Po dodaniu mogą być przechowywane do określonego etapu cyklu opracowywania programu. Mogą być też dostępne w trakcie działania programu i odczytywane poprzez refleksję. Refleksja to metoda analizy wynikowego kodu programu i wydobywania informacji o klasach, metodach, polach a takze dołączonych do nich adnotacji.&lt;/p&gt;&#10;&lt;p&gt;&#10;  Mechanizm tworzenia i działania własnych adnotacji prześledzimy na przykładzie domyślnego inicjalizowania pól pod adnotacją. Jeśli pole nie zostanie jawnie zainicjalizowane przez programistę to zostanie jej nadana wartość z adnotacji. Adnotacja będzie działać dla klasy &lt;samp&gt;Person&lt;/samp&gt;, dla pól typu &lt;samp&gt;int&lt;/samp&gt;.&#10;&lt;/p&gt;&#10;  &lt;p&gt;&#10;  Adnotacje w Java to interfejs poprzedzony znakiem @:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;@Retention(RetentionPolicy.RUNTIME)&#10;@Target(ElementType.FIELD)&#10;@interface Default{&#10;  int value();&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Interfejs adnotacji posiada metody, których nazwa jest identyczna z nazwą arguemntu adnotacji. Przed deklaracja znajdująs się adnotacje określające:&#10;  &lt;ul&gt;&#10;    &lt;li&gt;&#10;      &lt;samp&gt;Retenction&lt;/samp&gt; - która określa jak długo jest przechowywana adnotacja w kodzie. Argumentami mogą być trzy stałe:&#10;      &lt;uL&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;RetentionPolicy.SOURCE &lt;/samp&gt;- adnotacja przechowywana jest w kodzie źródłowym.&#10;        &lt;/li&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;RetencionPolicy.CLASS&lt;/samp&gt; - adnotacja jest przechowywana w pliku klasie w trakcie kompilacji, ale nie jest dostępna w trakcie wykonywania programu.&#10;        &lt;/li&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;RetentionPolicy.RUNTIME&lt;/samp&gt; - adnotacja jest zachowywana i dostępna w trakcie wykonywania kodu maszynowego.&#10;        &lt;/li&gt;&#10;      &lt;/uL&gt;&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;      &lt;samp&gt;Target&lt;/samp&gt; - która określa dla jakiego elementu kodu żródłowego jest przeznaczona:&#10;      &lt;ul&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;ElementType.FIELD&lt;/samp&gt;&#10;        &lt;/li&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;ElementType.METHOD&lt;/samp&gt;&#10;        &lt;/li&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;ElementType.TYPE&lt;/samp&gt;&#10;        &lt;/li&gt;&#10;        &lt;li&gt;&#10;          &lt;samp&gt;ElementType.CONSTRUCTOR&lt;/samp&gt;&#10;        &lt;/li&gt;&#10;&#10;      &lt;/ul&gt;&#10;    &lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&#10;&lt;/p&gt;&#10;  &lt;p&gt;&#10;    Aby skorzystać z adnotacji konieczne jest podanie jej nazwy argumentu i wartości:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;class Person{&#10;  @Default(value = 3)&#10;  int id;&#10;&#10;  private String name;&#10;&#10;  Person(){&#10;  }&#10;&#10;  Person(String name, int id) {&#10;    this.name = name;&#10;    this.id = id;&#10;  }&#10;&#10;  @Override&#10;  public String toString(){&#10;    return name+&quot; &quot;+id;&#10;  }&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;Jeśli nowy obiekt klasy zainicjujemy wartościa 0, to adnotacja powinna automatycznie przypisać wartość podaną w parametrze &lt;samp&gt;value&lt;/samp&gt;. Jeśli wartość pola będzie inna to adnotacja nie powinna nic zmienić:&lt;/p&gt;&#10;&lt;p&gt;&#10;  Nie mamy możliwości aby, nasza adnotacja działała dla każdej dowolnej klasy, musimy samodzielnie określić moment jej zadziałania. W naszym przykładzie zdefiniujemy klasę udającą framework, który będzie przechowywał obiekty. W chwili dodania obiektu typu Person nasz adnotacja powinna zadziałać&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  &lt;pre&gt;&#10;  &lt;code&gt;&#10;&#10;class MyFrameworkManager{&#10;  static final MyFrameworkManager MANAGER = new MyFrameworkManager();&#10;  private Collection collection = new ArrayList&lt;&gt;();&#10;&#10;  private MyFrameworkManager() {&#10;    System.out.println(&quot;MANAGER STARTS&quot;);&#10;  }&#10;&#10;  public void addObject(Object o) throws IllegalAccessException {&#10;    processAnnotation(o);&#10;    collection.add(o);&#10;  }&#10;&#10;  private void processAnnotation(Object o) throws IllegalAccessException {&#10;    if (o == null){&#10;      return;&#10;    }&#10;    if (o instanceof Person){&#10;      Person p = (Person) o;&#10;      //przeglądamy pola obiektu&#10;      for (Field f: p.getClass().getDeclaredFields()){&#10;        //testujemy pole czy ma adnotacje Default, jest typu int i ma wartość równą 0&#10;        if (f.getAnnotation(Default.class) instanceof Default &amp;&amp; f.getType().getName().equals(&quot;int&quot;) &amp;&amp; f.getInt(p) == 0){&#10;          //przypisujemy polu wartość z adnotacji&#10;          f.setInt(p, f.getAnnotation(Default.class).value());&#10;        }&#10;      }&#10;    }&#10;  }&#10;&#10;  public void print(){&#10;    for (Object o:collection){&#10;      System.out.println(o);&#10;    }&#10;  }&#10;}&#10;    &lt;/code&gt;&#10;  &lt;/pre&gt;&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Najistotniejszą jest metoda &lt;samp&gt;processAnnotation&lt;/samp&gt;, w której przeglądamy przez refleksję pola obiektu klasy &lt;samp&gt;Person&lt;/samp&gt; poszukując takiego, które posiada adnotację typu &lt;samp&gt;Default&lt;/samp&gt;. Po przetestowaniu czy jest typu całkowitego i jego wartość jest równa 0 nadajemy temu polu wartość argumentu adnotacji&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Na koniec przykład działania naszej adnotacji&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  &lt;code&gt;&#10;class Task {&#10;  public static void main(String[] args) throws IllegalAccessException {&#10;    Person adam = new Person(&quot;ADAM&quot;, 0);&#10;    MyFrameworkManager.MANAGER.addObject(adam);&#10;    MyFrameworkManager.MANAGER.print();&#10;  }&#10;}&#10;  &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Efektem programu jest wygenerowany napis:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;  MANAGER STARTS&#10;  ADAM 3&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Obiekt choć został utworzony z polem id równym zero, to andotacja zadziałała zmieniając je na wartość domyślną.&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/CustomAnnotationDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/CustomAnnotationDemo.java" />
+                                      <option name="text" value="import java.lang.annotation.*;&#10;import java.lang.reflect.Field;&#10;import java.util.ArrayList;&#10;import java.util.Collection;&#10;&#10;@Retention(RetentionPolicy.RUNTIME)&#10;@Target(ElementType.FIELD)&#10;@interface Default{&#10;  int value();&#10;}&#10;&#10;&#10;class Person{&#10;  @Default(value = 3)&#10;  int id;&#10;&#10;  private String name;&#10;&#10;  Person(String name, int id) {&#10;    this.name = name;&#10;    this.id = id;&#10;  }&#10;&#10;  @Override&#10;  public String toString(){&#10;    return name+&quot; &quot;+id;&#10;  }&#10;}&#10;&#10;class MyFrameworkManager{&#10;  static final MyFrameworkManager MANAGER = new MyFrameworkManager();&#10;  private Collection collection = new ArrayList&lt;&gt;();&#10;&#10;  private MyFrameworkManager() {&#10;    System.out.println(&quot;MANAGER STARTS&quot;);&#10;  }&#10;&#10;  public void addObject(Object o) throws IllegalAccessException {&#10;    processAnnotation(o);&#10;    collection.add(o);&#10;  }&#10;  private void processAnnotation(Object o) throws IllegalAccessException {&#10;    if (o == null){&#10;      return;&#10;    }&#10;    if (o instanceof Person){&#10;        Person p = (Person) o;&#10;        for (Field f: p.getClass().getDeclaredFields()){&#10;          if (f.getAnnotation(Default.class) instanceof Default &amp;&amp; f.getType().getName().equals(&quot;int&quot;) &amp;&amp; f.getInt(p) == 0){&#10;            f.setInt(p, f.getAnnotation(Default.class).value());&#10;          }&#10;        }&#10;    }&#10;  }&#10;&#10;  public void print(){&#10;    for (Object o:collection){&#10;      System.out.println(o);&#10;    }&#10;  }&#10;}&#10;&#10;class Task {&#10;  public static void main(String[] args) throws IllegalAccessException {&#10;    Person adam = new Person(&quot;ADAM&quot;, 0);&#10;    MyFrameworkManager.MANAGER.addObject(adam);&#10;    MyFrameworkManager.MANAGER.print();&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Wbudowane adnotacje&lt;/h1&gt;&#10;&lt;p&gt;&#10;    Język Java posiada zbiór wbudowanych adnotacji. Oprócz poznanych adotacji służących do definiowania własnych, znajduję sią też kilka innych:&#10;&lt;/p&gt;&#10;&lt;ul&gt;&#10;    &lt;li&gt;&#10;       &lt;code&gt;@Override&lt;/code&gt; - adnotacja do sygnalizacji, że metoda pod nią jest przykrywana&#10;        z klasy bazowej&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;@Deprecated&lt;/code&gt; - adnotacja do sygnalizacji, że deklaracja jest przestarzała&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;@SupressWarnings&lt;/code&gt; - adnotacja wstrzymująca generowanie podanych ostrzeżeń kompilatora&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;@SafeVarargs&lt;/code&gt; - adnotacja metod, które korzystaja w sposób bezpieczny z prametru typu &lt;samp&gt;vararg&lt;/samp&gt;&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&#10;&lt;p&gt;&#10;W praktyce korzystania z framworków, szczególnie do tworzenia aplikacji back-endu, korzystanie z andotacji jest nieodłacznym elementem pracy. Są to adnotacje specyficzne dla danego narzędzia i ich poznanie jest konieczne, aby móc korzystać z tego typu narzędzi.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Część 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="3" />
+                      <option name="name" value="I-O i NEW I-O" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;H1&gt;Operacje IO&lt;/H1&gt;&#10;&lt;p&gt;Przykłady prezentujące różne klasy tradycyjnego wejścia-wyjścia:&#10;&lt;ul&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;BufferedReaderDemo&lt;/samp&gt; - przykład buforowanego wejścia&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;BufferedWriterDemo&lt;/samp&gt; - przykład buforowanego wyjścia&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;DataInputOutputStreamDemo&lt;/samp&gt; - przykład buforowanego wyjścia&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;FileDemo&lt;/samp&gt; - przykład operacji na plikach&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;FileReaderDemo&lt;/samp&gt; - przykład odczytu do pliku&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;FileWriterDemo&lt;/samp&gt; - przykład zapisu do pliku&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;InputStreamDemo&lt;/samp&gt; - przykład strumienia wejściowego&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;LineNumberReaderDemo&lt;/samp&gt; - przykład odczytu pliku z nmerowanie linii&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;OutputStreamDemo&lt;/samp&gt; - przykład strumienia wyjściowego&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;SerializationDemo&lt;/samp&gt; - przykład serializacji obiektów&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;TryResourceDemo&lt;/samp&gt; - przykład konstrukcji try..resources&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Cześć 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/BufferedReaderDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/BufferedReaderDemo.java" />
+                                      <option name="text" value="import java.io.BufferedReader;&#10;import java.io.FileNotFoundException;&#10;import java.io.FileReader;&#10;import java.io.IOException;&#10;&#10;public class BufferedReaderDemo {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;BUFFERED READER DEMO&quot;);&#10;        int cout = 0;&#10;        try (FileReader file = new FileReader(&quot;src//assets/cities500.txt&quot;)){&#10;            BufferedReader reader = new BufferedReader(file);&#10;            while (reader.ready()){&#10;                System.out.println(reader.readLine());&#10;                cout++;&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Brak pliku.&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd odczytu pliku.&quot;);&#10;        }&#10;        System.out.println(&quot;END OF FILE READING. LINES READED &quot;+cout);&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/BufferedWriterDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/BufferedWriterDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;&#10;public class BufferedWriterDemo {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;BUFFERED WRITER DEMO&quot;);&#10;        int cout = 0;&#10;        try (FileWriter file = new FileWriter(&quot;src//assets//outdata.txt&quot;)){&#10;            BufferedWriter writer = new BufferedWriter(file);&#10;            List&lt;String&gt; list = Arrays.asList(&quot;ADA&quot;, &quot;ALA&quot;, &quot;ADAM&quot;, &quot;ZOFIA&quot;, &quot;RYSZARD&quot;);&#10;            for (String w: list){&#10;                System.out.println(&quot;WORD &quot;+ w +&quot; WRITTEN&quot;);&#10;                writer.write(w);&#10;                writer.newLine();&#10;                cout++;&#10;            }&#10;            writer.flush();&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;FILE NOT FOUND.&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;ERROR DURING WRITTEN.&quot;);&#10;        }&#10;        System.out.println(&quot;END OF FILE WRITING. LINES WRITTEN &quot;+cout);&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/DataInputOutputStreamDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/DataInputOutputStreamDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;import java.util.ArrayList;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;&#10;class User implements Serializable {&#10;    private String name;&#10;    private int id;&#10;&#10;    public User(String name, int id) {&#10;        this.name = name;&#10;        this.id = id;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;User{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, id=&quot; + id +&#10;                '}';&#10;    }&#10;}&#10;&#10;public class DataInputOutputStreamDemo {&#10;    public static void main(String[] args) {&#10;        List&lt;User&gt; list = Arrays.asList(&#10;                new User(&quot;admin&quot;, 2),&#10;                new User(&quot;ryszard&quot;, 3),&#10;                new User(&quot;borewicz&quot;, 7));&#10;&#10;        System.out.println(&quot;SERIALIZATION STARED&quot;);&#10;&#10;        try (ObjectOutputStream ostream = new ObjectOutputStream(new FileOutputStream(&quot;src//assets//objects.ser&quot;))) {&#10;            for (User u: list){&#10;                ostream.writeObject(u);&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku.&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Bład zapisu.&quot;);&#10;        }&#10;&#10;        System.out.println(&quot;DESERIALIZATION STARED&quot;);&#10;        List&lt;User&gt; restored = new ArrayList&lt;&gt;();&#10;        try (ObjectInputStream istream = new ObjectInputStream(new FileInputStream(&quot;src//assets//objects.ser&quot;))) {&#10;            User u;&#10;            while(true){&#10;                restored.add((User)istream.readObject());&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku.&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Bład odczytu lub koniec strumienia.&quot;);&#10;        } catch (ClassNotFoundException e) {&#10;            System.out.println(&quot;Niepoprawna klasa obiektu.&quot;);&#10;        }&#10;        System.out.println(&quot;LIST OF RESTORED OBJECTS&quot;);&#10;        for(User u: restored){&#10;            System.out.println(u);&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/FileDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/FileDemo.java" />
+                                      <option name="text" value="import java.io.File;&#10;import java.io.IOException;&#10;&#10;public class FileDemo {&#10;    public static void main(String[] args) throws IOException {&#10;        System.out.println(&quot;Test istniejącego pliku &quot;+&quot;src\\assets\\cities500.txt&quot;);&#10;        String pathStr = &quot;src\\assets\\cities500.txt&quot;;&#10;        File file = new File(pathStr);&#10;        //pełna ścieżka do pliku&#10;        System.out.println(&quot;Pełna ścieżka do pliku &quot;+file.getCanonicalPath());&#10;        //rozmiar pliku&#10;        System.out.println(&quot;Rozmiar pliku &quot; + file.getTotalSpace());&#10;        //nazwa pliku (z rozszerzeniem)&#10;        System.out.println(&quot;Nazwa pliku &quot; + file.getName());&#10;        //ścieżka względna&#10;        System.out.println(&quot;Ścieżka względna do pliku &quot;+ file.getPath());&#10;        //katalog nadrzędny&#10;        System.out.println(&quot;Katalog pliku &quot; + file.getParent());&#10;        //czy to jest plik&#10;        System.out.println(file.isFile()?&quot;To jest plik&quot;:&quot;To nie jest plik&quot;);&#10;        //czy to jest katalog&#10;        System.out.println(file.isDirectory()?&quot;To jest folder&quot;:&quot;To nie jest folder&quot;);&#10;        System.out.println();&#10;&#10;        System.out.println(&quot;Wyświetlenie zawartości katalogu src/assets&quot;);&#10;        for(File f: (new File(&quot;src\\assets&quot;)).listFiles()){&#10;            System.out.println(f.isDirectory()?&quot;Katalog &quot; + f.getName(): &quot;Plik &quot;+f.getName());&#10;        }&#10;        System.out.println();&#10;&#10;        System.out.println(&quot;Test nie istniejącego pliku &quot;+ &quot;src\\assets\\data.txt&quot;);&#10;        //Utworzenie obiektu dla nowego pliku nie jest równoznaczne z utworzneiem fizycznego pliku&#10;        File fileOut = new File(&quot;src\\assets\\data.txt&quot;);&#10;        //czy plik istnieje&#10;        System.out.println(fileOut.exists()?&quot;PLik itnieje&quot;:&quot;Nie ma takiego pliku&quot;);&#10;        //ustawienie pliku do zapisu&#10;        System.out.println(fileOut.setWritable(true)?&quot;Plik ustawiony do zapisu&quot;:&quot;Nie można ustawić pliku do zapisu&quot;);&#10;        //czy można pisać do liku&#10;        System.out.println(fileOut.canWrite()?&quot;PLik zdolny do zapisu&quot;:&quot;Do pliku nie można pisać&quot;);&#10;&#10;        //utworzenie pliku&#10;        System.out.println(fileOut.createNewFile() ? &quot;Plik utworzony&quot;:&quot;Pliku nie utworzono bo już istnieje&quot;);&#10;        System.out.println(&quot;Skasuj plik data.txt w src\\assets i uruchom powtórnie.&quot;);&#10;        System.out.println(fileOut.exists()?&quot;PLik istnieje&quot;:&quot;Nie ma takiego pliku&quot;);&#10;        System.out.println(fileOut.canWrite()?&quot;PLik gotowy do zapisu&quot;:&quot;Do pliku nie można zapisywać&quot;);&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/FileReaderDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/FileReaderDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;public class FileReaderDemo {&#10;    public static void main(String[] args) {&#10;        List&lt;String&gt; words = new ArrayList&lt;&gt;();&#10;        char c;&#10;        int raw;&#10;        try (FileReader input = new FileReader(new File(&quot;src//assets//data.txt&quot;))){&#10;            while(input.ready()){&#10;                raw = input.read();&#10;                c = (char)raw;&#10;                System.out.print(c + &quot; (&quot;+raw+&quot;)&quot;);&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            e.printStackTrace();&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;        for(String w : words){&#10;            System.out.println(w);&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/FileWriterDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/FileWriterDemo.java" />
+                                      <option name="text" value="import java.io.File;&#10;import java.io.FileWriter;&#10;import java.io.IOException;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;&#10;public class FileWriterDemo {&#10;    public static void main(String[] args) throws IOException {&#10;        //od wersji 9 można w bloku try umieszczać zaincjalizowane zmienne finalne lub efektywnie finalne&#10;        try (FileWriter output = new FileWriter(&quot;src//assets/outdata.txt&quot;)) {&#10;            List&lt;String&gt; cities = Arrays.asList(&quot;WARSAW&quot;, &quot;MOSCOW&quot;, &quot;PARIS&quot;, &quot;TOKYO&quot;);&#10;            for (String city: cities){&#10;                output.write(city+&quot;\n&quot;);&#10;            }&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/InputStreamDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/InputStreamDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;&#10;public class InputStreamDemo {&#10;    public static void main(String[] args) {&#10;        try (FileInputStream fstream = new FileInputStream(&quot;src//assets//data.txt&quot;)) {&#10;            byte[] buffer = new byte[100];&#10;            while(fstream.available() &gt; 0) {&#10;                fstream.read(buffer);&#10;                System.out.println(new String(buffer));&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd podczas czytania pliku&quot;);&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/LineNumberReaderDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/LineNumberReaderDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;import java.util.Random;&#10;&#10;class Record {&#10;    String line;&#10;    int number;&#10;&#10;    public Record(String line, int number) {&#10;        this.line = line;&#10;        this.number = number;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Record{&quot; +&#10;                &quot;line='&quot; + line + '\'' +&#10;                &quot;, number=&quot; + number +&#10;                '}';&#10;    }&#10;}&#10;&#10;public class LineNumberReaderDemo {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;BUFFERED READER DEMO&quot;);&#10;        Random rg = new Random();&#10;        int count = 0;&#10;        List&lt;Record&gt; base = new ArrayList&lt;&gt;();&#10;        try (FileReader file = new FileReader(&quot;src//assets/cities500.txt&quot;)){&#10;            LineNumberReader lineReader = new LineNumberReader(file);&#10;            while (lineReader.ready()){&#10;                base.add(new Record(lineReader.readLine(),lineReader.getLineNumber()));&#10;            }&#10;            count = lineReader.getLineNumber();&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Brak pliku.&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd odczytu pliku.&quot;);&#10;        }&#10;        System.out.println(&quot;END OF FILE READING. LINES READED &quot;+count);&#10;        System.out.println(&quot;RANDOM RECORD &quot; + base.get(rg.nextInt(base.size())));&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/OutputStreamDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/OutputStreamDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;&#10;public class OutputStreamDemo {&#10;    public static void main(String[] args) {&#10;        File file = new File(&quot;src//assets//outdata.txt&quot;);&#10;        //Zapisujemy do pliku&#10;        try {&#10;            FileOutputStream fstream = new FileOutputStream(file);&#10;            byte[] arr = { 64, 65, 66, 67, 68};&#10;            int[] arrInt = {1230, 1240, 1250, 1260, 1270};&#10;            for (int i = 0; i &lt; arrInt.length; i++) {&#10;                fstream.write(arrInt[i]);&#10;            }&#10;            fstream.close();&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd podczas zapisu do pliku&quot;);&#10;        }&#10;        //Odczytujemy z pliku&#10;        try {&#10;            FileInputStream fstream = new FileInputStream(file);&#10;            while (fstream.available() &gt; 0) {&#10;                System.out.println(fstream.read());&#10;            }&#10;            fstream.close();&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd podczas czytania pliku&quot;);&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/SerializationDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/SerializationDemo.java" />
+                                      <option name="text" value="import java.io.*;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;class Person implements Serializable{&#10;    private static final long serialVersionUID = 2153163831931434056L;&#10;    String name;&#10;&#10;    public Person(String name) {&#10;        this.name = name;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Person{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                '}';&#10;    }&#10;}&#10;&#10;class Worker extends Person implements Serializable{&#10;    private static final long serialVersionUID = 2153163831931434041L;&#10;    double salary;&#10;    Manager manager;&#10;&#10;    public Worker(String name, double salary, Manager manager) {&#10;        super(name);&#10;        this.salary = salary;&#10;        this.manager = manager;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Worker{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, salary=&quot; + salary +&#10;                &quot;, manager=&quot; + manager +&#10;                '}';&#10;    }&#10;}&#10;&#10;class Manager extends Worker implements Serializable {&#10;    private static final long serialVersionUID = 2153163831931434018L;&#10;    String department;&#10;    transient boolean  absent = true;&#10;    public Manager(String name, double salary, Manager manager, String department) {&#10;        super(name, salary, manager);&#10;        this.department = department;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;Manager{&quot; +&#10;                &quot;name='&quot; + name + '\'' +&#10;                &quot;, salary=&quot; + salary +&#10;                &quot;, manager=&quot; + manager +&#10;                &quot;, department='&quot; + department + '\'' +&#10;                &quot;, absent=&quot; + absent +&#10;                '}';&#10;    }&#10;}&#10;&#10;public class SerializationDemo {&#10;    public static void main(String[] args) {&#10;        Manager kierownik = new Manager(&quot;Ryszard&quot;, 12000, null, &quot;dystrybucja&quot;);&#10;        Worker portier = new Worker(&quot;Apolinary&quot;, 1200, kierownik);&#10;        Worker lokaj = new  Worker(&quot;Alojzy&quot;,2100, kierownik);&#10;        List&lt;Worker&gt; firma = new ArrayList&lt;&gt;();&#10;        firma.add(portier);&#10;        firma.add(lokaj);&#10;        firma.add(kierownik);&#10;        try (ObjectOutputStream ostream = new ObjectOutputStream(new FileOutputStream(&quot;src//assets//objects.ser&quot;))){&#10;            for (Worker p: firma){&#10;                ostream.writeObject(p);&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            e.printStackTrace();&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;&#10;        List&lt;Worker&gt; restored = new ArrayList&lt;&gt;();&#10;        try (ObjectInputStream ostream = new ObjectInputStream(new FileInputStream(&quot;src//assets//objects.ser&quot;))){&#10;            while(true){&#10;                restored.add((Worker)ostream.readObject());&#10;            }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Błąd pliku&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd odczytu lub koniec danych.&quot;);&#10;        } catch (ClassNotFoundException e) {&#10;            System.out.println(&quot;Błąd klasy&quot;);&#10;        }&#10;&#10;        //testujemy, czy po deserializacji  Apolinary i Alojzy mają kierownika, który jest trzecim deserializowanym obiektem&#10;        System.out.println(restored.get(0).manager == restored.get(1).manager &amp;&amp; restored.get(1).manager == restored.get(2) ? &quot;Poprawny kierownik&quot;: &quot;Niepoprawny kierownik&quot; );&#10;&#10;        //zmiana departamentu kierownika powinna być widoczna u obu pracowników&#10;        kierownik = (Manager) restored.get(2);&#10;        kierownik.department = &quot;booking&quot;;&#10;&#10;        for (Worker w: restored){&#10;            System.out.println(w);&#10;        }&#10;&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/TryResourceDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/TryResourceDemo.java" />
+                                      <option name="text" value="import java.io.File;&#10;import java.io.FileInputStream;&#10;import java.io.FileNotFoundException;&#10;import java.io.IOException;&#10;&#10;public class TryResourceDemo {&#10;    public static void main(String[] args) {&#10;        File file = new File(&quot;src//assets//data.txt&quot;);&#10;        /*&#10;         Wewnątrz  nawiasów można deklarować i tworzyć obiekty&#10;         implementujace interfejs AutoClosable&#10;         */&#10;        try (FileInputStream fstream = new FileInputStream(file)){&#10;            byte[] buffer = new byte[100];&#10;            while(fstream.available() &gt; 0) {&#10;                fstream.read(buffer);&#10;                System.out.println(new String(buffer));           }&#10;        } catch (FileNotFoundException e) {&#10;            System.out.println(&quot;Nie ma takiego pliku&quot;);&#10;        } catch (IOException e) {&#10;            System.out.println(&quot;Błąd podczas czytania pliku&quot;);&#10;        }&#10;        /*&#10;        Po opuszczaniu bloku try..with..resources, wszystkie obiekty&#10;        zazinicjowane przy wejściu zostaną zamknięte tzn. wywołana zostanie&#10;        metoda close() dla każdego z nich&#10;         */&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Przykłady NIO&lt;/h1&gt;&#10;&lt;p&gt;&#10;  &lt;ul&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;BufferDemo&lt;/samp&gt; - przykład wykorzystania bufora&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;ChannelDemo&lt;/samp&gt; - przykład wykorzystania kanału i jednoczesnego odczytu i zapisu do pliku&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    &lt;samp&gt;FilesDemo&lt;/samp&gt; - przykład wykorzystania metod klasy Files&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/BufferDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/BufferDemo.java" />
+                                      <option name="text" value="import java.nio.CharBuffer;&#10;&#10;public class BufferDemo {&#10;    public static void main(String[] args) {&#10;        CharBuffer buffer = CharBuffer.allocate(128);&#10;        //wstawienie łańcucha do bufora&#10;        buffer.append(&quot;ALIBABA&quot;);&#10;        //wstawienie znaków&#10;        for (int i = 0; i &lt; 20; i++){&#10;            buffer.append((char) ('A'+i));&#10;        }&#10;        //ustawienie limit na obecną pozycję a pozycję na 0&#10;        buffer.flip();&#10;        System.out.println(&quot;char\tlimit\tposition&quot;);&#10;        //usunięcie wszystkich znaków z bufora&#10;        while (buffer.hasRemaining()){&#10;            System.out.println(buffer.get() +&quot;\t\t&quot;+ buffer.remaining()+&quot;\t\t&quot;+buffer.position());&#10;        }&#10;        System.out.println(&quot;KONIEC&quot;);&#10;    }&#10;&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/ChannelDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ChannelDemo.java" />
+                                      <option name="text" value="import java.io.FileInputStream;&#10;import java.io.FileNotFoundException;&#10;import java.io.IOException;&#10;import java.nio.ByteBuffer;&#10;import java.nio.ByteOrder;&#10;import java.nio.channels.FileChannel;&#10;import java.nio.file.Path;&#10;import java.nio.file.Paths;&#10;&#10;import static java.nio.file.StandardOpenOption.READ;&#10;import static java.nio.file.StandardOpenOption.WRITE;&#10;&#10;public class ChannelDemo {&#10;    public static void main(String[] args) throws FileNotFoundException {&#10;        //Program zamienia w pliku małe znaki na duże&#10;        Path path = Paths.get(&quot;src//assets//outdata.txt&quot;);&#10;        try(FileChannel fileChannel = FileChannel.open(path, READ, WRITE)) {&#10;            ByteBuffer buffer = ByteBuffer.allocate((int) fileChannel.size());&#10;            //wczytanie pliku do bufora&#10;            int size = fileChannel.read(buffer);&#10;            buffer.flip();&#10;            while (buffer.hasRemaining()){&#10;                int p = buffer.position();&#10;                char i = buffer.getChar(p);&#10;                char c = Character.toLowerCase(i);&#10;                buffer.putChar(c);&#10;            }&#10;            fileChannel.position(0);&#10;            buffer.position(0);&#10;            System.out.println(&quot;Zapisano &quot; + fileChannel.write(buffer));&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/FilesDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/FilesDemo.java" />
+                                      <option name="text" value="import java.io.IOException;&#10;import java.net.URI;&#10;import java.net.URISyntaxException;&#10;import java.nio.file.Files;&#10;import java.nio.file.Path;&#10;import java.nio.file.Paths;&#10;import java.util.Optional;&#10;&#10;public class FilesDemo {&#10;    public static void main(String[] args) throws URISyntaxException {&#10;        Path pathToSourceFile = Paths.get(&quot;data.txt&quot;);&#10;        try {&#10;            System.out.println(&quot;Liczba linii &quot; + Files.lines(pathToSourceFile).count());&#10;            System.out.println(&quot;Rozmiar pliku &quot; + Files.size(pathToSourceFile));&#10;            System.out.println(&quot;Typ pliku &quot; + Files.probeContentType(pathToSourceFile));&#10;            System.out.println(&quot;Lista plików w katalogu:&quot;);&#10;        } catch (IOException e) {&#10;        }&#10;        try {&#10;            System.out.println(&quot;Wyszukiwanie pierwszego rekordu, którego wartość w 5 piątej kolumnie  jest mniejsza od 50&quot;);&#10;            Optional&lt;String&gt; finded = Files.lines(pathToSourceFile)&#10;                            .filter(line -&gt; Double.parseDouble(line.split(&quot;\t&quot;)[4]) &gt; 50)&#10;                            .findFirst();&#10;            finded.ifPresent(a-&gt;System.out.println(a));&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;&#10;    }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Elementy współbieżności" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;H1&gt;Wstęp&lt;/H1&gt;&#10;&lt;p&gt;Współbieżność oznacza wykonywanie co najmniej dwóch ciągów instrukcji w tym samym czasie. Jeśli&#10;ciągi instrukcji wykonywane są w tym samym programie, to każdy z ciągów jest wątkiem. Jeśli wątki nie zawierają instrukcji, które wpływają na działanie pozostałych wątków, to wątki wykonują się równolegle. Gdy część instrukcji wątku może wpłynąć na działanie pozostałych wątków do wątki wykonują się konkurecyjnie.&lt;/p&gt;&#10;&lt;p&gt;Współbieżność konkurencyjną można porównać do torów i pociągów. Tor to ciąg instrukcji wątku, pociąg to&#10;aktualnie wykonywana instrukcja wątku. Jeśli dwa tory łączą się ze sobą na pewnym odcinku, to oba pociągi będą musiały ten odcinek przejechać. Może wtedy dojść do kolizji, gdy oba pociągi znajdą się dokładnie tuż przed&#10;wjazdem na wspólny odcinek. Aby zapewnić bezpieczeństwo trzeba tak zorganizować jazdę obu pociągów, aby w czasie przejazsu przez wspólny odcinek, pozostałe nie mogły na ten odcinek wjechać.&#10;&lt;/p&gt;&#10;Odpowiednikiem wspólnego odcinka torów jest tzw. sekcja krytyczna wątku, pozostałe instukcje stanowią&#10;tzw. sekcję lokalną. Zablokowanie możliwości wykonywania sekcji krytycznej przez więcej niż jeden wątek&#10;nazywane jest wzajemnym wykluczaniem lub synchronizowaniem.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Współbieżność może być różnie realizowana: wątki mogą wyć wykonywane w tym samym czasie na różnych procesorach, rdzeniach, mogą być też wykonywane ciągle na tym samym procesorze, który przełącza wykonywane instrukcje&#10;    kolejnych wątków. Niezależnie od metody realizacji wpsółbieżności zakładamy, że:&#10;    &lt;ul&gt;&#10;    &lt;li&gt;&#10;        wątki wykonywane są w przeplocie na jednej maszynie, procesorze, rdzeniu, polegającym na&#10;        przemiennych wykonywaniu instrukcji należących do różnych wątków&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        przeplatane są wszystkie instrukcje wątków&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        instrukcje trwają tyle samo,&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        nic nie wiemy o kolejności przeplatanych instrukcji, ale zakładamy uczciwość przeplotu co&#10;        znaczy, że każdy wątek kiedyś wykona swój kod.&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Najczęściej sekcję krytyczną stanowią te fragmenty wątków, które odnoszą się do wspólnego zasobu. Może&#10;    to być wspólna zmienna, plik, baza danych, łącze sieciowe itd.&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/Task.java" />
+                                      <option name="text" value="import java.awt.*;&#10;import java.util.concurrent.ArrayBlockingQueue;&#10;&#10;class MagicBox{&#10;  private ArrayBlockingQueue&lt;Integer&gt; monitor = new ArrayBlockingQueue&lt;&gt;(1);&#10;  private Rectangle border;&#10;&#10;  public MagicBox(Rectangle rect){&#10;    this.border = rect;&#10;  }&#10;&#10;  public void enter(int n) throws InterruptedException {&#10;    monitor.put(1);&#10;    System.out.println(&quot;Kulka nr &quot;+n + &quot; wchodzi do środka&quot;);&#10;  }&#10;&#10;  public void exit(int n) throws InterruptedException {&#10;    monitor.take();&#10;    System.out.println(&quot;Kulka nr &quot; + n + &quot; wychodzi ze środka&quot;);&#10;  }&#10;&#10;  public boolean isInside(int x, int y){&#10;    return border.contains(x, y);&#10;  }&#10;}&#10;&#10;class Ball implements Runnable{&#10;  private int x, y;&#10;  private boolean isRunning = true;&#10;  private MagicBox box;&#10;  private boolean isInside = false;&#10;  private int number;&#10;&#10;  public Ball(MagicBox box, int number){&#10;    this.box = box;&#10;    this.number = number;&#10;  }&#10;  @Override&#10;  public void run() {&#10;    while (isRunning){&#10;      x = (int)(11*Math.random());&#10;      y = (int)(11*Math.random());&#10;      try {&#10;        if (box.isInside(x, y) &amp;&amp; !isInside) {&#10;          System.out.println(&quot;Kulka nr &quot; + number +&quot; chce wejść do środka&quot;);&#10;          box.enter(number);&#10;          isInside = true;&#10;        }&#10;        if (!box.isInside(x, y) &amp;&amp; isInside) {&#10;          box.exit(number);&#10;          isInside = false;&#10;        }&#10;      } catch (InterruptedException e) {&#10;        e.printStackTrace();&#10;      }&#10;      System.out.println(&quot;Kulka nr &quot; + number +&quot; &quot;+x+&quot; &quot;+y);&#10;    }&#10;  }&#10;&#10;  public void stop(){&#10;    isRunning = false;&#10;  }&#10;}&#10;&#10;public class Task {&#10;&#10;  public static void main(String[] args) {&#10;    MagicBox box = new MagicBox(new Rectangle(10,10));&#10;    Thread[] balls = new Thread[10];&#10;    for (int i = 0; i &lt; balls.length; i++){&#10;      balls[i] = new Thread(new Ball(box, i+1));&#10;      balls[i].start();&#10;    }&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Tworzenie wątków&lt;/h1&gt;&#10;&lt;p&gt;&#10;Wątki to funkcje, metody. Ponieważ w Java funkcje moga być definiowane tylko w klasach, dlatego wątki będą obiektami z metodą.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Każdy program w Java posiada co najmniej jeden wątek. Funkcja &lt;samp&gt;main&lt;/samp&gt; wykonywana jest w wątku głównym.&lt;/p&gt;&#10;&lt;p&gt;&#10;    Klasą do tworzenia wątków jest &lt;samp&gt;Thread&lt;/samp&gt;, która posiada metodę&#10;    &lt;samp&gt;run&lt;/samp&gt;. W metodzie tej umieszczamy kod, który będzie wykonywany w wątku. Tworząc własny wątek możemy zdefiniować własną klasę dziedziczącą &lt;samp&gt;Thread&lt;/samp&gt;, w której należy zdefiniowć metodę &lt;samp&gt;run()&lt;/samp&gt;&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class MessageThread extends Thread{&#10;  private String message;&#10;  private int pause;&#10;&#10;  public MessageThread(String message, int pasue){&#10;    this.message = message;&#10;    this.pause = pasue;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(pause);&#10;        System.out.println(message);&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU&quot;);&#10;  }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Nasza klasa może posiadać pola czy dodatkowe metody w zakeżności od potrzeb. W przykładzie pole &lt;samp&gt;message&lt;/samp&gt; przechowuje komunikat, który będzie wyświetlany w odstępach czasu &lt;samp&gt;pause&lt;/samp&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;Tworzenie wątku to utworzenie isntacji nasze klasy, a uruchomienie wątku to wywołanie metody &lt;samp&gt;start()&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;MessageThread thread = new MessageThread(&quot;UWAGA&quot;, 5000);&#10;thread.start();&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    W chwili wywołania metody &lt;samp&gt;start()&lt;/samp&gt; następuje uruchomienie wątku i przekazanie sterowania do następnej instrukcji. Jest to zaburzenie dotychczasowych naszych przyzwyczajeń, że następna instrukcja jest wykonywanyna, gdy poprzednia się zakończyła. W tym przypadku wywołanie &lt;samp&gt;start()&lt;/samp&gt; powoduje, że równocześnie wykonywane są instrukcje naszego wątku i instrukcje w wątku, który wywołał metodę &lt;samp&gt;start()&lt;/samp&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;Drugą metodą tworzenia wątków jest definiowanie klas impelmentujących interfejs &lt;samp&gt;Runnable&lt;/samp&gt;, który ma zdefiniowaną metodę &lt;samp&gt;run&lt;/samp&gt;. Nasza klasa będzie zmuszona zaimplementować tę metodę.&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class MessageRunnable implements Runnable{&#10;  private String message;&#10;  private int pause;&#10;&#10;  public MessageRunnable(String message, int pause){&#10;    this.message = message;&#10;    this.pause = pause;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!Thread.currentThread().isInterrupted()){&#10;      try {&#10;        Thread.sleep(pause);&#10;      } catch (InterruptedException e) {&#10;          Thread.currentThread().interrupt();&#10;      }&#10;      System.out.println(message);&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU&quot;);&#10;  }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Zaletą tego sposobu jest możliwość tworzenia własnych klas wątków, które rozszerzają inne klasy, a nie klasę &lt;samp&gt;Thread&lt;/samp&gt;. Ponieważ w takiej klasie nie mamy dostępu do odziedziczonych metod &lt;samp&gt;Thread&lt;/samp&gt;, więc musimy korzystać z metod statycznych tej klasy, aby móc wykonać operacje. Metoda &lt;samp&gt;Thread.currentThread&lt;/samp&gt; zwraca obiekt bieżącego wątku, w posługując się nim możemy przetestować, czy nastąpiło przerwanie wątku&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Z przedstawionych przykładów wynika, że wątek to metoda, w której najczęściej w pętli wykonujemy ciąg instrukcji&#10;&lt;/p&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/RunnableDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/RunnableDemo.java" />
+                                      <option name="text" value="class MessageRunnable implements Runnable{&#10;  private int pause;&#10;  private String message;&#10;  public MessageRunnable(String message, int pause){&#10;    this.pause = pause;&#10;    this.message = message;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    int count = 20;&#10;    while(count-- &gt; 0){&#10;      try {&#10;        Thread.sleep(pause);&#10;        System.out.println(message);&#10;      } catch (InterruptedException e) {&#10;&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU&quot;);&#10;  }&#10;}&#10;public class RunnableDemo {&#10;  public static void main(String[] args) {&#10;    MessageRunnable messageThread = new MessageRunnable(&quot;UWAGA!!!&quot;, 500);&#10;    Thread thread1 = new Thread(messageThread);&#10;    Thread thread2 = new Thread(new MessageRunnable(&quot;STOP!!!&quot;, 300));&#10;&#10;    thread1.start();&#10;    thread2.start();&#10;    System.out.println(&quot;KONIEC&quot;);&#10;  }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/ThreadDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ThreadDemo.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;&#10;class MessageThread extends Thread{&#10;  private String message;&#10;  private int pause;&#10;&#10;  public MessageThread(String message, int pasue){&#10;    this.message = message;&#10;    this.pause = pasue;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    int count = 20;&#10;    while(count-- &gt; 0){&#10;      try {&#10;        Thread.sleep(pause);&#10;        System.out.println(message);&#10;      } catch (InterruptedException e) {&#10;&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU&quot;);&#10;  }&#10;}&#10;&#10;class ThreadDemo {&#10;  public static void main(String[] args) {&#10;    Scanner scan = new Scanner(System.in);&#10;    MessageThread thread1 = new MessageThread(&quot;UWAGA!&quot;, 200);&#10;    MessageThread thread2 = new MessageThread(&quot;STOP!&quot;, 300);&#10;    thread1.start();&#10;    thread2.start();&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Klasa Thread&lt;/h1&gt;&#10;&lt;p&gt;Klasa &lt;samp&gt;Thread&lt;/samp&gt; jest klasą bazową do tworzenia wątków. Posiada kilka istotnym metod:&#10;&lt;ul&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;getName()&lt;/code&gt; - zwraca nazwę wątku&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;getPriority()&lt;/code&gt; - pobiera priorytet wątku&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;isAlive()&lt;/code&gt; - testuje, czy wątek nadal działa&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;join()&lt;/code&gt; - czeka na zakończenie wątku&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;run()&lt;/code&gt; - metoda zawierająca kod wątku&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;sleep()&lt;/code&gt; - uśpienie wątku na określony argumentem czas&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;start()&lt;/code&gt; - uruchomienie metody run() jako osobny wątek programu&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;interrupt()&lt;/code&gt; - wysyła sygnał przerwania wątku&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;isInterrupted()&lt;/code&gt; - wysyła sygnał przerwania wątku&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Gdy tworzymy wątek implementując interfejs &lt;samp&gt;Runnable&lt;/samp&gt; mżemy uzyskać dostęp do bieżącego wątku metodą statyczną klasy:&#10;    &lt;ul&gt;&#10;    &lt;li&gt;&#10;        &lt;code&gt;Thread.CurrentThread()&lt;/code&gt; - zwraca bieżący wątek, czyli wątek, w którym została wywołana&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;Mając referencję do obiektu klasy &lt;samp&gt;Thread&lt;/samp&gt;, możemy korzystać z wymienionych wcześniej metod klasy.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    W większości sytuacji wątki tworzy się w dwóch sytuacjach:&#10;    &lt;ul&gt;&#10;    &lt;li&gt;&#10;        Wywołanie jednej długotrwającej akcji np. pobieranie danych z serwera, zapis do pliku, której przerwanie niweczy całe zadanie&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Wykonywanie w pętli powtarzalnych operacji, np. obliczeń, których przerwanie nie musi oznaczać utraty efektów dotychczasowej pracy wątku np. przerwanie wątku pozwalana uzyskanie wyników obliczeń z większym błędem.&#10;    &lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Gdy wątek wykonuje kod w pętli i jest usypiany, typowym schematem realizacji rutynowego przerwania wątku jest poniższy schemat:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;&lt;code&gt;&#10;class CounterThread extends Thread{&#10;  private int pause;&#10;  private int counter;&#10;&#10;  public CounterThread(int pasue){&#10;    this.pause = pasue;&#10;    this.counter = 0;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(pause);&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;}&#10;&lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Metoda &lt;samp&gt;isInterrupted()&lt;/samp&gt; testuje, czy wysłano sygnał przerwania wątku. Testowanie&#10;    odbywa się przed wykonaniem kolejnej iteracji pętli, więc wątek zostanie zakończony w przewidywalnym miejscu. Sygnał przerwania może też został wysłany gdy wątek jest uśpiony, dlatego &quot;usypianie wątku&quot; musi być wykonywane w bloku &lt;samp&gt;try...catch&lt;/samp&gt;by w razie przerwania zgłosić wyjątek. Wystąpienie wyjątku usuwa sygnał przerwania, więc w obsłudze wyjątku ponawiamy przerwanie, co spowoduje, że przed wykonaniem następnej iteracji zostanie uwzględniony.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;W utworzonym wątku zatrzymanie go w wybranym momencie polega na wywołaniu metody &lt;samp&gt;interrupt()&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;CounterThread thread = new CounterThread(600);&#10;thread.start();&#10;...&#10;thread.interrupt();&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Część 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/InterruptDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/InterruptDemo.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;&#10;class CounterThread extends Thread{&#10;  private int pause;&#10;  private int counter;&#10;  public CounterThread(int pasue){&#10;    this.pause = pasue;&#10;    this.counter = 0;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(pause);&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;}&#10;&#10;class InterruptDemo {&#10;  public static void main(String[] args) {&#10;    CounterThread count1 = new CounterThread(400);&#10;    CounterThread count2 = new CounterThread(600);&#10;    count1.start();&#10;    count2.start();&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz cokolwiek, żeby zakończyć program&quot;);&#10;    String query = scan.next();&#10;    count1.interrupt();&#10;    count2.interrupt();&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Synchronizacja&lt;/h1&gt;&#10;&lt;p&gt;Gdy wątki odwołują się do wspólnej zmiennej to następuje sytuacja konkurencji. Ponieważ zmienna może być modyfikowana tylko przez jeden wątek, to drugi musi zostać zablokowany do czasu zkończenia modyfikacji. Wymuszenie, aby wspólny fragment kilku wątków, mógł być wykonywane tylko przez jeden, nazywamy synchronizacją&lt;/p&gt;&#10;&lt;p&gt;&#10;    Do synchronizacji służą: blok sychronizowany lub metoda synchronizowana. Popatrzmy na przykład wątków, które modyfikują wspólny licznik klasy &lt;samp&gt;Counter&lt;/samp&gt;&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class CounterThread extends Thread{&#10;  private Counter commonCounter;&#10;  private int counter = 0;&#10;&#10;  public CounterThread(Counter counter){&#10;    this.commonCounter = counter;&#10;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(10);&#10;        synchronized(commonCounter){&#10;          commonCounter.set(commonCounter.get()+1);&#10;        }&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;    Argumentem bloku &lt;samp&gt;synchronized&lt;/samp&gt; jest dowolny obiekt, który stanowi rodzaj zamka, blokady. Jeśli argumentem wszystkich wątków tworzonych na podstawie klasy CounterThread będzie ten sam obiekt &lt;samp&gt;commonCounter&lt;/samp&gt;, to gdyby kilka wątków w tym czasie próbowało modyfikować ten obiekt, to w chwili gdy któryś wątek zajął już naszą blokadę, to pozostałe wątki zostaną wstrzymane. To gwarantuje,&#10;    że każda modyfikacja wspólnej zmiennej zostanie wykonana poprawnie, i stan wspólnego licznika będzie równy sumie&#10;    liczników obu wątków.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Gdy usuniemy blok synchronizowany w kodzie wątku to łatwo się przekonać, że nastąpi różnica między stanem licznika wspólnego i sumą liczników obu wątków.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Sytuację co się dzieje, gdy dwa wątki wykonnują ten sam krytyczny fragment w tym samym czasie przy braku synchronizacji, ilustruje poniższe zestawienie&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;count1 = 2                                  count2 = 3&#10;thread1                                     thread2&#10;x1 = commonCounter.get()   [5]              x2 = commonCounter.get()    [5]&#10;x1 = x1 + 1                [6]              x2 = x2 + 1                 [6]&#10;commonCounter.set(x1)      [6]              commonCounter.set(x2)       [6]&#10;count1 = 3                                  count2 = 4&#10;rzeczywisty stan licznika - 6&#10;powinno być               - count1 + count2 = 7&#10;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="Część 4" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/MethodSynchronizedDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/MethodSynchronizedDemo.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;class CounterSynchronized{&#10;  private int counter=0;&#10;&#10;  public synchronized void set(int c) {&#10;    counter = c;&#10;  }&#10;&#10;  public synchronized int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;&#10;class CounterThreadS extends Thread{&#10;  private CounterSynchronized commonCounter;&#10;  private int counter = 0;&#10;&#10;  public CounterThreadS(CounterSynchronized counter){&#10;    this.commonCounter = counter;&#10;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(10);&#10;        commonCounter.set(commonCounter.get()+1);&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;class MethodSynchronizedDemo {&#10;  public static void main(String[] args) {&#10;    Counter count = new Counter();&#10;    CounterThread count1 = new CounterThread(count);&#10;    CounterThread count2 = new CounterThread(count);&#10;    count1.start();&#10;    count2.start();&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz cokolwiek, żeby zakończyć program&quot;);&#10;    String query = scan.next();&#10;    count1.interrupt();&#10;    count2.interrupt();&#10;    System.out.println(count.get() + &quot; = &quot;+ (count1.get()+count2.get()));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/NotSynchronizedDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/NotSynchronizedDemo.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;&#10;class CounterNotSynchronized{&#10;  private int counter=0;&#10;&#10;  public void set(int c){&#10;    counter = c;&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;&#10;class CounterThreadNotSynchronized extends Thread{&#10;  private CounterNotSynchronized commonCounter;&#10;  private int counter = 0;&#10;&#10;  public CounterThreadNotSynchronized(CounterNotSynchronized counter){&#10;    this.commonCounter = counter;&#10;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(10);&#10;        commonCounter.set(commonCounter.get() + 1);&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;class NotSynchronizedDemo {&#10;  public static void main(String[] args) {&#10;    CounterNotSynchronized count = new CounterNotSynchronized();&#10;    CounterThreadNotSynchronized count1 = new CounterThreadNotSynchronized(count);&#10;    CounterThreadNotSynchronized count2 = new CounterThreadNotSynchronized(count);&#10;    count1.start();&#10;    count2.start();&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz cokolwiek, żeby zakończyć program&quot;);&#10;    String query = scan.next();&#10;    count1.interrupt();&#10;    count2.interrupt();&#10;    System.out.println(count.get() + &quot; = &quot;+ (count1.get()+count2.get()));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/SynchronizedDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/SynchronizedDemo.java" />
+                                      <option name="text" value="import java.util.Scanner;&#10;class Counter{&#10;  private int counter=0;&#10;&#10;  public void set(int c){&#10;    counter = c;&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;&#10;class CounterThread extends Thread{&#10;  private Counter commonCounter;&#10;  private int counter = 0;&#10;&#10;  public CounterThread(Counter counter){&#10;    this.commonCounter = counter;&#10;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    while(!isInterrupted()){&#10;      try {&#10;        Thread.sleep(10);&#10;        synchronized(commonCounter){&#10;          commonCounter.set(commonCounter.get()+1);&#10;        }&#10;        counter++;&#10;      } catch (InterruptedException e) {&#10;        this.interrupt();&#10;      }&#10;    }&#10;    System.out.println(&quot;KONIEC WĄTKU. STAN LICZNIKA &quot; + counter);&#10;  }&#10;&#10;  public int get(){&#10;    return counter;&#10;  }&#10;}&#10;&#10;class InterruptDemo {&#10;  public static void main(String[] args) {&#10;    Counter count = new Counter();&#10;    CounterThread count1 = new CounterThread(count);&#10;    CounterThread count2 = new CounterThread(count);&#10;    count1.start();&#10;    count2.start();&#10;    Scanner scan = new Scanner(System.in);&#10;    System.out.println(&quot;Wpisz cokolwiek, żeby zakończyć program&quot;);&#10;    String query = scan.next();&#10;    count1.interrupt();&#10;    count2.interrupt();&#10;    System.out.println(count.get() + &quot; = &quot;+ (count1.get()+count2.get()));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Egzekutory&lt;/h1&gt;&#10;&lt;p&gt;&#10;    To obiekty służące do zarządzaniem i uruchamianiem wątków. Przykład poniżej ilustruje jak utworzyć ezgekutor i korzystać z niego:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10; ExecutorService threadManager = Executors.newFixedThreadPool(2);&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;Utworzony obiekt zarządza pulą składającą się dokładnie z dwóch wątków. Wielkość puli określa ile wątków jednocześnie zostanie uruchomionych. Gdy egzekutorowi przekazane zostaną cztery wątki to po wykonaniu dwóch pierwszych uruchomione zostaną dwa kolejne. Uruchomienie wątków wykonuje się metodą &lt;samp&gt;submit(0&lt;/samp&gt;, a zakończenie pracy ezgekutora po wywołaniu &lt;samp&gt;shutdown()&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10; threadManager.submit(new Runnable() {&#10;  @Override&#10;  public void run() {&#10;    try {&#10;      Thread.sleep(1000);&#10;    } catch (InterruptedException e) {&#10;      e.printStackTrace();&#10;    }&#10;    System.out.println(&quot;END OF THREAD&quot;);&#10;  }&#10;});&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;W pliku ExecutorDemo zawarto przykład wykorzystania ezgekutor, a różnicę pracy można zauważyć zmieniając wilekość jego puli.&#10;&lt;/p&gt;&#10;&lt;h1&gt;Klasa Callable&lt;/h1&gt;&#10;&lt;p&gt;&#10;    Gdy wątek ma działanie funkcyjne, czyli po wykonaniu ma zwrócić jakąś wartość, obiekt, dorbrym rozwiązaniem jest wykorzystanie klasy &lt;samp&gt;Callable&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;class Calculator implements Callable&amp;lt;Double&amp;gt; {&#10;&#10;  @Override&#10;  public Double call() throws Exception {&#10;    double result = 0;&#10;    int N = 100000000;&#10;    for (int i = 0; i &lt; N; i++){&#10;      result += Math.random();&#10;    }&#10;    return result/N;&#10;  }&#10;}&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;p&gt;&#10;  Wartość obliczoną przez wątek przekazuje sie do obiektu klasy parametrycznej &lt;samp&gt;Future&lt;/samp&gt;:&#10;&lt;/p&gt;&#10;&lt;pre&gt;&#10;    &lt;code&gt;&#10;Future&amp;lt;Double&amp;gt; result1 = threadManager.submit(new Calculator());&#10;    &lt;/code&gt;&#10;&lt;/pre&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="5" />
+                            <option name="name" value="Część 5" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/CallableDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/CallableDemo.java" />
+                                      <option name="text" value="import java.util.concurrent.*;&#10;&#10;class Calculator implements Callable&lt;Double&gt; {&#10;&#10;  @Override&#10;  public Double call() throws Exception {&#10;    double result = 0;&#10;    int N = 10000000;&#10;    for (int i = 0; i &lt; N; i++){&#10;      result += Math.random();&#10;    }&#10;    return result/N;&#10;  }&#10;}&#10;&#10;public class CallableDemo {&#10;  public static void main(String[] args) {&#10;&#10;    ExecutorService threadManager = Executors.newFixedThreadPool(2);&#10;    ExecutorService exec = Executors.newSingleThreadExecutor();&#10;    Future&lt;Double&gt; result1 = threadManager.submit(new Calculator());&#10;    Future&lt;Double&gt; result2 = threadManager.submit(new Calculator());&#10;    threadManager.submit(new Runnable() {&#10;      @Override&#10;      public void run() {&#10;        try {&#10;          Thread.sleep(1000);&#10;        } catch (InterruptedException e) {&#10;          e.printStackTrace();&#10;        }&#10;        System.out.println(&quot;END OF THREAD&quot;);&#10;      }&#10;    });&#10;    try {&#10;      System.out.println(result1.get());&#10;      System.out.println(result2.get());&#10;      threadManager.shutdown();&#10;    } catch (InterruptedException e) {&#10;      e.printStackTrace();&#10;    } catch (ExecutionException e) {&#10;      e.printStackTrace();&#10;    }&#10;  }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/ExecutorDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ExecutorDemo.java" />
+                                      <option name="text" value="import java.util.concurrent.Executor;&#10;import java.util.concurrent.ExecutorService;&#10;import java.util.concurrent.Executors;&#10;&#10;class Task implements Runnable{&#10;  int n;&#10;  public Task(int n){&#10;    this.n = n;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;    try {&#10;      for (int i = 0; i &lt; 5; i++) {&#10;        Thread.sleep(200);&#10;        System.out.println(&quot; THREAD &quot; + n + &quot; ITERATION &quot;+ i);&#10;      }&#10;    } catch (InterruptedException e) {&#10;      e.printStackTrace();&#10;    }&#10;    System.out.println(&quot;END OF THREAD &quot;+n);&#10;  }&#10;}&#10;&#10;class ExecutorDemo {&#10;  public static void main(String[] args) {&#10;    ExecutorService threadManager = Executors.newFixedThreadPool(2);&#10;    System.out.println(&quot;START&quot;);&#10;    threadManager.submit(new Thread(new Task(1)));&#10;    threadManager.submit(new Thread(new Task(2)));&#10;    threadManager.submit(new Thread(new Task(3)));&#10;    threadManager.submit(new Thread(new Task(4)));&#10;    threadManager.shutdown();&#10;    while(!threadManager.isShutdown()){&#10;      System.out.println(&quot;RUNNING&quot;);&#10;    }&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/ProducerConsumerDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ProducerConsumerDemo.java" />
+                                      <option name="text" value="import java.util.ArrayList;&#10;import java.util.Scanner;&#10;import java.util.concurrent.ExecutorService;&#10;import java.util.concurrent.Executors;&#10;import java.util.concurrent.LinkedBlockingQueue;&#10;&#10;class Consumer extends Thread {&#10;  private LinkedBlockingQueue&lt;Integer&gt; queue;&#10;  private ArrayList&lt;Integer&gt; consumedValues = new ArrayList&lt;Integer&gt;();&#10;&#10;  public Consumer(LinkedBlockingQueue&lt;Integer&gt; queue) {&#10;    this.queue = queue;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;      while(!this.isInterrupted()) {&#10;        try {&#10;          System.out.println(&quot;Przed konsumpcją... &quot; + this.getName());&#10;          int value = queue.take();&#10;          System.out.println(&quot;...po konsumpcji! &quot; + this.getName());&#10;          consumedValues.add(value);&#10;          System.out.println(this.getName() + &quot; konsumuje: &quot; + value);&#10;        } catch (InterruptedException ex) {&#10;          this.interrupt();&#10;          System.out.println(&quot;Przerwano Consumer: &quot; + this);&#10;        }&#10;      }&#10;      System.out.println(&quot;KONIEC KOSNUMENTA&quot;);&#10;  }&#10;}&#10;&#10;class Producer implements Runnable {&#10;  LinkedBlockingQueue&lt;Integer&gt; queue;&#10;  Consumer[] consumers;&#10;&#10;  public Producer(LinkedBlockingQueue&lt;Integer&gt; queue, Consumer... consumers) {&#10;    this.queue = queue;&#10;    this.consumers = consumers;&#10;  }&#10;&#10;  @Override&#10;  public void run() {&#10;      for(int i=0; i&lt;10; ++i) {&#10;        try {&#10;          //queue.put(i);&#10;          Thread.sleep(500);&#10;        } catch (InterruptedException ex) {&#10;          System.out.println(&quot;Przerwano prace producenta!&quot;);&#10;        }&#10;      }&#10;      System.out.println(&quot;Koniec zadania producer!&quot;);&#10;  }&#10;&#10;  public synchronized void stop(){&#10;    Thread.currentThread().interrupt();&#10;  }&#10;}&#10;&#10;public class ProducerConsumerDemo {&#10;&#10;  public static void main(String[] args) throws Exception {&#10;    LinkedBlockingQueue queue = new LinkedBlockingQueue(10);&#10;    Consumer consumer1 = new Consumer(queue);&#10;    Consumer consumer2 = new Consumer(queue);&#10;    Producer producer = new Producer(queue,consumer1,consumer2);&#10;&#10;    ExecutorService exec = Executors.newCachedThreadPool();&#10;&#10;    exec.execute(producer);&#10;    exec.execute(consumer1);&#10;    exec.execute(consumer2);&#10;&#10;    Scanner scan = new Scanner(System.in);&#10;    String s = scan.next();&#10;    producer.stop();&#10;    consumer1.interrupt();&#10;    consumer2.interrupt();&#10;    exec.shutdown();&#10;    System.out.println(s);&#10;  }&#10;&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Programowanie funkcyjne" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Przykład problemu z wartością null&lt;/h1&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Część 1" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/NullProblemDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/NullProblemDemo.java" />
+                                      <option name="text" value="import java.time.LocalDate;&#10;&#10;class Person{&#10;  private String name;&#10;  private LocalDate birthDate;&#10;&#10;  public Person(String name, LocalDate birthDate) {&#10;    this.name = name;&#10;    this.birthDate = birthDate;&#10;  }&#10;&#10;  public String getName() {&#10;    return name;&#10;  }&#10;&#10;  public LocalDate getBirthDate() {&#10;    return birthDate;&#10;  }&#10;&#10;  public void setName(String name) {&#10;    this.name = name;&#10;  }&#10;&#10;  public void setBirthDate(LocalDate birthDate) {&#10;    this.birthDate = birthDate;&#10;  }&#10;}&#10;&#10;class NullProblemDemo {&#10;  public static void main(String[] args) {&#10;    Person prezes = new Person(&quot;Jarosław&quot;, LocalDate.of(1970, 1, 1));&#10;    //pole birthDate i name może mieć wartość null, gdy ktoś zmieni oba pola setterem&#10;    //musimy testować przed odwołaniem się do pola&#10;    prezes.setBirthDate(null);&#10;    if (prezes.getBirthDate() != null){&#10;      System.out.println(prezes.getBirthDate());&#10;      prezes.getBirthDate().compareTo(LocalDate.of(19070,1,2));&#10;    } else {&#10;      System.out.println(&quot;Brak daty urodzin, porównanie niemożliwe&quot;);&#10;    }&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Wyrażenia lambda&lt;/h1&gt;&#10;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Część 2" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/FunctionalInterfaceDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/FunctionalInterfaceDemo.java" />
+                                      <option name="text" value="interface Function{&#10;  public double apply(double a, double b);&#10;}&#10;&#10;class Addition implements Function{&#10;&#10;  @Override&#10;  public double apply(double a, double b) {&#10;    return a + b;&#10;  }&#10;}&#10;&#10;class FunctionalInterfaceDemo{&#10;&#10;  static double applyFunction(Function f, double a, double b){&#10;    return f.apply(a, b);&#10;  }&#10;&#10;  public static void main(String[] args) {&#10;    Function add = new Addition();&#10;    Function addf = (a, b) -&gt; a+ b;&#10;    double w = applyFunction(add, 10, 5);&#10;    System.out.println(w);&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                                <entry key="src/ThreadLambdaDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/ThreadLambdaDemo.java" />
+                                      <option name="text" value="public class ThreadLambdaDemo {&#10;  public static void main(String[] args) {&#10;    new Thread(()-&gt;{&#10;      try{&#10;        System.out.println(&quot;START&quot;);&#10;        Thread.sleep(1000);&#10;        System.out.println(&quot;END&quot;);&#10;      } catch (InterruptedException e) {&#10;        e.printStackTrace();&#10;      }&#10;    }).start();&#10;  }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Optional&lt;/h1&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Część 3" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/OptionalDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/OptionalDemo.java" />
+                                      <option name="text" value="import java.time.LocalDate;&#10;import java.util.Optional;&#10;&#10;class Person{&#10;  String name;&#10;  LocalDate birthDate;&#10;&#10;  public Optional&lt;String&gt; getName() {&#10;    return Optional.ofNullable(name);&#10;  }&#10;&#10;  public Optional&lt;LocalDate&gt; getBirthDate() {&#10;    return Optional.ofNullable(birthDate);&#10;  }&#10;}&#10;&#10;public class OptionalDemo {&#10;  public static void main(String[] args) {&#10;    Person manager = new Person();&#10;    System.out.println(&quot;birth date and name are null&quot;);&#10;    manager.getBirthDate().ifPresent(a-&gt;System.out.println(a));&#10;    System.out.println(manager.getName().orElse(&quot;Brak nazwiska&quot;).toUpperCase());&#10;    System.out.println(manager.getBirthDate().orElseGet(()-&gt;LocalDate.now()));&#10;    manager.birthDate = LocalDate.now();&#10;    manager.name = &quot;OCHÓCKI&quot;;&#10;    System.out.println(&quot;birth date and name are not null&quot;);&#10;    manager.getBirthDate().ifPresent(a-&gt;System.out.println(a));&#10;    System.out.println(manager.getName().orElse(&quot;Brak nazwiska&quot;));&#10;  }&#10;}&#10;" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;&lt;h1&gt;Przykład kilku operacji na strumieniach&lt;/h1&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="4" />
+                            <option name="name" value="Część 4" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="src/SimpleStreamDemo.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="false" />
+                                      <option name="name" value="src/SimpleStreamDemo.java" />
+                                      <option name="text" value="import java.util.Arrays;&#10;import java.util.List;&#10;&#10;class Task {&#10;  public static void main(String[] args) {&#10;    List&lt;String&gt; names= Arrays.asList(&quot;ADAM&quot;, &quot;KAROL&quot;, &quot;BOGDAN&quot;,&quot;DORIAN&quot;,&quot;PAWEŁ&quot;,&quot;ANDRZEJ&quot;,&quot;JAN&quot;);&#10;    //lista imion małymi literami&#10;    names.stream().map(a-&gt;a.toLowerCase()).forEach(a-&gt;System.out.println(a));&#10;    //Lista imion zaczynających się literą a&#10;    names.stream().filter(a-&gt; a.charAt(0)=='A').map(a-&gt;a.toLowerCase()).forEach(a-&gt;System.out.println(a));&#10;  }&#10;}" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="visible" value="true" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                            <option name="testsText">
+                              <map>
+                                <entry key="test/Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                  </list>
+                </option>
+              </Section>
+            </list>
+          </option>
+        </Course>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
