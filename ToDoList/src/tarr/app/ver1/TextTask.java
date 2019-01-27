@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 public class TextTask extends AbstractTask implements Serializable {
+  private static final long serialVersionUID = 1L;
 
   public TextTask(String content, LocalDate deadline) {
     super(content, deadline);

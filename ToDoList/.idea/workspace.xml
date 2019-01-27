@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23d0fd6-d56f-4e07-b6e0-ef090433f477" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/exercises/FunctionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/exercises/NewIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarr/app/ver2/NewClientApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/exercises/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/exercises/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/exercises/MyOwnWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/exercises/MyOwnWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver1/AbstractTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver1/AbstractTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver1/TextTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver1/TextTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/TodoContainer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/tarr/app/ver2/TodoContainer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tarr/app/ver2/IOTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tarr/app/ver2/IOTodo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,28 +27,37 @@
     <splitter split-orientation="horizontal" split-proportion="0.75660527">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/NewIODemo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+                <state relative-caret-position="420">
+                  <caret line="21" column="84" lean-forward="true" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#342#343#0" expanded="true" />
-                    <element signature="e#370#371#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/IOTodo.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/FunctionalDemo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                <state relative-caret-position="154">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#179#180#0" expanded="true" />
+                    <element signature="e#197#198#0" expanded="true" />
+                    <element signature="e#323#324#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="40">
+                  <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -104,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/ClientApp.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/exercises/GenericBox.java" />
-        <option value="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/Todoable.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/TodoContainer.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/FindTaskApp.java" />
@@ -119,12 +132,19 @@
         <option value="$PROJECT_DIR$/src/tarr/app/exercises/RunableDemo.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/exercises/FileDemo.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/exercises/MyOwnWriter.java" />
+        <option value="$PROJECT_DIR$/todopath.ser" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver2/NewClientApp.java" />
+        <option value="$PROJECT_DIR$/todolist.ser" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java" />
         <option value="$PROJECT_DIR$/src/tarr/app/ver2/IOTodo.java" />
+        <option value="$PROJECT_DIR$/src/tarr/app/exercises/FunctionalDemo.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/src/tarr/app/exercises/NewIODemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -162,6 +182,13 @@
               <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ver1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548595870557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548602264844" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -210,9 +237,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyOwnWriter">
-    <configuration name="ComparableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.ComparableDemo" />
+  <component name="RunManager" selected="Application.NewIODemo">
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.FileDemo" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
@@ -224,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.FileDemo" />
+    <configuration name="FunctionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.FunctionalDemo" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
@@ -250,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.ReflectionDemo" />
+    <configuration name="NewClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.ver2.NewClientApp" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarr.app.exercises.*" />
+          <option name="PATTERN" value="tarr.app.ver2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,8 +290,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.RunDemo" />
+    <configuration name="NewIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tarr.app.exercises.NewIODemo" />
       <module name="ToDoList" />
       <extension name="coverage">
         <pattern>
@@ -277,19 +304,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ComparableDemo" />
-      <item itemvalue="Application.ReflectionDemo" />
-      <item itemvalue="Application.RunDemo" />
       <item itemvalue="Application.FileDemo" />
       <item itemvalue="Application.MyOwnWriter" />
+      <item itemvalue="Application.NewClientApp" />
+      <item itemvalue="Application.NewIODemo" />
+      <item itemvalue="Application.FunctionalDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewIODemo" />
+        <item itemvalue="Application.FunctionalDemo" />
+        <item itemvalue="Application.NewClientApp" />
         <item itemvalue="Application.MyOwnWriter" />
         <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.RunDemo" />
-        <item itemvalue="Application.ReflectionDemo" />
-        <item itemvalue="Application.ComparableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -339,17 +366,18 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.16174497" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.16174497" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info x="652" y="222" width="377" height="474" id="Structure" order="7" sideWeight="0.57383966" side_tool="true" type="FLOATING" weight="0.25302014" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.23229462" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" weight="0.23229462" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932885" visible="true" weight="0.23229462" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49932885" visible="true" weight="0.23229462" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -364,6 +392,38 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" weight="0.3295302" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.42616034" visible="true" weight="0.16174497" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info x="652" y="222" width="377" height="474" id="Structure" order="7" sideWeight="0.57383966" side_tool="true" type="FLOATING" weight="0.25302014" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50067115" side_tool="true" weight="0.23229462" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49932885" visible="true" weight="0.23229462" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3286119" />
+      <window_info anchor="right" x="0" y="0" width="675" height="638" id="Documentation" order="0" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit directly from inteliJ" />
@@ -419,19 +479,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#936#937#0" expanded="true" />
             <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,17 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -639,12 +675,18 @@
     <entry file="file://$PROJECT_DIR$/zapisane_z_klawiatury.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.txt">
+    <entry file="file://$PROJECT_DIR$/todopath.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/AbsentTaskException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="40">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist.ser">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TextTask.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -652,16 +694,65 @@
           <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/AbstractTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/IOTodo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="326">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/ver2/NewClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/FunctionalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tarr/app/exercises/NewIODemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="84" lean-forward="true" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,8 +1,10 @@
 package tarr.app.ver1;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public abstract class AbstractTask {
+public abstract class AbstractTask implements Serializable {
+  private static final long serialVersionUID = 2L;
   private final String content;
   private final LocalDate creation;
   private boolean isDone;
