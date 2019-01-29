@@ -4,23 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TaskStorage {
-  List <String> storage = new ArrayList<String>();
-  int index;
+  private List<String> storage = new ArrayList<String>();
+  String task;
 
+  NewTaskTodo taskTodo = new NewTaskTodo( task);
 
+  public TaskStorage() {
+  }
 
-  public TaskStorage(List<String> storage, int index) {
+  public TaskStorage(List<String> storage, String taskTodo) {
     this.storage = storage;
-    this.index = index;
-    storage.add(0, "ajksdfha");
-    storage.add(1, "14rfs");
-    storage.add(2, "2esf");
-    storage.add(3, "3sefsfs");
+    this.task = taskTodo;
   }
 
-  void getTask(List<String> storage, int index){
-    storage.get(index);
-    System.out.println(storage.get(index));
+  void getTask(int i) {
+    System.out.println(storage.get(i));
   }
 
+  public void add(int i, String ajksdfha) {
+  }
 }
