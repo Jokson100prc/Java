@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/littleTodo/Storekeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/littleTodo/Storekeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/littleTodo/TaskStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/littleTodo/TaskStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/LittleTodo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/TodoStorage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/TodoStorageInterace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/Storekeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/Storekeeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/TaskStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/littleTodo/TaskStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +36,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="358">
+              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="e#497#498#0" expanded="true" />
@@ -212,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548729974683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548785279195" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -376,7 +377,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932885" visible="true" weight="0.23229462" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49932885" weight="0.23229462" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -754,12 +755,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tarr/app/ver1/TaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="358">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#461#462#0" expanded="true" />
             <element signature="e#497#498#0" expanded="true" />

@@ -7,7 +7,7 @@ public class TaskStorage {
   private List<String> storage = new ArrayList<String>();
   String task;
 
-  NewTaskTodo taskTodo = new NewTaskTodo( task);
+//  NewTaskTodo taskTodo = new NewTaskTodo( task);
 
   public TaskStorage() {
   }
@@ -21,6 +21,11 @@ public class TaskStorage {
     System.out.println(storage.get(i));
   }
 
-  public void add(int i, String ajksdfha) {
+  public boolean addTask(String task) {
+    return storage.add(task);
+  }
+
+  public boolean removeTask(int i){
+    return Boolean.parseBoolean(storage.remove(i));
   }
 }
