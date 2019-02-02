@@ -1,0 +1,4 @@
+Jan 2019-01-14, green
+MARIA 2019-02-13, null
+Horacy 2019-02-13, brown
+Marta 2019-08-23, blue
