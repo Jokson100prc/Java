@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FooAndPrimitiveParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ClickApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/FirstApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/SecondExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ThirdExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/IOFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/UIApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/JSONGetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/Exchange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ClickApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/ClickApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/FirstApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/FirstApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/SecondExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/SecondExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ThirdExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/ThirdExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/ClickApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/FirstApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/SecondExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/ThirdExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/inputOutputFileIO/IOFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/inputOutputFileIO/UIApp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,7 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549117887791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549121587142" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ToDoList" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -210,7 +218,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />

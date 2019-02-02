@@ -1,4 +1,4 @@
-package exercises;
+package demoFX;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -31,16 +31,20 @@ public class ThirdExercises extends Application {
 
 
     int satelites = 6;
-    double w0 = w / 2;
-    double h0 = h / 2;
+    double x0 = w / 2;
+    double y0 = h / 2;
 
     double bigRadius = 180;
 
     double smallRadius = 150;
 
-//    for (double alfa = 0; alfa < Math.PI * 2; alfa += 2 * Math.PI / satelites)
-//  Circle c = new Circle();
+    for (double alfa = 0; alfa < Math.PI * 2; alfa += 2 * Math.PI / satelites) {
+      Circle c = new Circle(x0 + Math.sin(alfa) * bigRadius, y0 + Math.cos(alfa) * bigRadius, smallRadius);
+
+      c.setFill(Color.ORANGERED);
+
+      root.getChildren().add(c);
+    }
   }
 }
-
 

@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/JSONGetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/study_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Smartphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/out/production/classes/Smartphone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy1/Java zaawansowana/Interfejsy/Zadanie 2/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/ComparableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/out/production/ToDoList/tarr/app/exercises/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ComparableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/Exchange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ClickApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/ClickApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/FirstApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/FirstApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/SecondExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/SecondExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exercises/ThirdExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/ThirdExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/ClickApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/FirstApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/SecondExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exercises/ThirdExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/inputOutputFileIO/IOFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/inputOutputFileIO/UIApp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +29,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +151,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -266,13 +280,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2442953" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24765101" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29745042" />
@@ -658,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcString/PatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -676,6 +684,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="26" column="90" selection-start-line="26" selection-start-column="90" selection-end-line="26" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>

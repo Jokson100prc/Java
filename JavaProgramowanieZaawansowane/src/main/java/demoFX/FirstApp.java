@@ -1,4 +1,4 @@
-package exercises;
+package demoFX;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
