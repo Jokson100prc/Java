@@ -49,17 +49,10 @@ public class ClickApp extends Application {
 //      System.out.println(xCircle + " " + yCircle + " " + rCircle + " " + xMouse + " " + yMouse);
 
       int score = 0;
-      if (
-      ((xCircle + (rCircle )) == (xMouse + (rCircle )))
-              &&
-              ((xCircle - (rCircle )) == (xMouse - (rCircle )))
-              &&
-              ((yCircle + (rCircle ) == (yMouse + rCircle)))
-              &&
-              ((yCircle + (rCircle ) == (yMouse + rCircle)))){
-                System.out.println("ok");
-      }
-//System.out.println("Clicked");
+
+    });
+
+//    System.out.println("Clicked");
 //    root.setOnMouseClicked(event -> {
 //      double x = event.getSceneX();
 //      double y = event.getSceneY();
@@ -69,7 +62,7 @@ public class ClickApp extends Application {
 //      Circle c = new Circle(x, y, 25);
 //      c.setFill(Color.rgb(red, green, blue));
 //      root.getChildren().add(c);
-    });
+//    });
 
     primaryStage.setScene(scene);
     primaryStage.setTitle("Click Me!");

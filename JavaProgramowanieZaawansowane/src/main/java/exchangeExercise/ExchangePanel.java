@@ -7,11 +7,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-//import javafx.scene.Scene;
-//import javafx.scene.layout.Pane;
-//import javafx.scene.paint.Color;
+import javafx.scene.Scene;
+import javafx.scene.paint.Color;
 
-public class Exchange extends Application {
+public class ExchangePanel extends Application {
 
   public static void main(String[] args) {
     launch(args);
@@ -19,15 +18,6 @@ public class Exchange extends Application {
 
   @Override
   public void start(Stage primaryStage) {
-
-//    Pane root = new Pane();
-//    Scene scene = new Scene(root,400,800);
-//    scene.setFill(Color.BURLYWOOD);
-//
-//
-//    primaryStage.setScene(scene);
-//    primaryStage.setTitle("exchangeExercise.Exchange");
-//    primaryStage.show();
 
     VBox root = new VBox();
     root.setAlignment(Pos.CENTER);
@@ -59,6 +49,15 @@ public class Exchange extends Application {
     newCurrency.cancelEdit();
     newCurrency.setAlignment(Pos.CENTER);
     root.getChildren().addAll(labelNewCurrency, newCurrency);
+
+    Scene scene = new Scene(root,400,800);
+    scene.setFill(Color.BURLYWOOD);
+
+
+    primaryStage.setScene(scene);
+    primaryStage.setTitle("exchangeExercise.ExchangePanel");
+    primaryStage.show();
+
 
 
   }
