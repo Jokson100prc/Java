@@ -59,3 +59,25 @@ public class CurrencyJsonReader {
   }
 
 }
+/*root.add(new Label("Waluta"), 0, 0);
+    ComboBox<String> currency = new ComboBox<>();
+    root.add(currency,1,0);
+
+    root.add(new Label("Kurs"),0,1);
+    TextField kurs = new TextField();
+    kurs.setEditable(false);
+    root.add(kurs,1,1);
+
+    root.add(new Label("Kwota w zł"),0,2);
+    TextField amountZL = new TextField();
+    root.add(amountZL, 1,2);
+
+    root.add(new Label("Kwota w walucie"),0,3);
+    TextField amountC = new TextField();
+    amountC.setEditable(false);
+    root.add(amountC,1,3);
+
+    Scene scene = new Scene(root, 300, 200);
+    primaryStage.setScene(scene);
+    primaryStage.setTitle("Czendżmany.pl");
+    primaryStage.show();*/

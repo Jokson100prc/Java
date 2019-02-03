@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/CurrencyJsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/TestJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/Todo/Controler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/Todo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/Todo/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/demoFX/Todo/ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/ExchangeGridPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FooAndPrimitiveParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FooAndPrimitiveParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FooAndPrimitiveParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FooAndPrimitiveParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PrimitiveTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/CurrencyJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/CurrencyJsonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/ExchangePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/ExchangePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/JSONGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/IOjson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/IOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/IOFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/demoFX/ClickApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/demoFX/ClickApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/ExchangePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/ExchangePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/JSONGetter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs Javy4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,16 +25,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FooAndPrimitiveParameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="180">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,10 +73,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="85" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="950" />
+    <option name="y" value="50" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -84,7 +85,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,16 +111,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="InheritansEggAndHen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Todo2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549189162522" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javatarr2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549231505300" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -224,7 +241,7 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1328859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -339,12 +356,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FooAndPrimitiveParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="180">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -37,6 +37,13 @@ public class ExchangePanel extends Application {
 
     ComboBox<String> currency = new ComboBox<>();
     CurrencyJsonReader reader = new CurrencyJsonReader();
+    List<CurrencyJsonReader.CurrencyRate> list = reader.getCurencies();
+    for(CurrencyJsonReader.CurrencyRate item: list){
+      currency.getItems().add(item.name);
+    }
+    currency.setOnAction(event -> {
+
+    });
     root.add( currency,1,0);
 
 
@@ -52,16 +59,6 @@ public class ExchangePanel extends Application {
     newCurrency.cancelEdit();
     newCurrency.setAlignment(Pos.CENTER);
     root.getChildren().add( newCurrency);
-
-
-
-    List<CurrencyJsonReader.CurrencyRate> list = reader.getCurencies();
-    for(CurrencyJsonReader.CurrencyRate item: list){
-      currency.getItems().add(item.name);
-    }
-    currency.setOnAction(event -> {
-
-    });
 
     amount.setOnAction(event ->{
       int index = currency.getSelectionModel().getSelectedIndex();
