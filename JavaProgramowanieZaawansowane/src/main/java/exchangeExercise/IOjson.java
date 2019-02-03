@@ -1,15 +1,15 @@
-package inputOutputFileIO;
+package exchangeExercise;
 
-        import java.io.*;
-        import java.util.ArrayList;
-        import java.util.List;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class IOFile {
+public class IOjson {
 
-  static void saveToFile(List<String> list, String fileName) {
+  static void saveToFile(List<CurrencyJsonReader.CurrencyRate> list, String fileName) {
     try (FileWriter writer = new FileWriter(fileName)) {
-      for (String str : list) {
-        writer.append(str + System.lineSeparator());
+      for (CurrencyJsonReader.CurrencyRate item : list) {
+        writer.append(item + System.lineSeparator());
       }
     } catch (IOException e) {
       e.printStackTrace();

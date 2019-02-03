@@ -3,12 +3,18 @@ package exchangeExercise;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.util.List;
 
 public class ExchangePanel extends Application {
 
@@ -17,40 +23,54 @@ public class ExchangePanel extends Application {
   }
 
   @Override
-  public void start(Stage primaryStage) {
+  public void start(Stage primaryStage) throws IOException {
 
-    VBox root = new VBox();
+    GridPane root = new GridPane();
     root.setAlignment(Pos.CENTER);
-    root.setSpacing(10);
-    root.setPadding(new Insets(10, 10, 10, 10));
+    root.setVgap(10);
+    root.setHgap(10);
 
 
 
     Label labelCurrencyName = new Label("Currency:");
-    TextField currency = new TextField("Your currency");
-    currency.setAlignment(Pos.CENTER);
-    currency.setOnAction(event -> {
+    root.getChildren().add(labelCurrencyName);
 
-    });
-    root.getChildren().addAll(labelCurrencyName, currency);
+    ComboBox<String> currency = new ComboBox<>();
+    CurrencyJsonReader reader = new CurrencyJsonReader();
+    root.add( currency,1,0);
 
 
-    Label labelAmountName = new Label("Amount PLN:");
+    root.add(new Label("Amount PLN:"),0 ,2);
     TextField amount = new TextField("Your amount (PLN)");
     amount.setAlignment(Pos.CENTER);
-    amount.setOnAction(event ->{
-
-    });
-    root.getChildren().addAll(labelAmountName, amount);
+    root.getChildren().add( amount);
 
 
-    Label labelNewCurrency = new Label("New amount");
+
+    root.add(new Label("New amount"),0,2);
     TextField newCurrency = new TextField("New amount");
     newCurrency.cancelEdit();
     newCurrency.setAlignment(Pos.CENTER);
-    root.getChildren().addAll(labelNewCurrency, newCurrency);
+    root.getChildren().add( newCurrency);
 
-    Scene scene = new Scene(root,400,800);
+
+
+    List<CurrencyJsonReader.CurrencyRate> list = reader.getCurencies();
+    for(CurrencyJsonReader.CurrencyRate item: list){
+      currency.getItems().add(item.name);
+    }
+    currency.setOnAction(event -> {
+
+    });
+
+    amount.setOnAction(event ->{
+      int index = currency.getSelectionModel().getSelectedIndex();
+      CurrencyJsonReader.CurrencyRate rate = list.get(index);
+      double price = Double.parseDouble(amount.getText());
+      newCurrency.setText((rate.rate * price) + "");
+    });
+
+    Scene scene = new Scene(root,500,800);
     scene.setFill(Color.BURLYWOOD);
 
 

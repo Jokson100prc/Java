@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03af005b-14ff-4e39-b386-eb1dbc9e9259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/RunDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ToDoList/src/tarr/app/exercises/ThreadDemo.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/CurrencyJsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/FooAndPrimitiveParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/FooAndPrimitiveParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/ExchangePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/ExchangePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/JSONGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/exchangeExercise/IOjson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/IOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/src/main/java/inputOutputFileIO/IOFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/demoFX/ClickApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/demoFX/ClickApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/ExchangePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/ExchangePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/target/classes/exchangeExercise/JSONGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -75,13 +77,13 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java zaawansowana/Refleksja/Część 1/src/ReflectionDemo.java">
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="-120">
+                <MainEditorState relative-caret-position="180">
                   <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
                 </MainEditorState>
               </EduEditorState>
@@ -94,7 +96,7 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="-94">
+                <MainEditorState relative-caret-position="220">
                   <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
                 </MainEditorState>
               </EduEditorState>
@@ -107,8 +109,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="538">
-                  <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+                <MainEditorState relative-caret-position="178">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -120,7 +122,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -132,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="Course">
         <subPane>
@@ -150,13 +151,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548587316365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="gradle.experimental" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Java\Kurs Javy4\Java zaawansowana\Programowanie funkcyjne\Część 4\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,23 +214,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -230,16 +232,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Task" visible="true" weight="0.07248322" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Task" order="4" visible="true" weight="0.07248322" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -247,7 +255,7 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="-120">
+            <MainEditorState relative-caret-position="180">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </MainEditorState>
           </EduEditorState>
@@ -258,7 +266,7 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="-94">
+            <MainEditorState relative-caret-position="220">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </MainEditorState>
           </EduEditorState>
@@ -269,8 +277,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="538">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <MainEditorState relative-caret-position="178">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </MainEditorState>
           </EduEditorState>
         </state>

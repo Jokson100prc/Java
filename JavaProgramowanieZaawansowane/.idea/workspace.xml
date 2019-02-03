@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac822635-9f4a-41dc-96a3-0fcc95ffdb50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exchangeExercise/CurrencyJsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exchangeExercise/TestJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/FooAndPrimitiveParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/FooAndPrimitiveParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demoFX/ClickApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFX/ClickApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exchangeExercise/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exchangeExercise/JSONGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exchangeExercise/IOjson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFX/ClickApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFX/ClickApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exchangeExercise/ExchangePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exchangeExercise/ExchangePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exchangeExercise/JSONGetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs Javy4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs Javy4/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,14 +24,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7483221">
+    <splitter split-orientation="horizontal" split-proportion="0.4885906">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1000">
-                  <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+                <state relative-caret-position="-54">
+                  <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -32,10 +40,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/UIApp.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/CurrencyJsonReader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+                <state relative-caret-position="333">
+                  <caret line="59" selection-start-line="59" selection-end-line="59" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -44,55 +52,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/TestJson.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="60">
+                  <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/ThirdExercises.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/IOjson.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="664">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/SecondExercise.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-202">
-                  <caret line="30" selection-start-line="30" selection-end-line="32" />
+                <state relative-caret-position="44">
+                  <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/FirstApp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/ClickApp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-521">
-                  <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -104,8 +79,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                <state relative-caret-position="326">
+                  <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -139,19 +114,22 @@
         <option value="$PROJECT_DIR$/src/main/java/exercises/ClickApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercises/UIApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercises/IOFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/ChangeMonneyApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exchange.java" />
         <option value="$PROJECT_DIR$/src/main/java/demoFX/ThirdExercises.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/inputOutputFileIO/UIApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/Exchange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/demoFX/ClickApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/TestJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/CurrencyJsonReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/IOjson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="85" />
     <option name="width" value="1750" />
@@ -222,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549128154029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549189162765" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -241,13 +219,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClickApp">
+  <component name="RunManager" selected="Application.ExchangePanel">
     <configuration name="ClickApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demoFX.ClickApp" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inputOutputFileIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyJsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exchangeExercise.CurrencyJsonReader" />
+      <module name="JavaProgramowanieZaawansowane" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exchangeExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,25 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demoFX.SecondExercise" />
+    <configuration name="TestJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exchangeExercise.TestJson" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inputOutputFileIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demoFX.ThirdExercises" />
-      <module name="JavaProgramowanieZaawansowane" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demoFX.*" />
+          <option name="PATTERN" value="exchangeExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClickApp" />
         <item itemvalue="Application.ExchangePanel" />
+        <item itemvalue="Application.TestJson" />
+        <item itemvalue="Application.CurrencyJsonReader" />
+        <item itemvalue="Application.ClickApp" />
         <item itemvalue="Application.UIApp" />
-        <item itemvalue="Application.ThirdExercises" />
-        <item itemvalue="Application.SecondExercise" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -334,16 +312,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1738255" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17705382" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,17 +342,17 @@
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1738255" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.1738255" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.17705382" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.2719547" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -421,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/JSONGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -442,30 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/UIApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -501,8 +452,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/ClickApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="1020">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/IOjson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/CurrencyJsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inputOutputFileIO/IOFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
