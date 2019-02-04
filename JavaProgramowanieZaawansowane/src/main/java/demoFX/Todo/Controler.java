@@ -27,11 +27,11 @@ public class Controler {
   public void initialize(){
   }
 
-  @FXML
-  public void addTaskTodo(){
-    //Dodanie zadania do kolekcji
-    Alert info = new Alert("Zadziałał przycisk addTask " + taskContent.getText());
-    info.show();
-  }
+//  @FXML
+//  public void addTaskTodo(){
+//    //Dodanie zadania do kolekcji
+//    Alert info = new Alert("Zadziałał przycisk addTask " + taskContent.getText());
+//    info.show();
+//  }
 
 }
