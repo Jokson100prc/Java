@@ -11,6 +11,7 @@ import java.util.Collections;
 
 public class JsonPReader {
   public static void main(String[] args) {
+
     try {
       URL url = new URL("https://api-v3.mojepanstwo.pl/dane/zamowienia_publiczne.json");
       JsonReaderFactory readerFactory = Json.createReaderFactory(Collections.emptyMap());
