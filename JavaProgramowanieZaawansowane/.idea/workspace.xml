@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac822635-9f4a-41dc-96a3-0fcc95ffdb50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIAnimationShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIShapeShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/MyChat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/MyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/net/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adv1_jsonDemo/JsonPReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adv1_jsonDemo/JsonPReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFX/Todo/Controler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFX/Todo/Controler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,19 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="287">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIShapeShow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="260">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,22 +49,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIImage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/MyChat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+            <state relative-caret-position="1540">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,22 +61,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIAnimationShape.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/HttpDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="42" column="120" selection-start-line="42" selection-start-column="120" selection-end-line="42" selection-end-column="120" />
+            <state relative-caret-position="100">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIClick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -106,8 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,10 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/ExchangeGridPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/exchangeExercise/CurrencyJsonReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/demoFX/todo/ui.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/TodoApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/ui.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" />
         <option value="$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIClick.java" />
@@ -150,10 +120,16 @@
         <option value="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIShapeShow.java" />
         <option value="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIImage.java" />
         <option value="$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIAnimationShape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demoFX/Todo/TodoApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/MyChat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="952" />
     <option name="y" value="50" />
     <option name="width" value="977" />
@@ -196,6 +172,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adv1_jsonDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProgramowanieZaawansowane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProgramowanieZaawansowane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="adv2_FXDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,7 +188,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demoFX" type="462c0819:PsiDirectoryNode" />
+              <item name="exchangeExercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaProgramowanieZaawansowane" type="b2602c69:ProjectViewProjectNode" />
@@ -212,25 +196,37 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demoFX" type="462c0819:PsiDirectoryNode" />
-              <item name="Todo" type="462c0819:PsiDirectoryNode" />
+              <item name="inputOutputFileIO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProgramowanieZaawansowane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProgramowanieZaawansowane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549642440229" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549721196590" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Java\JavaProgramowanieZaawansowane\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,13 +240,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UIAnimationShape">
-    <configuration name="JsonPWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv1_jsonDemo.JsonPWriter" />
+  <component name="RunManager" selected="Application.HttpDemo">
+    <configuration name="HttpDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.HttpDemo" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv1_jsonDemo.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,12 +254,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIAnimationShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2_FXDemo.UIAnimationShape" />
+    <configuration name="MyChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.MyChat" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2_FXDemo.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2_FXDemo.UIClick" />
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.MyClient" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2_FXDemo.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2_FXDemo.UIImage" />
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.MyServer" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2_FXDemo.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,12 +293,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UIShapeShow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adv2_FXDemo.UIShapeShow" />
+    <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demoFX.Todo.TodoApp" />
       <module name="JavaProgramowanieZaawansowane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adv2_FXDemo.*" />
+          <option name="PATTERN" value="demoFX.Todo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UIAnimationShape" />
-        <item itemvalue="Application.UIImage" />
-        <item itemvalue="Application.UIShapeShow" />
-        <item itemvalue="Application.JsonPWriter" />
-        <item itemvalue="Application.UIClick" />
+        <item itemvalue="Application.HttpDemo" />
+        <item itemvalue="Application.MyChat" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.TodoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -335,6 +331,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="40" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -342,15 +339,15 @@
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.59500694" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.39112344" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.24928367" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50208044" side_tool="true" weight="0.40401146" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49791956" visible="true" weight="0.5730659" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -512,23 +509,6 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/Todo/TodoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/Todo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/URL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -550,21 +530,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UISimply.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/Todo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UISimply.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/adv1_jsonDemo/JsonPReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="300">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -590,7 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="539">
           <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -600,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="539">
           <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -608,17 +602,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIClick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIAnimationShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="317">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adv2_FXDemo/UIAnimationShape.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demoFX/Todo/TodoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="120" selection-start-line="42" selection-start-column="120" selection-end-line="42" selection-end-column="120" />
+        <state relative-caret-position="319">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/MyChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/HttpDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -703,6 +740,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.json:javax.json-api:1.1.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
