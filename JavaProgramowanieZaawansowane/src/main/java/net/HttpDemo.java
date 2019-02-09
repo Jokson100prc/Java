@@ -18,17 +18,16 @@ public class HttpDemo {
 
     Scanner in = new Scanner(http.getInputStream());
 
-    // <meta >
+    // filter by: <meta > tags
+    Pattern pattern = Pattern.compile("meta([^>]*)");
+    Matcher matcher;
+    while (in.hasNext()) {
+        String line = in.nextLine();
+        matcher = pattern.matcher(line);
+        while (matcher.find()){
 
-    Pattern pattern = Pattern.compile("", Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CHARACTER_CLASS);
-    Matcher matches = pattern.matcher("");
-
-
-    while(in.hasNext()){
-      String line = in.nextLine();
-      line.matches();
-      System.out.println(in.nextLine());
-
+          System.out.println(matcher.group(1));
+      }
     }
   }
 }

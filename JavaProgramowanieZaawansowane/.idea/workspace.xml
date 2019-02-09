@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac822635-9f4a-41dc-96a3-0fcc95ffdb50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/net/MyChat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/net/MyClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/net/MyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/httpBoxExercise.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/httpBoxExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFX/Todo/Controler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demoFX/Todo/Controler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFX/Todo/Controler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/HttpDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/HttpDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/HttpDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="420">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,14 +67,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/httpBoxExercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/httpBoxExercise.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="-7" />
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -126,11 +138,12 @@
         <option value="$PROJECT_DIR$/src/main/java/net/MyClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/MyServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/HttpDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/httpBoxExercise.fxml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="50" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -216,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549721196590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549724128830" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -330,8 +343,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="40" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -339,7 +351,7 @@
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.39112344" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14899328" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
@@ -347,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50208044" side_tool="true" weight="0.40401146" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49791956" visible="true" weight="0.5730659" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49791956" weight="0.1529745" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -654,11 +666,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/HttpDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="420">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/httpBoxExercise.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-7" />
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/httpBoxExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
