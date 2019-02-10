@@ -1,6 +1,7 @@
 package demoFX.Todo;
 
 import java.time.LocalDate;
+import java.util.Optional;
 
 public abstract class AbstractTask {
   private final LocalDate created;
@@ -12,7 +13,7 @@ public abstract class AbstractTask {
     created = LocalDate.now();
   }
 
-  public LocalDate getCeated() {
+  public LocalDate getCreated() {
     return created;
   }
 
@@ -37,12 +38,26 @@ public abstract class AbstractTask {
   }
 
   public boolean isDoneBeforeDeadline() {
-    if (isDone()) return false;
-    
-    return completed.isBefore(deadLine);
+    if (!isDone()) return false;
+
+    return completed.isBefore(deadLine) || completed.equals(deadLine);
   }
 
   abstract public Object getContent();
 
+  public int getDaysToDeadLine() {
+    if (deadLine == null) {
+      return Integer.MAX_VALUE;
+    }
 
+
+    return (int) (deadLine.toEpochDay() - LocalDate.now().toEpochDay());
+  }
+  
+  public Optional<Integer> getDaysToDeadLineOptional(){
+    if( deadLine==null){
+      return new Optional<>(null);
+    }
+    return new Optional<>((int)(deadLine.toEpochDay() - LocalDate.now().toEpochDay());
+  }
 }
