@@ -49,15 +49,13 @@ public abstract class AbstractTask {
     if (deadLine == null) {
       return Integer.MAX_VALUE;
     }
-
-
     return (int) (deadLine.toEpochDay() - LocalDate.now().toEpochDay());
   }
-  
+
   public Optional<Integer> getDaysToDeadLineOptional(){
     if( deadLine==null){
-      return new Optional<>(null);
+      return Optional.ofNullable(null);
     }
-    return new Optional<>((int)(deadLine.toEpochDay() - LocalDate.now().toEpochDay());
+    return Optional.ofNullable((int)(deadLine.toEpochDay() - LocalDate.now().toEpochDay()));
   }
 }
