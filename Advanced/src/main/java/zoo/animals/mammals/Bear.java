@@ -1,6 +1,6 @@
 package zoo.animals.mammals;
 
-import zoo.animals.AbstractAnimal;
+import zoo.animals.Animal;
 
 public class Bear extends AbstractMammals {
 
@@ -14,7 +14,12 @@ public class Bear extends AbstractMammals {
   }
 
   @Override
-  AbstractMammals getNewAnimal(AbstractMammals name) {
-    return new Bear(20,"Tedy");
+  public AbstractMammals getNewAnimal(int weight, String name) {
+    return new Bear(weight, name);
+  }
+
+  @Override
+  public Animal getNewAnimal2(Animal name) {
+    return name;
   }
 }

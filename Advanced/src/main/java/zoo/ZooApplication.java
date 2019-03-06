@@ -1,11 +1,14 @@
 package zoo;
 
+import zoo.animals.Animal;
 import zoo.animals.birds.AbstractBird;
 import zoo.animals.birds.Canary;
 import zoo.animals.birds.Eagle;
-import zoo.animals.mammals.Bear;
-import zoo.animals.mammals.Goat;
+import zoo.animals.mammals.*;
+//import zoo.animals.mammals.Bear;
+//import zoo.animals.mammals.Goat;
 import zoo.stuff.BirdKeeper;
+import zoo.stuff.MammalKeeper;
 
 import java.util.Arrays;
 
@@ -36,22 +39,49 @@ public class ZooApplication {
 
     Bear yogi = new Bear(400, "Yogi");
 
-    System.out.println(yogi.getName() + " & " + greg);
-    /*TODO
-    Stworzyć:
-    Kanarek
+    // barry is for delete!
+    Animal barry = null;
+    yogi.getNewAnimal2(barry);
+//    barry.eat(33);
+//    System.out.println(barry.getWeight());
+    Animal marry = greg.getNewAnimal(5, "Marry");
+    System.out.println(yogi.getName() + " & " + marry.getName() + " & " + barry);
 
-    AbstractAnimal
-      AbstractMammal -> abstract getNewAnimal(name) ->
 
-        Koza
-        Bear
-        Foka
+    MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammals)marry,yogi,greg), "Anna",25);
+    anna.feedAnimal((AbstractMammals) marry);
 
-    AnimalKeeper<AbstractMammal>
+    anna.getAnimals().forEach(anna::feedAnimal);
+    for (AbstractMammals mammal : anna.getAnimals()) {
+      anna.playWithAnimal(mammal);
+    }
+    System.out.println(marry.getWeight());
 
-    Zatrudnij Anne ^ i każ jej karmić zwierzęta, oraz odbierać porody
+//    for (AbstractMammals mammal : anna.getAnimals()) {
+//anna.getAnimals().      // anna.getAnimals.getNewAnimal...
+//    }
 
-    */
+    /**TODO Stworzyć:
+     *
+     * Kanarek
+     *
+     * AbstractAnimal
+     * AbstractMammal -> abstract getNewAnimal(name) ->
+     *
+     *  Koza
+     *  Bear
+     *  Foka
+     *
+     *  AnimalKeeper<AbstractMammal>
+     *
+     * Zatrudnij Anne ^ i każ jej karmić zwierzęta, oraz odbierać porody
+     *
+     */
+
+
+    /** TODO : emploee gives meal to animal, animal growing  */
+
+
+    /** TODO : barry - object from ZooAplication - is to delete */
   }
 }
