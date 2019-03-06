@@ -78,11 +78,13 @@ assertThat(greetingNames).isEqualTo("Hello, Arnold and Zin");
   @Test
   void test5() {
     //given
+    String[] names={"Arnold", "Zin", "Viki"};
 
     //when
+    String greetingNames = GreetingKata2.getNames(names);
 
     //then
-
+    assertThat(greetingNames).isEqualTo("Hello, Arnold, Zin, and ");
   }
 }
 
