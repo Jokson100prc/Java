@@ -1,9 +1,9 @@
 package zoo;
 
 import zoo.animals.Animal;
-import zoo.animals.birds.AbstractBird;
-import zoo.animals.birds.Canary;
-import zoo.animals.birds.Eagle;
+import zoo.animals.birds.*;
+//import zoo.animals.birds.Canary;
+//import zoo.animals.birds.Eagle;
 import zoo.animals.mammals.*;
 //import zoo.animals.mammals.Bear;
 //import zoo.animals.mammals.Goat;

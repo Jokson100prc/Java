@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata8Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata8Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zoo/ZooApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/ZooApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/AbstractMammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/AbstractMammals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Bear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Bear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Goat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Goat.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38187918">
+    <splitter split-orientation="horizontal" split-proportion="0.4738255">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
+                <state relative-caret-position="245">
                   <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -86,15 +74,11 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata9Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="219">
-                  <caret line="59" column="56" lean-forward="true" selection-start-line="59" selection-start-column="56" selection-end-line="61" selection-end-column="7" />
+                <state relative-caret-position="354">
+                  <caret line="114" column="39" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -102,11 +86,36 @@
               </provider>
             </entry>
           </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="233">
+                  <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="61" selection-end-column="7" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata9.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="9" column="24" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
+                <state relative-caret-position="200">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -173,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tdd/mock/CurrencyRatio.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata1Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata3Test.java" />
@@ -224,6 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata9Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata9.java" />
       </list>
     </option>
   </component>
@@ -234,7 +243,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="50" />
     <option name="width" value="980" />
@@ -279,7 +288,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
@@ -287,36 +296,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="fizzBuzzKata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="mammals" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="stuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tdd" type="462c0819:PsiDirectoryNode" />
+              <item name="fizzBuzzKataTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,7 +337,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551907588548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551975060898" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
@@ -341,8 +352,8 @@
       <recent name="InheritansEggAndHen" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="tdd.fizzBuzzKataTest" />
       <recent name="tdd.fizzBuzzKata" />
+      <recent name="tdd.fizzBuzzKataTest" />
       <recent name="tdd.hi_lo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -369,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZooApplication">
+  <component name="RunManager" selected="JUnit.FizzBuzzKata9Test">
     <configuration name="HiLo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tdd.hi_lo.HiLo" />
       <module name="Advanced" />
@@ -414,21 +425,6 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="FizzBuzzKata6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.fizzBuzzKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd.fizzBuzzKataTest" />
-      <option name="MAIN_CLASS_NAME" value="tdd.fizzBuzzKataTest.FizzBuzzKata6Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FizzBuzzKata7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Advanced" />
       <extension name="coverage">
@@ -459,13 +455,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzKata9Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.fizzBuzzKataTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd.fizzBuzzKataTest" />
+      <option name="MAIN_CLASS_NAME" value="tdd.fizzBuzzKataTest.FizzBuzzKata9Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzKata9Test" />
         <item itemvalue="Application.ZooApplication" />
         <item itemvalue="JUnit.FizzBuzzKata8Test" />
         <item itemvalue="JUnit.FizzBuzzKata7Test" />
         <item itemvalue="Application.HiLo" />
-        <item itemvalue="JUnit.FizzBuzzKata6Test" />
       </list>
     </recent_temporary>
   </component>
@@ -486,35 +497,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 11m 34s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 05m 55s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 11m 46s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 06m 38s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 14m 35s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 06m 56s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 14m 53s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 08m 03s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 22m 51s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 08m 19s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 23m 20s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 08m 36s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 23m 44s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 09m 16s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 23m 59s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 09m 30s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 17h 24m 22s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 09m 57s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzKata8Test - 2019.03.06 at 18h 23m 11s.xml">
-      <configuration name="FizzBuzzKata8Test" configurationId="JUnit" />
+    <history-entry file="FizzBuzzKata9Test - 2019.03.07 at 17h 10m 18s.xml">
+      <configuration name="FizzBuzzKata9Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -528,7 +539,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66820276" weight="0.23557048" />
       <window_info id="Structure" order="1" sideWeight="0.33179724" side_tool="true" weight="0.23557048" />
@@ -540,7 +550,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34702548" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,12 +605,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/mock/CurrencyProvider.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/mock/CurrencyRatio.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tdd/mock/CurrencyConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -867,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata8Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -939,10 +933,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="200">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -960,17 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -982,39 +991,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/AbstractEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="160">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata8Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="-1">
+          <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="129" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="59" column="56" lean-forward="true" selection-start-line="59" selection-start-column="56" selection-end-line="61" selection-end-column="7" />
+        <state relative-caret-position="233">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="61" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata9Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="114" column="39" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
