@@ -8,16 +8,16 @@ public class HiLo {
     int number=(int) (Math.random()*100)+1;
 //    System.out.println(number);
     Scanner scanner= new Scanner(System.in);
-    int str;
-    str = scanner.nextInt();
-    while(str!=number){
-      if(str >number) {
+    int num;
+    num = scanner.nextInt();
+    while(num!=number){
+      if(num >number) {
         System.out.println("Try again, Your number is to high");
       }
-      if(str <number) {
+      if(num <number) {
         System.out.println("Try again, Your number is to low");
       }
-      str = scanner.nextInt();
+      num = scanner.nextInt();
     }
       System.out.println("You winn");
 
