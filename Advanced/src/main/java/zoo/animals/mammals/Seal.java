@@ -1,14 +1,14 @@
 package zoo.animals.mammals;
 
-import zoo.animals.Animal;
-
-public class Seal extends AbstractMammals{
+public class Seal extends AbstractMammals {
   public Seal(int weight, String name) {
     super(weight, name);
   }
 
   @Override
-  public AbstractMammals getNewAnimal(int weight, String name) {
+  public AbstractMammals getNewAnimal(String name) {
+    weight = 10;
+
     return new Seal(weight,name);
   }
 

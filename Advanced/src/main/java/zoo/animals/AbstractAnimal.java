@@ -12,6 +12,10 @@ public abstract class AbstractAnimal implements Animal {
     this.name = name;
   }
 
+  public AbstractAnimal(String name) {
+    this.name = name;
+  }
+
   @Override
   public void eat(int mealWeight) {
     this.weight = AnimalUtils.calculateNewWeight(this, mealWeight);

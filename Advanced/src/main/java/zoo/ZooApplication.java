@@ -1,12 +1,12 @@
 package zoo;
 
 import zoo.animals.Animal;
-import zoo.animals.birds.*;
-//import zoo.animals.birds.Canary;
-//import zoo.animals.birds.Eagle;
-import zoo.animals.mammals.*;
-//import zoo.animals.mammals.Bear;
-//import zoo.animals.mammals.Goat;
+import zoo.animals.birds.AbstractBird;
+import zoo.animals.birds.Canary;
+import zoo.animals.birds.Eagle;
+import zoo.animals.mammals.AbstractMammals;
+import zoo.animals.mammals.Bear;
+import zoo.animals.mammals.Goat;
 import zoo.stuff.BirdKeeper;
 import zoo.stuff.MammalKeeper;
 
@@ -40,18 +40,18 @@ public class ZooApplication {
     Bear yogi = new Bear(400, "Yogi");
 
 
-    Animal marry = greg.getNewAnimal(5, "Marry");
+    Animal marry = greg.getNewAnimal("Marry");
     System.out.println(yogi.getName() + " & " + marry.getName());
 
 
-    MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammals)marry,yogi,greg), "Anna",25);
+    MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammals) marry, yogi, greg), "Anna", 25);
     anna.feedAnimal((AbstractMammals) marry);
 
     anna.getAnimals().forEach(anna::feedAnimal);
     for (AbstractMammals mammal : anna.getAnimals()) {
       anna.playWithAnimal(mammal);
     }
-    System.out.println(marry.getWeight());
+    System.out.println(marry.getName() + " " + marry.getWeight() + " kg");
 
 //    for (AbstractMammals mammal : anna.getAnimals()) {
 //anna.getAnimals().      // anna.getAnimals.getNewAnimal...

@@ -4,19 +4,17 @@
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tdd/hi_lo/GuesNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tdd/hi_lo/GuesNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tdd/hi_lo/HiLoPlayAndWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tdd/hi_lo/HiLoPlayAndWin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/zoo/ZooApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/ZooApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/AbstractAnimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/AbstractAnimal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/AbstractMammals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/AbstractMammals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Bear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Bear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Goat$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Goat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Goat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Seal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zoo/animals/mammals/Seal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +30,23 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,63 +54,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="280">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/BirdKeeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/birds/AbstractBird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -156,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKataTest/FizzBuzzKata8.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata8.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata8Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata9Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata9.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/NumberLottery.java" />
@@ -164,12 +141,13 @@
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/HiLoMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/GuesNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/HiLoPlayAndWin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java" />
       </list>
     </option>
   </component>
@@ -180,7 +158,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="50" />
     <option name="width" value="980" />
@@ -188,12 +166,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,72 +188,91 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="birds" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="animals" type="462c0819:PsiDirectoryNode" />
-              <item name="mammals" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="animals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="animals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="birds" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="animals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mammals" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Advanced" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="stuff" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552071730097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552080568018" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
@@ -478,10 +473,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66820276" weight="0.23557048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66820276" visible="true" weight="0.23892617" />
       <window_info id="Structure" order="1" sideWeight="0.33179724" side_tool="true" weight="0.23557048" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.3295302" />
@@ -490,7 +485,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -631,23 +626,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designPaterns/DesignPaterns.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/hi_lo/GetRandomNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/hi_lo/Hi_Lo1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/hi_lo/GetRandomNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/hi_lo/Hi_Lo1Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -791,42 +771,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/BirdKeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/AbstractEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,41 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/birds/AbstractBird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -949,26 +864,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/birds/AbstractBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Seal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="53" column="74" lean-forward="true" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="280">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="220">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/BirdKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
           </folding>
         </state>
       </provider>
