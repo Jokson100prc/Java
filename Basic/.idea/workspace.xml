@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/GuesNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/GuesNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLoPlayAndWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/HiLoPlayAndWin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/NumberLottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/hi_lo/NumberLottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/GuesNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/GuesNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLoPlayAndWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/HiLoPlayAndWin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/NumberLottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/target/classes/tdd/hi_lo/NumberLottery.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaProgramowanieZaawansowane/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +23,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcString/PatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="420">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -32,11 +42,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcString/RegExpDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicListsDemoAndExercices/Exercises.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -130,9 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,12 +199,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="W147daysAbcString" type="462c0819:PsiDirectoryNode" />
+              <item name="W147daysExercisesBasicExercisesSortAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="W147daysexErcisesBasicRegularExpressionsExercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +222,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551994367192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551994372064" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -314,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -322,7 +367,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23221476" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23557048" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29745042" />
@@ -337,8 +382,6 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3286119" />
-      <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="right" id="REPL" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -347,6 +390,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Leiningen" order="8" />
+      <window_info anchor="right" id="REPL" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -380,20 +425,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/LoginValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicListsDemoAndExercices/Contains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicFirstLesson/ConsoleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -661,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -712,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcString/PatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="420">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -727,7 +751,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcString/RegExpDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicListsDemoAndExercices/Exercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesSortAndAlgorithms/WeDoTogetherExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysexErcisesBasicRegularExpressionsExercises/BaseConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>

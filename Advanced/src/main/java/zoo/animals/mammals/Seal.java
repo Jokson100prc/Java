@@ -13,11 +13,6 @@ public class Seal extends AbstractMammals{
   }
 
   @Override
-  public Animal getNewAnimal2(Animal name) {
-    return null;
-  }
-
-  @Override
   public void sleep() {
 
   }

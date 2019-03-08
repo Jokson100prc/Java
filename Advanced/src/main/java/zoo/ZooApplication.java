@@ -39,13 +39,9 @@ public class ZooApplication {
 
     Bear yogi = new Bear(400, "Yogi");
 
-    // barry is for delete!
-    Animal barry = null;
-    yogi.getNewAnimal2(barry);
-//    barry.eat(33);
-//    System.out.println(barry.getWeight());
+
     Animal marry = greg.getNewAnimal(5, "Marry");
-    System.out.println(yogi.getName() + " & " + marry.getName() + " & " + barry);
+    System.out.println(yogi.getName() + " & " + marry.getName());
 
 
     MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammals)marry,yogi,greg), "Anna",25);
@@ -81,7 +77,5 @@ public class ZooApplication {
 
     /** TODO : emploee gives meal to animal, animal growing  */
 
-
-    /** TODO : barry - object from ZooAplication - is to delete */
   }
 }

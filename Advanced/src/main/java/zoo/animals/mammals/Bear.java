@@ -18,8 +18,4 @@ public class Bear extends AbstractMammals {
     return new Bear(weight, name);
   }
 
-  @Override
-  public Animal getNewAnimal2(Animal name) {
-    return name;
-  }
 }
