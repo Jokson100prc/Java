@@ -1,6 +1,6 @@
 package zoo.animals.mammals;
 
-public class Bear extends AbstractMammals {
+public class Bear extends AbstractMammal {
 
 //  public static int weight;
 
@@ -9,7 +9,7 @@ public class Bear extends AbstractMammals {
   }
 
   @Override
-  public AbstractMammals getNewAnimal(String name) {
+  public AbstractMammal getNewAnimal(String name) {
     weight = 15;
     return new Bear(weight, name);
   }

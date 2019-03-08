@@ -4,7 +4,7 @@ import zoo.animals.Animal;
 import zoo.animals.birds.AbstractBird;
 import zoo.animals.birds.Canary;
 import zoo.animals.birds.Eagle;
-import zoo.animals.mammals.AbstractMammals;
+import zoo.animals.mammals.AbstractMammal;
 import zoo.animals.mammals.Bear;
 import zoo.animals.mammals.Goat;
 import zoo.stuff.BirdKeeper;
@@ -44,16 +44,16 @@ public class ZooApplication {
     System.out.println(yogi.getName() + " & " + marry.getName());
 
 
-    MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammals) marry, yogi, greg), "Anna", 25);
-    anna.feedAnimal((AbstractMammals) marry);
+    MammalKeeper anna = new MammalKeeper(Arrays.asList((AbstractMammal) marry, yogi, greg), "Anna", 25);
+    anna.feedAnimal((AbstractMammal) marry);
 
     anna.getAnimals().forEach(anna::feedAnimal);
-    for (AbstractMammals mammal : anna.getAnimals()) {
+    for (AbstractMammal mammal : anna.getAnimals()) {
       anna.playWithAnimal(mammal);
     }
     System.out.println(marry.getName() + " " + marry.getWeight() + " kg");
 
-//    for (AbstractMammals mammal : anna.getAnimals()) {
+//    for (AbstractMammal mammal : anna.getAnimals()) {
 //anna.getAnimals().      // anna.getAnimals.getNewAnimal...
 //    }
 
