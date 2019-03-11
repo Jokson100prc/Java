@@ -20,7 +20,7 @@ public class GreetingKata1Test {
     String name = "Namee";
 
     //when
-    String who = GreetingKata1.whoIsGreeting(name);
+    String who = GreetingKata1.greet(name);
 
     //then
     assertThat(who).isEqualTo("Hello, Namee");
@@ -35,7 +35,7 @@ public class GreetingKata1Test {
     String name = null;
 
     //when
-    String who = GreetingKata1.whoIsGreeting(name);
+    String who = GreetingKata1.greet(name);
 
     //then
     assertThat(who).isEqualTo("Hello, my friend");
@@ -50,7 +50,7 @@ public class GreetingKata1Test {
     String name = "NAMEE";
 
     //when
-    String who = GreetingKata1.whoIsGreeting(name);
+    String who = GreetingKata1.greet(name);
 
     //then
     assertThat(who).isEqualTo("HELLO NAMEE");
@@ -65,7 +65,7 @@ public class GreetingKata1Test {
     String[] names = {"Namee", "Seth"};
 
     //when
-    String who = GreetingKata1.whoAreGreeting(names);
+    String who = GreetingKata1.greet(names);
 
     //then
     assertThat(who).isEqualTo("Hello, Namee and Seth");
@@ -82,7 +82,7 @@ public class GreetingKata1Test {
     String[] names = {"Namee", "Seth", "Arie"};
 
     //when
-    String who = GreetingKata1.whoAreGreeting(names);
+    String who = GreetingKata1.greet(names);
 
     //then
     assertThat(who).isEqualTo("Hello, Namee, Seth and Arie");

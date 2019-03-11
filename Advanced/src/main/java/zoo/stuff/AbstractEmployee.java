@@ -2,9 +2,10 @@ package zoo.stuff;
 
 import zoo.animals.Animal;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
-public abstract class AbstractEmployee<A extends Animal> implements Employee<A> {
+public abstract class AbstractEmployee<A extends Animal, N> implements Employee<A> {
 
   private Collection<A> animals;
 
@@ -18,8 +19,14 @@ public abstract class AbstractEmployee<A extends Animal> implements Employee<A> 
     this.age = age;
   }
 
+  public AbstractEmployee(String name, int age) {
+    this(new ArrayList<>(), name, age);
+  }
+
   @Override
   public Collection<A> getAnimals() {
     return animals;
   }
+
+  public abstract N getNewAnimal(A animal);
 }

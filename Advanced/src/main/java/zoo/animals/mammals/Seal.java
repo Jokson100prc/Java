@@ -6,9 +6,12 @@ public class Seal extends AbstractMammal {
   }
 
   @Override
-  public AbstractMammal getNewAnimal(String name) {
-    weight = 10;
+  public int getInitialWeight() {
+    return 1;
+  }
 
+  @Override
+  public AbstractMammal getNewAnimal(String name, int weight) {
     return new Seal(weight,name);
   }
 

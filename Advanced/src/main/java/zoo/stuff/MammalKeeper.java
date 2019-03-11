@@ -1,22 +1,28 @@
 package zoo.stuff;
 
 import zoo.animals.mammals.AbstractMammal;
+import zoo.utils.AnimalUtils;
 
 import java.util.Collection;
 
-public class MammalKeeper extends AbstractEmployee<AbstractMammal>{
+public class MammalKeeper extends AbstractEmployee<AbstractMammal, AbstractMammal> {
 
-  public MammalKeeper(Collection <AbstractMammal> animals, String name, int age) {
+  public MammalKeeper(Collection<AbstractMammal> animals, String name, int age) {
     super(animals, name, age);
   }
 
   @Override
   public void feedAnimal(AbstractMammal animal) {
-System.out.println(animal.getName() + " eat now");
+    animal.eat(1);
+  }
+
+  @Override
+  public AbstractMammal getNewAnimal(AbstractMammal animal) {
+    return animal.getNewAnimal(AnimalUtils.generateNewName());
   }
 
   @Override
   public void playWithAnimal(AbstractMammal animal) {
-System.out.println(animal.getName() + " have fun now");
+    animal.sleep();
   }
 }
