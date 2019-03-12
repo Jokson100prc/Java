@@ -11,10 +11,10 @@ public class GreetingKata2Test {
 
   // @formatter:off
   @DisplayName("Follow The Greeting Kata specification" +
-          "Given 'Arnold' return 'Hello, Arnold'")
+          "Given 'Arnold' return 'Hello, Arnold.'")
   // @formatter:on
   @Test
-  void test() throws Exception{
+  void test() throws Exception {
     //given
     String name = "Arnold";
 
@@ -22,14 +22,14 @@ public class GreetingKata2Test {
     String load = GreetingKata2.getName(name);
 
     //then
-    assertThat(load).isEqualTo("Hello, Arnold");
+    assertThat(load).isEqualTo("Hello, Arnold.");
   }
 
   // @formatter:off
-  @DisplayName("Given null, return 'Hello, my friend'")
+  @DisplayName("Given null, return 'Hello, my friend.'")
   // @formatter:on
   @Test
-  void test2() throws Exception{
+  void test2() throws Exception {
     //given
     String name = null;
 
@@ -37,7 +37,7 @@ public class GreetingKata2Test {
     String load = GreetingKata2.getName(name);
 
     //then
-    assertThat(load).isEqualTo("Hello, my friend");
+    assertThat(load).isEqualTo("Hello, my friend.");
   }
 
   // @formatter:off
@@ -46,27 +46,27 @@ public class GreetingKata2Test {
   @Test
   void test3() {
     //given
-    String name= "ANA";
+    String name = "ANA";
 
     //when
     String getName = GreetingKata2.getName(name);
 
     //then
-assertThat(getName).isEqualTo("HELLO ANA!");
+    assertThat(getName).isEqualTo("HELLO ANA!");
   }
 
   // @formatter:off
   @DisplayName("Given array [Arnold, Zin]")
   // @formatter:on
   @Test
-  void test4() throws Exception{
+  void test4() throws Exception {
     //given
-    String[] names={"Arnold", "Zin"};
+    String[] names = {"Arnold", "Zin"};
 
     //when
     String greetingNames = GreetingKata2.getNames(names);
     //then
-assertThat(greetingNames).isEqualTo("Hello, Arnold and Zin");
+    assertThat(greetingNames).isEqualTo("Hello, Arnold and Zin.");
   }
 
   // @formatter:off
@@ -78,13 +78,13 @@ assertThat(greetingNames).isEqualTo("Hello, Arnold and Zin");
   @Test
   void test5() {
     //given
-    String[] names={"Arnold", "Zin", "Viki"};
+    String[] names = {"Arnold", "Zin", "Viki"};
 
     //when
     String greetingNames = GreetingKata2.getNames(names);
 
     //then
-    assertThat(greetingNames).isEqualTo("Hello, Arnold, Zin, and ");
+    assertThat(greetingNames).isEqualTo("Hello, Arnold, Zin, and Viki.");
   }
 }
 

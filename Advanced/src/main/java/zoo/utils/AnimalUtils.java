@@ -9,8 +9,8 @@ public class AnimalUtils {
     return animal.getWeight() + (mealWeight / 10);
   }
 
-public static String generateNewName(){
-  Faker faker = new Faker();
-  return faker.name().firstName();
-}
+  public static String generateNewName() {
+    Faker faker = new Faker();
+    return faker.name().firstName();
+  }
 }

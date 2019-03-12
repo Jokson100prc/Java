@@ -23,7 +23,7 @@ public class GreetingKata1Test {
     String who = GreetingKata1.greet(name);
 
     //then
-    assertThat(who).isEqualTo("Hello, Namee");
+    assertThat(who).isEqualTo("Hello, Namee.");
   }
 
   // @formatter:off
@@ -38,7 +38,7 @@ public class GreetingKata1Test {
     String who = GreetingKata1.greet(name);
 
     //then
-    assertThat(who).isEqualTo("Hello, my friend");
+    assertThat(who).isEqualTo("Hello, my friend.");
   }
 
   // @formatter:off
@@ -53,7 +53,7 @@ public class GreetingKata1Test {
     String who = GreetingKata1.greet(name);
 
     //then
-    assertThat(who).isEqualTo("HELLO NAMEE");
+    assertThat(who).isEqualTo("HELLO NAMEE!");
   }
 
   // @formatter:off
@@ -68,7 +68,7 @@ public class GreetingKata1Test {
     String who = GreetingKata1.greet(names);
 
     //then
-    assertThat(who).isEqualTo("Hello, Namee and Seth");
+    assertThat(who).isEqualTo("Hello, Namee and Seth.");
   }
 
   // @formatter:off
@@ -85,7 +85,7 @@ public class GreetingKata1Test {
     String who = GreetingKata1.greet(names);
 
     //then
-    assertThat(who).isEqualTo("Hello, Namee, Seth and Arie");
+    assertThat(who).isEqualTo("Hello, Namee, Seth and Arie.");
   }
 }
 
