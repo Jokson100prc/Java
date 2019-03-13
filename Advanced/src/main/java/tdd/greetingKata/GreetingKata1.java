@@ -30,7 +30,7 @@ public class GreetingKata1 {
       for (int i = 0; i < namesAsList.size() - 2; i++) {
         result += namesAsList.get(i) + ", ";
       }
-      return "Hello, " + GreetingKata1.connectTwoNames(result, namesAsList.get(namesAsList.size() - 2) + " and " + namesAsList.get(namesAsList.size() - 1));
+      return "Hello, " + GreetingKata1.connectTwoNames(result, namesAsList.get(namesAsList.size() - 2) + ", and " + namesAsList.get(namesAsList.size() - 1));
     }
     for (int i = 0; i < namesAsList.size(); i++) {
       result = namesAsList.get(0) + " and " + namesAsList.get(1) + ".";
@@ -45,15 +45,4 @@ public class GreetingKata1 {
   }
 
 }
-//    for (int i = 0; i < names.length; i++) {
-////      int j = i-1;
-////      int k = i - 2;
-////      if(names[i].equals(names[j])) {
-////      return names[j];
-////      }
-//        return names[i]+ ", ";
-//    }
-//
-//    String nameAndName = names[0] + " and " + names[1];
-//    return "Hello, " + nameAndName;
 

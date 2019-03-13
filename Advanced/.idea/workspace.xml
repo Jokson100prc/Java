@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tdd/greetingKataTest/GreetingKata1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tdd/greetingKataTest/GreetingKata1Test.class" afterDir="false" />
     </list>
@@ -20,57 +19,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/AbstractEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/BirdKeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-160">
+                  <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="940">
+                  <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="42" column="38" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="44" selection-start-line="44" selection-end-line="44" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#130#131#0" expanded="true" />
+                    <element signature="e#164#165#0" expanded="true" />
+                    <element signature="e#183#184#0" expanded="true" />
+                    <element signature="e#212#213#0" expanded="true" />
+                    <element signature="e#294#295#0" expanded="true" />
+                    <element signature="e#330#331#0" expanded="true" />
+                    <element signature="e#348#349#0" expanded="true" />
+                    <element signature="e#380#381#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKata/FizzBuzzKata5.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata5Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/GetRandomNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/hi_lo/Hi_Lo1Test.java" />
@@ -134,11 +158,12 @@
         <option value="$PROJECT_DIR$/src/main/java/InheritansEggAndHen/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/repeats/GAP.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata3Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" />
       </list>
     </option>
   </component>
@@ -161,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,30 +208,6 @@
               <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-              <item name="stuff" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,20 +224,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tdd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="greetingKataTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
@@ -337,7 +329,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552420129390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552501841927" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
@@ -380,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GreetingKata2Test">
+  <component name="RunManager" selected="Application.GenericTypesThisIsIt">
     <configuration name="GAP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="repeats.GAP" />
       <module name="Advanced" />
@@ -394,12 +386,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingKata2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tdd.greetingKata.GreetingKata2" />
+    <configuration name="GenericTypesThisIsIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genericTypsThisIsIt.GenericTypesThisIsIt" />
       <module name="Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.greetingKata.*" />
+          <option name="PATTERN" value="genericTypsThisIsIt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,12 +399,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InheritansEggAndHen.Main" />
+    <configuration name="GreetingKata2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tdd.greetingKata.GreetingKata2" />
       <module name="Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InheritansEggAndHen.*" />
+          <option name="PATTERN" value="tdd.greetingKata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,11 +462,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GreetingKata2Test" />
+        <item itemvalue="Application.GenericTypesThisIsIt" />
         <item itemvalue="Application.GreetingKata2" />
         <item itemvalue="JUnit.GreetingKata1Test" />
+        <item itemvalue="JUnit.GreetingKata2Test" />
         <item itemvalue="Application.GAP" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -495,21 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 18h 26m 35s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 17m 56s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 25m 39s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 26m 01s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 26m 32s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 27m 03s.xml">
       <configuration name="GreetingKata2Test" configurationId="JUnit" />
     </history-entry>
@@ -525,6 +502,21 @@
     <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 37m 03s.xml">
       <configuration name="GreetingKata2Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 14m 42s.xml">
+      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 18m 04s.xml">
+      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 00s.xml">
+      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 28s.xml">
+      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 50s.xml">
+      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -539,7 +531,7 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.12080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.12214765" />
       <window_info id="Structure" order="1" sideWeight="0.33766234" side_tool="true" weight="0.12080537" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" sideWeight="0.5991501" weight="0.3295302" />
@@ -572,16 +564,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata5.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata4Test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -899,38 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-920">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -941,20 +891,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="280">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/utils/AnimalUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="940">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -982,22 +942,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="260">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="300">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>

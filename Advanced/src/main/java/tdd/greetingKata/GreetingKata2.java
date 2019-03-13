@@ -34,7 +34,7 @@ public class GreetingKata2 {
     return "Hello, " + names[0] + " and " + names[1] + ".";
   }
 
-//  public static void main(String[] args) {
+  public static void main(String[] args) {
 //    List<String> example = new ArrayList<String>();
 //    example.add(0, "one");
 //    example.add(1, "two");
@@ -42,6 +42,6 @@ public class GreetingKata2 {
 //
 //    String test = String.join(" 123 ", example);
 //    System.out.println(test);
-//  }
-}
 
+  }
+}

@@ -79,13 +79,13 @@ public class GreetingKata1Test {
   @Test
   void test5() {
     //given
-    String[] names = {"Namee", "Seth", "Arie"};
+    String[] names = {"Namee", "bas", "Seth", "Arie"};
 
     //when
     String who = GreetingKata1.greet(names);
 
     //then
-    assertThat(who).isEqualTo("Hello, Namee, Seth and Arie.");
+    assertThat(who).isEqualTo("Hello, Namee, bas, Seth, and Arie.");
   }
 }
 
