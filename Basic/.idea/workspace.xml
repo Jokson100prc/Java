@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/greetingKata/GreetingKata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/main/java/tdd/greetingKata/GreetingKata2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Week4dAfterClassDemoStatic/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,8 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/Exercises.java" />
-        <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/PrintArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/PrintArray2.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicListsDemoAndExercices/ReverceArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysdemosBasicFirstLesson/ConsoleCalculator.java" />
@@ -83,6 +100,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" />
       </list>
     </option>
   </component>
@@ -94,11 +113,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5" />
     <option name="y" value="50" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="width" value="1933" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,7 +159,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Week4dAfterClassDemoStatic" type="462c0819:PsiDirectoryNode" />
+              <item name="W147daysExercisesBasicExercisesArray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week12ReturnToRoots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,7 +180,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552583926426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552593045284" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -173,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegExpDemo">
+  <component name="RunManager" selected="Application.MainCollector">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="W147daysExercisesBasicExercisesArray.Main" />
       <module name="basic" />
@@ -187,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week4dAfterClassDemoStatic.Main" />
+    <configuration name="MainCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week12ReturnToRoots.MainCollector" />
       <module name="basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week4dAfterClassDemoStatic.*" />
+          <option name="PATTERN" value="week12ReturnToRoots.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCollector" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RegExpDemo" />
         <item itemvalue="Application.PatternDemo" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -290,24 +317,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="40" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.48266298" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.48120806" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29745042" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29706392" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.39518413" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -355,20 +383,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicFirstLesson/ConsoleCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicFirstLesson/ConsoleDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicFirstLesson/FirstExercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -608,20 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/SecondExerciseArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -703,6 +703,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysExercisesBasicExercisesArray/FirstExerciseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

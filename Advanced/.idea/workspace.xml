@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/CollectionExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/Week4dAfterClassDemoStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/Week4dAfterClassDemoStatic/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +76,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-24">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="398">
+                  <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -163,11 +163,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
     <option name="y" value="50" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="width" value="1933" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -525,7 +525,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="40" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66233766" weight="0.25797504" />
       <window_info id="Structure" order="1" sideWeight="0.33766234" side_tool="true" weight="0.12080537" />
@@ -980,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="398">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
