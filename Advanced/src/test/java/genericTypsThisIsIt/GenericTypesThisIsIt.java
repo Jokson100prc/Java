@@ -10,7 +10,7 @@ public class GenericTypesThisIsIt {
 
     System.out.println(jokerString.joker() + " is is similar in " + jokerInteger.joker() + " prc.");
 
-    School <Character> nameOfMyClass = new School<>();
+    School<Character> nameOfMyClass = new School<>();
     nameOfMyClass.thatCouldBeSome('B');
     System.out
             .println(nameOfMyClass.whatIsSome);
@@ -18,24 +18,27 @@ public class GenericTypesThisIsIt {
 }
 
 
-class Joker<JOKSON>{
+class Joker<JOKSON> {
 
-  void giveRightHand(JOKSON rightHand){
+  JOKSON youRule;
+
+  void giveRightHand(JOKSON rightHand) {
     this.youRule = rightHand;
   }
 
-  JOKSON joker(){
+  JOKSON joker() {
     return this.youRule;
   }
-  JOKSON youRule;
 }
 
-class School <SOME> {
-  void thatCouldBeSome(SOME property){
+class School<SOME> {
+  SOME whatIsSome;
+
+  void thatCouldBeSome(SOME property) {
     this.whatIsSome = property;
   }
-  SOME inClass(){
+
+  SOME inClass() {
     return this.whatIsSome;
   }
-  SOME whatIsSome;
 }

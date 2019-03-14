@@ -7,6 +7,7 @@ public class Main {
     int a = 5;
     System.out.println(a);
     User rainmarDeBielau = new User();
+
     System.out.println(rainmarDeBielau.setId());
 
     User szarlej = new User();
@@ -14,6 +15,14 @@ public class Main {
 
     User samsonMiodek = new User();
     System.out.println(samsonMiodek.setId());
+
+    samsonMiodek.setName("Samson");
+    szarlej.setName("Szarlej");
+    rainmarDeBielau.setName("Rejnevan");
+
+    samsonMiodek.setJob("philosopher");
+    szarlej.setJob("rogue");
+    rainmarDeBielau.setJob("spy");
 
   }
 }

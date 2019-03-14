@@ -1,22 +1,29 @@
 package Week4dAfterClassDemoStatic;
 
-public class User {
+import java.util.List;
 
-  static Integer nextId = 1;
+public class User <JOKER> {
+
+  static int nextId;
   String name;
 
-  ;
-  Integer id;
+  List<Integer> id;
   String job;
 
-  Integer setId() {
-    id = nextId;
+
+  List<Integer> setId() {
+    id.add(nextId);
     nextId++;
     return id;
   }
 
-  String setName(String firstName) {
+  String setName( String firstName) {
     this.name = firstName;
     return name;
+  }
+
+  String setJob(String jobby){
+    this.job = jobby;
+    return job;
   }
 }
