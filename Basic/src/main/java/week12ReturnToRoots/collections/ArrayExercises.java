@@ -1,12 +1,12 @@
-package week12ReturnToRoots;
+package week12ReturnToRoots.collections;
 
-public class CollectionExercises {
+public class ArrayExercises {
 
   int[] intNumbers = new int[10];
   int[] duplicate = {11, 22, 33, 44, 55, 66, 77, 88, 99, 100};
   int number;
 
-  void add10numbers() {
+  public void add10numbers() {
 
     for (int i = 0; i < 10; i++) {
 
@@ -21,11 +21,11 @@ public class CollectionExercises {
     }
   }
 
-  void showSize() {
+  public void showSize() {
     System.out.println("Array length is: " + intNumbers.length);
   }
 
-  void multiplicationOfArrayElements() {
+  public void multiplicationOfArrayElements() {
     add10numbers();
     for (int i = 0; i < intNumbers.length; i++) {
       intNumbers[i] *= 2;
