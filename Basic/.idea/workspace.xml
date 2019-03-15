@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/CollectionExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/CollectionExercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/MainCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/MainCollector.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,30 +17,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-              <folding>
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1540">
+                  <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+                  <folding>
+                    <element signature="e#562#563#0" expanded="true" />
+                    <element signature="e#631#632#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="16" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,8 +112,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week4dAfterClassDemoStatic/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java" />
       </list>
     </option>
   </component>
@@ -180,7 +192,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552593722204" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552676438267" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -328,7 +340,7 @@
       <window_info content_ui="combo" id="Project" order="5" weight="0.48120806" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.29706392" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.296034" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
@@ -720,21 +732,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/CollectionExercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="1540">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
