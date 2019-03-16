@@ -22,13 +22,13 @@ public class MainCollector {
     List<Double> isReallyDoubleList = new ArrayList<>();
     ArrayListExerrcises arrayDoubleListExerrcises = new ArrayListExerrcises(isReallyDoubleList);
 
-    arrayDoubleListExerrcises.addJokerElements("11,77");
-    arrayDoubleListExerrcises.addJokerElements("22,66");
-    arrayDoubleListExerrcises.addJokerElements("33,55");
-    arrayDoubleListExerrcises.addJokerElements("44,44");
-    arrayDoubleListExerrcises.addJokerElements("55,33");
-    arrayDoubleListExerrcises.addJokerElements("66,22");
-    arrayDoubleListExerrcises.addJokerElements("77,11");
+    arrayDoubleListExerrcises.addJokerElements(11.77);
+    arrayDoubleListExerrcises.addJokerElements(22.66);
+    arrayDoubleListExerrcises.addJokerElements(33.55);
+    arrayDoubleListExerrcises.addJokerElements(44.44);
+    arrayDoubleListExerrcises.addJokerElements(55.33);
+    arrayDoubleListExerrcises.addJokerElements(66.22);
+    arrayDoubleListExerrcises.addJokerElements(77.11);
 
     arrayDoubleListExerrcises.showRevertCollectElements();
 
@@ -58,6 +58,17 @@ public class MainCollector {
     arrayListExerrcises.addJokerElements("7");
 
     arrayListExerrcises.showRevertCollectElements();
+
+
+    List<ArrayListExerrcises> listEveryTypes = new ArrayList<>();
+    ArrayListExerrcises newTestTypes = new ArrayListExerrcises(listEveryTypes);
+    newTestTypes.addJokerElements('A');
+    newTestTypes.addJokerElements(null);
+    newTestTypes.addJokerElements(true);
+    newTestTypes.addJokerElements(false);
+    newTestTypes.addJokerElements((byte)0xe0);
+    newTestTypes.addJokerElements(2147483648.0);
+    newTestTypes.addJokerElements("and String");
   }
 }
 
