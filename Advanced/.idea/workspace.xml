@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/MainCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/MainCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/MainCollector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/collections/ArrayListExerrcises.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/collections/ArrayListExerrcises.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,7 +126,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="50" />
     <option name="width" value="1933" />
@@ -278,7 +284,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552733729324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552741805652" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
@@ -477,7 +483,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.25771812" />

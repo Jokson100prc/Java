@@ -2,9 +2,32 @@ package week12ReturnToRoots;
 
 import week12ReturnToRoots.collections.ArrayExercises;
 import week12ReturnToRoots.collections.ArrayListExerrcises;
+import week12ReturnToRoots.collections.priorityQuequeExerciseMonster.QuequeExercises;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
+
+//public class MainCollector {
+//  public static void main(String[] args) {
+//
+//    int randomNumber = 0;
+//    int numberOfNumbers = 0;
+//    PriorityQueue priorityQueque = new PriorityQueue();
+//
+//    QuequeExercises quequeExercises = new QuequeExercises(priorityQueque, randomNumber, numberOfNumbers);
+//
+//    quequeExercises.getNumberOfNumbers();
+//
+//    quequeExercises.addToQueque();
+//
+//    quequeExercises.showRandomNumbers();
+//  }
+//
+//}
+
+
+// ***  ***  ***  ***  ***  ***  ***  ***  * * *
 
 public class MainCollector {
 
@@ -20,7 +43,7 @@ public class MainCollector {
 
 
     List<Double> isReallyDoubleList = new ArrayList<>();
-    ArrayListExerrcises arrayDoubleListExerrcises = new ArrayListExerrcises(isReallyDoubleList);
+    ArrayListExerrcises <Double> arrayDoubleListExerrcises = new ArrayListExerrcises(isReallyDoubleList);
 
     arrayDoubleListExerrcises.addJokerElements(11.77);
     arrayDoubleListExerrcises.addJokerElements(22.66);
@@ -33,7 +56,7 @@ public class MainCollector {
     arrayDoubleListExerrcises.showRevertCollectElements();
 
     List<Integer> isReallyIntegerList = new ArrayList<>();
-    ArrayListExerrcises arrayIntegerListExerrcises = new ArrayListExerrcises(isReallyIntegerList);
+    ArrayListExerrcises <Integer> arrayIntegerListExerrcises = new ArrayListExerrcises(isReallyIntegerList);
 
     arrayIntegerListExerrcises.addJokerElements(11);
     arrayIntegerListExerrcises.addJokerElements(22);
@@ -47,7 +70,7 @@ public class MainCollector {
 
 
     List<String> isReallyStringList = new ArrayList<>();
-    ArrayListExerrcises arrayListExerrcises = new ArrayListExerrcises(isReallyStringList);
+    ArrayListExerrcises <String> arrayListExerrcises = new ArrayListExerrcises(isReallyStringList);
 
     arrayListExerrcises.addJokerElements("1");
     arrayListExerrcises.addJokerElements("2");
@@ -69,9 +92,13 @@ public class MainCollector {
     newTestTypes.addJokerElements((byte)0xe0);
     newTestTypes.addJokerElements(2147483648.0);
     newTestTypes.addJokerElements("and String");
+
+    newTestTypes.showCollectElements();
   }
 }
 
+
+// ***  ***  ***  ***  ***  ***  ***  ***  * * *
 // args and prarams wasn't needed here
 
 //public class MainCollector {
