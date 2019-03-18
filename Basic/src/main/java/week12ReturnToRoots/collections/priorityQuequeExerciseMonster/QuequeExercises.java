@@ -8,33 +8,29 @@ public class QuequeExercises extends AbstractPriorityQuequeExercise {
   Scanner scanner = new Scanner(System.in);
 
 
-  public QuequeExercises(PriorityQueue priorityQueue, int randomNumber, int numberOfNumbers) {
+  public QuequeExercises(PriorityQueue priorityQueue) {
 
-    super(priorityQueue, randomNumber, numberOfNumbers);
-
-    numberOfNumbers = scanner.nextInt();
-
-    randomNumber = (int) (Math.random() * 100) + 1;
+    super(priorityQueue);
   }
 
   @Override
   public int getNumberOfNumbers() {
-    return numberOfNumbers;
+    return numberOfNumbers = scanner.nextInt();
   }
 
   @Override
   public void addToQueque() {
     for (int i = 0; i < numberOfNumbers; i++) {
-      priorityQueue.add(i);
+      randomNumber = (int) (Math.random() * 100) + 1;
+      priorityQueue.add(randomNumber);
+      System.out.println(randomNumber);
     }
   }
 
   @Override
   public void showRandomNumbers() {
-    for (int i = 0; i < priorityQueue.size(); i++) {
-      System.out.println(priorityQueue.remove(i));
-
-      System.out.println(priorityQueue.remove(i));
-    }
-  }
+    for (int i = 0; i < numberOfNumbers; i++) {
+      Object whatIsInsideQueue = priorityQueue.remove();
+      System.out.println(whatIsInsideQueue);
+  }}
 }

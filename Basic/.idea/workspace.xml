@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/MainCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/MainCollector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/ArrayListExerrcises.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/ArrayListExerrcises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,72 +20,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="97" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3409396">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.31779662">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="180">
+                      <caret line="9" selection-start-line="9" selection-end-line="9" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="140">
+                      <caret line="7" selection-start-line="7" selection-end-line="7" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="324">
+                      <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+                      <folding>
+                        <element signature="e#399#400#0" expanded="true" />
+                        <element signature="e#443#444#0" expanded="true" />
+                        <element signature="e#496#497#0" expanded="true" />
+                        <element signature="e#528#529#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#382#383#0" expanded="true" />
+                    <element signature="e#428#429#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,8 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/ArrayDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/ConditionsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/Exercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/IfContinueAndBreak.java" />
         <option value="$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/LoopDemo.java" />
@@ -148,10 +147,12 @@
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/PriorityQuequeExercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonser/PriorityQequeInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonser/PriorityQuequeExercise.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Week12ReturnToRoots/priorityQuequeExerciseMonster/QueuqExerciseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QueueExercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" />
         <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" />
       </list>
     </option>
   </component>
@@ -164,10 +165,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
+    <option name="x" value="-9" />
     <option name="y" value="50" />
-    <option name="width" value="1933" />
-    <option name="height" value="889" />
+    <option name="width" value="419" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,9 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,10 +228,26 @@
               <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="priorityQuequeExerciseMonster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +255,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552758097576" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552930546812" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -386,8 +400,8 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25100672" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.20134228" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.19530201" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49932885" weight="0.296034" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
@@ -395,8 +409,8 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.39518413" />
+      <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.28895184" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -446,20 +460,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/SwithDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemos/ConditionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysDemosBasicDemoMethod/Inmate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -760,36 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/ArrayListExerrcises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -804,12 +774,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Week12ReturnToRoots/priorityQuequeExerciseMonster/QueuqExerciseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QueueExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/MainCollector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="97" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
           </folding>
         </state>
       </provider>

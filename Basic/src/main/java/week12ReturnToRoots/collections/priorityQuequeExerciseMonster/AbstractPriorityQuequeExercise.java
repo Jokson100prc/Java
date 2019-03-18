@@ -9,11 +9,10 @@ public abstract class AbstractPriorityQuequeExercise implements PriorityQequeInt
   int randomNumber = 0;
   int numberOfNumbers = 0;
 
-  public AbstractPriorityQuequeExercise(PriorityQueue priorityQueue, int randomNumber, int numberOfNumbers) {
+  public AbstractPriorityQuequeExercise(PriorityQueue priorityQueue) {
     this.priorityQueue = priorityQueue;
-    this.randomNumber = randomNumber;
-    this.numberOfNumbers = numberOfNumbers;
   }
+
 
   @Override
   public int getNumberOfNumbers() {
@@ -22,11 +21,9 @@ public abstract class AbstractPriorityQuequeExercise implements PriorityQequeInt
 
   @Override
   public void addToQueque() {
-
   }
 
   @Override
   public void showRandomNumbers() {
-
   }
 }
