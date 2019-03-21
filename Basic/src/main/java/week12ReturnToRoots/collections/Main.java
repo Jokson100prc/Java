@@ -1,29 +1,52 @@
-package week12ReturnToRoots;
+package week12ReturnToRoots.collections;
 
+import week12ReturnToRoots.collections.LinkedListExercise;
 import week12ReturnToRoots.collections.priorityQuequeExerciseMonster.QuequeExercises;
 
 import java.util.PriorityQueue;
 
-public class MainCollector {
-  public static void main(String[] args) {
+
+// ***  ***  ***  ***  ***  ***  ***  *** QUEUE Exercise * * *
+
+//public class Main {
+//
+//  public static void main(String[] args) {
+//
+//    System.out.println("How many numbers you'd like to have?");
+//
+//    LinkedListExercise linkedListExercise = new LinkedListExercise();
+//    linkedListExercise.addElementsToLinkedList();
+//    linkedListExercise.showElementsOfLinkedList();
+//    linkedListExercise.showElementAndTryCatch();
+//  }
+//
+//}
 
 
-    PriorityQueue priorityQueque = new PriorityQueue();
+// ***  ***  ***  ***  ***  ***  ***  *** QUEUE Exercise * * *
 
-    QuequeExercises quequeExercises = new QuequeExercises(priorityQueque);
+//public class Main {
+//  public static void main(String[] args) {
+//
+//    System.out.println("How many numbers you'd like to have?");
+//
+//
+//    PriorityQueue priorityQueque = new PriorityQueue();
+//
+//    QuequeExercises quequeExercises = new QuequeExercises(priorityQueque);
+//
+//    quequeExercises.amountOfNumbers();
+//
+//    quequeExercises.addToQueque();
+//
+//    quequeExercises.showRandomNumbers();
+//  }
+//}
 
-    quequeExercises.getNumberOfNumbers();
 
-    quequeExercises.addToQueque();
+// ***  ***  ***  ***  ***  ***  ***  *** ARRAYList Exercise  * * *
 
-    quequeExercises.showRandomNumbers();
-  }
-}
-
-
-// ***  ***  ***  ***  ***  ***  ***  ***  * * *
-
-//public class MainCollector {
+//public class Main {
 //
 //  public static void main(String[] args) {
 //
@@ -92,21 +115,21 @@ public class MainCollector {
 //}
 
 
-// ***  ***  ***  ***  ***  ***  ***  ***  * * *
+// ***  ***  ***  ***  ***  ***  ***  *** ARRAY Exercise  * * *
 // args and prarams wasn't needed here
 
-//public class MainCollector {
-//
-//  public static void main(String[] args) {
-//
-//    ArrayExercises test = new ArrayExercises();
-//
-//    int[] intNumbers = new int[10];
-//    int[] duplicate = new int[10];
-//
-//    test.add10numbers(intNumbers, duplicate);
-//    test.showSize(intNumbers);
-//
-//    test.multiplicationOfArrayElements();
-//  }
-//}
+public class Main {
+
+  public static void main(String[] args) {
+
+    ArrayExercises test = new ArrayExercises();
+
+    int[] intNumbers = new int[10];
+    int[] duplicate = new int[10];
+
+    test.add10numbers();
+    test.showSize();
+
+    test.multiplicationOfArrayElements();
+  }
+}

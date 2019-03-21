@@ -4,15 +4,13 @@ public class ArrayExercises {
 
   int[] intNumbers = new int[10];
   int[] duplicate = {11, 22, 33, 44, 55, 66, 77, 88, 99, 100};
-  int number;
 
   public void add10numbers() {
 
     for (int i = 0; i < 10; i++) {
 
-      number++;
 
-      this.intNumbers[i] = number;
+      this.intNumbers[i] = i;
       System.out.println(this.intNumbers[i]);
 
       this.intNumbers[i] = this.duplicate[i];

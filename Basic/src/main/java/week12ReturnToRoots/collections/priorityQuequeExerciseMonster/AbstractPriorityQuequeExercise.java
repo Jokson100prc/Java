@@ -15,7 +15,7 @@ public abstract class AbstractPriorityQuequeExercise implements PriorityQequeInt
 
 
   @Override
-  public int getNumberOfNumbers() {
+  public int amountOfNumbers() {
     return numberOfNumbers;
   }
 
