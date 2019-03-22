@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class QuequeExercises extends AbstractPriorityQuequeExercise {
 
-//  Scanner scanner = new Scanner(System.in);
-
 
   public QuequeExercises(PriorityQueue priorityQueue) {
 
@@ -15,7 +13,6 @@ public class QuequeExercises extends AbstractPriorityQuequeExercise {
 
   @Override
   public int amountOfNumbers() {
-//    return numberOfNumbers = scanner.nextInt();
     return numberOfNumbers = ConsoleReaderWriter.consoleReader();
   }
 
