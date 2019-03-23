@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/LinkedListExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/AbstractDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/DateTimeExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/DateTimeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/string/StringExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Basic/src/test/java/week12ReturnToRoots/dateTime/DateTimeExerciseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myHelloJDBCWorld/MyHelloJDBCWorldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/JDBCEmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/Joker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/Joker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/School.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/MainCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/MainCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/AbstractPriorityQuequeExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/PriorityQequeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/MainCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/target/classes/week12ReturnToRoots/MainCollector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/FormatDataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/FormatDataTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="328">
+              <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,10 +79,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/myHelloJDBCWorld/MyHelloJDBCWorldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+            <state relative-caret-position="1600">
+              <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata5Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/hi_lo/GetRandomNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/tdd/hi_lo/Hi_Lo1Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/fizzBuzzKataTest/FizzBuzzKata6.java" />
@@ -162,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Bear.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/Goat.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/animals/mammals/AbstractMammal.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/MammalKeeper.java" />
         <option value="$PROJECT_DIR$/src/main/java/zoo/stuff/BirdKeeper.java" />
@@ -176,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata1.java" />
         <option value="$PROJECT_DIR$/src/main/java/tdd/greetingKata/GreetingKata2.java" />
         <option value="$PROJECT_DIR$/src/test/java/genericTypsThisIsIt/GenericTypesThisIsIt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myHelloJDBCWorld/MyHelloJDBCWorldTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -187,10 +214,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
     <option name="y" value="50" />
-    <option name="width" value="1929" />
-    <option name="height" value="685" />
+    <option name="width" value="1930" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,90 +226,6 @@
     <panes>
       <pane id="Course" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="genericTypsThisIsIt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="genericTypsThisIsIt" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericTypesThisIsIt.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tdd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="greetingKataTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -379,14 +321,72 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myHelloJDBCWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553284722735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553352768813" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sdacademy-examples" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -425,20 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenericTypesThisIsIt">
-    <configuration name="GAP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repeats.GAP" />
-      <module name="Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="repeats.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyHelloJDBCWorldTest">
     <configuration name="GenericTypesThisIsIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="genericTypsThisIsIt.GenericTypesThisIsIt" />
       <module name="Advanced" />
@@ -513,13 +500,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHelloJDBCWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myHelloJDBCWorld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myHelloJDBCWorld" />
+      <option name="MAIN_CLASS_NAME" value="myHelloJDBCWorld.MyHelloJDBCWorldTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyHelloJDBCWorldTest" />
         <item itemvalue="Application.GenericTypesThisIsIt" />
         <item itemvalue="Application.GreetingKata2" />
         <item itemvalue="JUnit.GreetingKata1Test" />
         <item itemvalue="JUnit.GreetingKata2Test" />
-        <item itemvalue="Application.GAP" />
       </list>
     </recent_temporary>
   </component>
@@ -540,35 +542,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 27m 03s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 45m 25s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 27m 15s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 46m 33s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 36m 22s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 46m 35s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 36m 36s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 46m 57s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata2Test - 2019.03.12 at 20h 37m 03s.xml">
-      <configuration name="GreetingKata2Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 48m 37s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 14m 42s.xml">
-      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 09h 55m 46s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 18m 04s.xml">
-      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 10h 26m 08s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 00s.xml">
-      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 10h 41m 46s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 28s.xml">
-      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 11h 13m 29s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetingKata1Test - 2019.03.13 at 18h 19m 50s.xml">
-      <configuration name="GreetingKata1Test" configurationId="JUnit" />
+    <history-entry file="MyHelloJDBCWorldTest - 2019.03.23 at 11h 14m 17s.xml">
+      <configuration name="MyHelloJDBCWorldTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -584,7 +586,7 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.54697984" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" sideWeight="0.33766234" side_tool="true" weight="0.120665744" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" sideWeight="0.5991501" weight="0.3295302" />
@@ -594,7 +596,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34560907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34560907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,16 +619,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/fizzBuzzKataTest/FizzBuzzKata4Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="130" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designPaterns/DesignPaterns.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/tdd/hi_lo/GetRandomNumber.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tdd/hi_lo/Hi_Lo1Test.java" />
@@ -865,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="104" column="60" selection-start-line="104" selection-start-column="60" selection-end-line="104" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/AbstractAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1003,10 +988,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/QuestionUpvoteTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="100" column="3" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myHelloJDBCWorld/MyHelloJDBCWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1025,27 +1034,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/animals/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zoo/ZooApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/QuestionUpvoteTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tdd/greetingKataTest/GreetingKata1Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="1600">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>

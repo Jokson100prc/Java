@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b72c82-569b-47fc-a2cb-eef105f3a595" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/W147daysAbcTime/DayOfDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/W147daysAbcTime/FormatDataTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/W147daysAbcTime/OurHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/AbstractDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/AbstractDateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/DateTimeExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/DateTimeExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/DateTimeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week12ReturnToRoots/dateTime/DateTimeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/collections/priorityQuequeExerciseMonster/QuequeExercises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/AbstractDateTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/AbstractDateTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/DateTimeExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/DateTimeExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/DateTimeInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/week12ReturnToRoots/dateTime/DateTimeInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/W147daysAbcTime/FormatDataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/W147daysAbcTime/FormatDataTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcTime/FormatDataTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="280">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
@@ -321,7 +309,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553284722772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553287359011" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sdacademy-examples" />
     <property name="project.structure.last.edited" value="Project" />
@@ -476,7 +464,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32577905" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.24787535" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.24787535" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -933,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/W147daysAbcTime/FormatDataTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="280">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
