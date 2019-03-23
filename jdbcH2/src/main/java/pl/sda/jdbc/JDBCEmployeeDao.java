@@ -1,19 +1,22 @@
 package pl.sda.jdbc;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class JDBCEmployeeDao implements EmployeeDao {
 
-  private static final String INSERT_EMPLOYEE_STATEMENT = "INSERT INTO" + "employee (name) VALUES (?)";
+  private static final String INSERT_EMPLOYEE_STATEMENT =
+          "INSERT INTO employee (name) VALUES (?)";
 
-  private static final String FIND_EMPLOYEE_STATEMENT = "SELECT name" + "FROM employee WHERE name = (?)";
+  private static final String FIND_EMPLOYEE_STATEMENT =
+          "SELECT name FROM employee WHERE name = ?";
 
-  private static final String DELETE_EMPLOYEE_STATEMENT = "DELETE FROM employee WHERE id = (?)";
+  private static final String DELETE_EMPLOYEE_STATEMENT =
+          "DELETE FROM employee WHERE id = ?";
+
+  private static final String UPDATE_EMPLOYEE_SQL =
+          "UPDATE employee SET name = ? WHERE id = ?";
 
 
   private Connection connection;
@@ -26,19 +29,26 @@ public class JDBCEmployeeDao implements EmployeeDao {
 
   @Override
   public int add(Employee employee) {
-    try {
-      PreparedStatement insertStatement = connection.prepareStatement(INSERT_EMPLOYEE_STATEMENT);
+    try (PreparedStatement insertStatement = connection
+            .prepareStatement(INSERT_EMPLOYEE_STATEMENT,
+                    Statement.RETURN_GENERATED_KEYS)) {
       insertStatement.setString(1, employee.getName());
       insertStatement.execute();
+      ResultSet generatedKeys = insertStatement
+              .getGeneratedKeys();
+      generatedKeys.next();
+      int generatedId = generatedKeys.getInt("id");
+      return generatedId;
     } catch (SQLException e) {
-      throw new RuntimeException("Failed to add employee. ", e);
+      throw new RuntimeException("Failed to add employee. ",
+              e);
     }
-    return 0;
   }
 
   @Override
-  public void delete(int id) throws SQLException {
-    try (PreparedStatement deleteStatement = connection.prepareStatement(DELETE_EMPLOYEE_STATEMENT)) {
+  public void delete(int id) {
+    try (PreparedStatement deleteStatement = connection
+            .prepareStatement(DELETE_EMPLOYEE_STATEMENT)) {
       deleteStatement.setInt(1, id);
       deleteStatement.execute();
 
@@ -50,27 +60,36 @@ public class JDBCEmployeeDao implements EmployeeDao {
 
   @Override
   public void update(int id, Employee newEmployee) {
+    try (
+            PreparedStatement preparedStatement = connection
+                    .prepareStatement(UPDATE_EMPLOYEE_SQL)) {
+      preparedStatement.setString(1, newEmployee.getName());
+      preparedStatement.setInt(2, id);
+      preparedStatement.executeUpdate();
+    } catch (SQLException e) {
+      throw new RuntimeException("Faild update employee. ",
+              e);
+    }
 
   }
 
   @Override
   public Collection<Employee> findByName(String name) {
-
     try {
-
-      PreparedStatement findStatement = connection.prepareStatement("SELECT name FROM employee WHERE name = ?");
+      PreparedStatement findStatement = connection
+              .prepareStatement(FIND_EMPLOYEE_STATEMENT);
       findStatement.setString(1, name);
       ResultSet resultSet = findStatement.executeQuery();
-
-      Collection<Employee> employeesList = new ArrayList();
-
+      Collection<Employee> employeedList = new ArrayList();
       while (resultSet.next()) {
-        employeesList.add(new Employee(resultSet.getString("name")));
+        employeedList.add(new Employee(resultSet
+                .getString("name")));
       }
-      return employeesList;
+      return employeedList;
 
     } catch (SQLException e) {
-      throw new RuntimeException("Failed to add employee. ", e);
+      throw new RuntimeException("Failed to add employee. ",
+              e);
     }
   }
 }

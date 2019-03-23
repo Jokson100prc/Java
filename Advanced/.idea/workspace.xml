@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bafd6a5-82d9-4fa6-bbe7-98201e261984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/myHelloJDBCWorld/MyHelloJDBCWorldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/JDBCEmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbcH2/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tdd/greetingKata/GreetingKata2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/Joker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/Joker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/genericTypsThisIsIt/School.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/FormatDataTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/FormatDataTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/JDBCEmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/src/main/java/pl/sda/jdbc/JDBCEmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/target/classes/pl/sda/jdbc/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/target/classes/pl/sda/jdbc/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/target/classes/pl/sda/jdbc/JDBCEmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/target/classes/pl/sda/jdbc/JDBCEmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbcH2/target/test-classes/pl/sda/jdbc/EmployeeDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbcH2/target/test-classes/pl/sda/jdbc/EmployeeDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -213,10 +202,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="50" />
-    <option name="width" value="1930" />
-    <option name="height" value="690" />
+    <option name="width" value="949" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -382,11 +372,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553352768813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553369114679" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/tdd" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sdacademy-examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jdbc-hello-world" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -583,10 +573,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.20268457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66233766" visible="true" weight="0.20268457" />
       <window_info id="Structure" order="1" sideWeight="0.33766234" side_tool="true" weight="0.120665744" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" sideWeight="0.5991501" weight="0.3295302" />
@@ -596,7 +585,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

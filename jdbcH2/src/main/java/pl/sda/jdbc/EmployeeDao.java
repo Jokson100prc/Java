@@ -7,7 +7,7 @@ public interface EmployeeDao {
 
   int add(Employee employee);
 
-  void delete(int id) throws SQLException;
+  void delete(int id);
 
   void update(int id, Employee newEmployee);
 
