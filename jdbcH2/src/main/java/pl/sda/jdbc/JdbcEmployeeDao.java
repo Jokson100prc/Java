@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class JDBCEmployeeDao implements EmployeeDao {
+public class JdbcEmployeeDao implements EmployeeDao {
 
   private static final String INSERT_EMPLOYEE_STATEMENT =
           "INSERT INTO employee (name) VALUES (?)";
@@ -22,7 +22,7 @@ public class JDBCEmployeeDao implements EmployeeDao {
   private Connection connection;
 
 
-  public JDBCEmployeeDao(Connection connection) {
+  public JdbcEmployeeDao(Connection connection) {
     this.connection = connection;
   }
 

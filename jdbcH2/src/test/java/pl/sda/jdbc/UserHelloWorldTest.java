@@ -25,7 +25,7 @@ public class UserHelloWorldTest {
   }
 
   @AfterEach
-  void tearDown(){
+  void tearDown() {
     factory.close();
   }
 
@@ -34,8 +34,8 @@ public class UserHelloWorldTest {
   @Test
   void test1() throws Exception {
     EntityTransaction transaction = entityManager.getTransaction();
-
     transaction.begin();
+
     entityManager.persist(new User("Marcel", 22));
     transaction.commit();
 
@@ -66,11 +66,11 @@ public class UserHelloWorldTest {
 
   @DisplayName("show how to create and find  user with multiple addresses")
   @Test
-  void test3()throws Exception{
-    User borys = new User("Borys",27);
-    Address address= new Address("Śniadeckich", "Bytom", "Polska");
-    Address secondAddress= new Address("Wesoła", "Tuchola", "Polska");
-    Address thirdAddress= new Address("Biała", "Wschowa", "Polska");
+  void test3() throws Exception {
+    User borys = new User("Borys", 27);
+    Address address = new Address("Śniadeckich", "Bytom", "Polska");
+    Address secondAddress = new Address("Wesoła", "Tuchola", "Polska");
+    Address thirdAddress = new Address("Biała", "Wschowa", "Polska");
 
     borys.addAddress(address);
     borys.addAddress(secondAddress);
@@ -84,7 +84,7 @@ public class UserHelloWorldTest {
 //    entityManager.persist(thirdAddress);
     transaction.commit();
 
-    User foundUser=entityManager.find(User.class, borys.userGetId());
+    User foundUser = entityManager.find(User.class, borys.userGetId());
 
     assertThat(foundUser.getAddresses()).hasSize(3);
 

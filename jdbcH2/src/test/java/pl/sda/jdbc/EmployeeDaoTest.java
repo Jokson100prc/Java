@@ -21,7 +21,7 @@ public class EmployeeDaoTest {
   @BeforeEach
   void setup() throws Exception {
     connection = initDb();
-    employeeDao = new JDBCEmployeeDao(connection);
+    employeeDao = new JdbcEmployeeDao(connection);
   }
 
   @AfterEach
@@ -93,7 +93,7 @@ public class EmployeeDaoTest {
     /**
      //given
      Connection connection = initDb();
-     EmployeeDao employeeDao = new JDBCEmployeeDao(connection);
+     EmployeeDao employeeDao = new JdbcEmployeeDao(connection);
      Employee newEmployee = new Employee("Donatello");
      int id = employeeDao.add(newEmployee);
 
