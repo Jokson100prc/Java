@@ -1,6 +1,5 @@
 package pl.sda.jdbc;
 
-import java.sql.SQLException;
 import java.util.Collection;
 
 public interface EmployeeDao {

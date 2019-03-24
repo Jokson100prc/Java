@@ -106,9 +106,57 @@ public class EmployeeDaoTest {
   }
 
 
-  @DisplayName("Should update employee")
+  @DisplayName("should update using transactions")
   @Test
   void test4() throws Exception {
+    //given
+    Employee elen = new Employee("Elen");
+    Employee grut = new Employee("Grut");
+    Employee elenAfterChangeToHelena = new Employee("Helena");
+
+    //when
+    connection.setAutoCommit(false);
+    int elenId = employeeDao.add(elen);
+    employeeDao.add(grut);
+    employeeDao.update(elenId, elenAfterChangeToHelena);
+    connection.rollback();
+//    connection.commit();
+
+    //then
+    assertThat(employeeDao.findByName("Grut")).isEmpty();
+    assertThat(employeeDao.findByName("Helena")).isEmpty();
+    assertThat(employeeDao.findByName("Elen")).isEmpty();
+  }
+
+  /***   ***   ***
+   ***  ***   ***/
+  @DisplayName("should update using transactions (with check added employee)")
+  @Test
+  void test4_5() throws Exception {
+    //given
+    Employee gabriel = new Employee("Gabriel");
+    Employee figaro = new Employee("Figaro");
+    Employee gabrielAfterChangeToGertruda = new Employee("Gertruda");
+
+    //when
+    connection.setAutoCommit(false);
+    int gabrielId = employeeDao.add(gabriel);
+    employeeDao.add(figaro);
+    employeeDao.update(gabrielId, gabrielAfterChangeToGertruda);
+    // connection.rollback();
+    connection.commit();
+    Collection<Employee> employees = employeeDao.findByName("Figaro");
+
+    //then
+    assertThat(employees).containsOnly(figaro);
+    assertThat(employeeDao.findByName("Gertruda")).hasSize(1);
+    assertThat(employeeDao.findByName("Gabriel")).isEmpty();
+  }
+
+
+  @DisplayName("Should update employee")
+  @Test
+  void test5() throws Exception {
     //given
     Employee gabriel = new Employee("Gabriel");
     Employee figaro = new Employee("Figaro");
@@ -122,6 +170,31 @@ public class EmployeeDaoTest {
     //then
     assertThat(employeeDao.findByName("Gertruda")).hasSize(1);
     assertThat(employeeDao.findByName("Gabriel")).isEmpty();
+  }
+
+  @DisplayName("should delete employee")
+  @Test
+  void test6() throws Exception {
+    //given
+    Employee ala = new Employee("Ala");
+    Employee mike = new Employee("Mikeangelo");
+    Employee sara = new Employee("Sara");
+    Employee ala2 = new Employee("Ala");
+    Employee dobrawa = new Employee("Dobrawa");
+
+    employeeDao.add(ala);
+    employeeDao.add(mike);
+    employeeDao.add(sara);
+    employeeDao.add(ala2);
+    employeeDao.add(dobrawa);
+
+    //when
+    Collection<Employee> allEmployees = employeeDao
+            .findByName("Ala");
+
+    //then
+    assertThat(allEmployees)
+            .containsOnly(ala, ala2);
   }
 
   private Connection initDb() throws SQLException {
