@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import javax.persistence.*;
 import java.util.List;
 
-class JpaEngineerDaoTest {
+class JpaEngineerTest {
 
   EntityManagerFactory factory;
   EntityManager entityManager;
@@ -33,12 +33,12 @@ class JpaEngineerDaoTest {
     EntityTransaction transaction = entityManager.getTransaction();
     transaction.begin();
 
-    JpaEngineerDao stuart = new JpaEngineerDao("Stuart", 6);
+    JpaEngineer stuart = new JpaEngineer("Stuart", 6);
     entityManager.persist(stuart);
     transaction.commit();
 
-    TypedQuery<JpaEngineerDao> query = entityManager.createQuery("SELECT u FROM User u ", JpaEngineerDao.class);
-    List<JpaEngineerDao> resultEngineerDaoList = query.getResultList();
+    TypedQuery<JpaEngineer> query = entityManager.createQuery("SELECT e FROM JpaEngineer e ", JpaEngineer.class);
+    List<JpaEngineer> resultEngineerDaoList = query.getResultList();
 
     Assertions.assertThat(resultEngineerDaoList).hasSize(1);
   }

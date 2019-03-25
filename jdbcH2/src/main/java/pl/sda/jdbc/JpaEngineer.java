@@ -1,11 +1,14 @@
 package pl.sda.jdbc;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Collection;
 import java.util.Objects;
 
-public class JpaEngineerDao implements EmployeeDao {
+
+@Entity
+public class JpaEngineer implements EmployeeDao {
 
 
   @Id
@@ -15,10 +18,10 @@ public class JpaEngineerDao implements EmployeeDao {
   private int experience;
 
 
-  public JpaEngineerDao() {
+  public JpaEngineer() {
   }
 
-  public JpaEngineerDao(String name, int experience) {
+  public JpaEngineer(String name, int experience) {
     this.name = name;
     this.experience = experience;
   }
@@ -53,7 +56,7 @@ public class JpaEngineerDao implements EmployeeDao {
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
-    JpaEngineerDao that = (JpaEngineerDao) o;
+    JpaEngineer that = (JpaEngineer) o;
     return id == that.id;
   }
 
