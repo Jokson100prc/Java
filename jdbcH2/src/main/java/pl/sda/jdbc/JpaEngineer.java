@@ -31,6 +31,15 @@ public class JpaEngineer implements EmployeeDao {
     return id;
   }
 
+  public String getName() {
+    return name;
+  }
+
+  public int getExperience() {
+    return experience;
+  }
+
+
   @Override
   public int add(Employee employee) {
     return 0;
