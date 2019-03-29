@@ -18,5 +18,6 @@ public class Main {
     dateTimeExercise.duration(ourHours.firstHour(),ourHours.secondHoure());
     dateTimeExercise.cidadeDeRioDeJaneiro();
     dateTimeExercise.miastoBydgoszcz();
+    dateTimeExercise.dateTimePattern();
   }
 }

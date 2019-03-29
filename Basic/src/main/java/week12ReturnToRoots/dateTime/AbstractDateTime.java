@@ -1,12 +1,17 @@
 package week12ReturnToRoots.dateTime;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
-public class AbstractDateTime implements DateTimeInterface {
+public class AbstractDateTime implements DateTimeInterface, FormatterDateTimeInterface {
 
 
   public static LocalDate localDate;
+  public static LocalDateTime localDateTime;
+
+  public DateTimeFormatter formatter;
+
 //  public static LocalTime localTime;
 //  public static LocalDateTime localDateTime;
 
@@ -73,4 +78,8 @@ public class AbstractDateTime implements DateTimeInterface {
 
   }
 
+  @Override
+  public void dateTimePattern() {
+
+  }
 }

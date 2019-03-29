@@ -1,6 +1,7 @@
 package week12ReturnToRoots.dateTime;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class DateTimeExercise extends AbstractDateTime {
 
@@ -50,11 +51,11 @@ public class DateTimeExercise extends AbstractDateTime {
   }
 
   @Override
-  public void duration(LocalTime firstHour, LocalTime secongHour) {
-    super.duration(firstHour, secongHour);
-    long time = Duration.between(firstHour, secongHour).getSeconds();
+  public void duration(LocalTime firstHour, LocalTime secondHour) {
+    super.duration(firstHour, secondHour);
+    long time = Duration.between(firstHour, secondHour).getSeconds();
     System.out.println(time);
-    System.out.println("Between " + firstHour + " and " + secongHour + " is " + (time /= 3600) + " hours and " + (time % 36) + " min");
+    System.out.println("Between " + firstHour + " and " + secondHour + " is " + (time /= 3600) + " hours and " + (time % 36) + " min");
   }
 
   @Override
@@ -67,5 +68,13 @@ public class DateTimeExercise extends AbstractDateTime {
   public void miastoBydgoszcz() {
     super.miastoBydgoszcz();
     System.out.println("Current time in Bydgoszcz in Poland: " + LocalDateTime.now(ZoneId.of("Poland")));
+  }
+
+  @Override
+  public void dateTimePattern() {
+    super.dateTimePattern();
+    DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME; // pattern to changed
+    String beutyDateForm = formatter.format(LocalDateTime.now());
+    System.out.println("FORMATTED: " + beutyDateForm);
   }
 }
