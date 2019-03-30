@@ -1,8 +1,8 @@
 package pl.sda.jdbc;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Objects;
 
 @Entity
@@ -14,6 +14,8 @@ public class Address {
   private String city;
   private String street;
   private String country;
+  @ManyToMany
+  private Collection<Employee> employees;
 
   public Address() {
   }
@@ -22,7 +24,10 @@ public class Address {
     this.city = city;
     this.street = street;
     this.country = country;
+    this.employees = new ArrayList<>();
   }
+
+
 
   @Override
   public boolean equals(Object o) {
@@ -35,5 +40,14 @@ public class Address {
   @Override
   public int hashCode() {
     return Objects.hash(id);
+  }
+
+  public void setEmployee(Employee employee) {
+    this.employees.add((employee));
+  }
+
+
+  public Collection<Employee> getEmployees() {
+    return employees;
   }
 }

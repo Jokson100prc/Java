@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e396de65-8da3-47b3-9ca8-b6a1c96b0828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/FormatterDateTimeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryDBHibTraining/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryDBHibTraining/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryDBHibTraining/src/main/java/myLibraryDbTraining/LibraryBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryDBHibTraining/src/test/java/LibraryDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDbDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDbDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/W147daysAbcTime/FormatDataTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/AbstractDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/AbstractDateTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/DateTimeExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/DateTimeExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Basic/src/main/java/week12ReturnToRoots/dateTime/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Basic/src/test/java/week12ReturnToRoots/dateTime/DateTimeExerciseTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/jdbcH2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/jdbc/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/jdbc/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/jdbc/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/jdbc/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/jdbcH2.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +31,97 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.6033557">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDbDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDbDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1520">
+                  <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="740">
+                  <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="740">
+                  <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#799#800#0" expanded="true" />
+                    <element signature="e#832#833#0" expanded="true" />
+                    <element signature="e#880#881#0" expanded="true" />
+                    <element signature="e#920#921#0" expanded="true" />
+                    <element signature="e#969#970#0" expanded="true" />
+                    <element signature="e#995#996#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="344">
+                  <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#799#800#0" expanded="true" />
+                    <element signature="e#832#833#0" expanded="true" />
+                    <element signature="e#880#881#0" expanded="true" />
+                    <element signature="e#920#921#0" expanded="true" />
+                    <element signature="e#969#970#0" expanded="true" />
+                    <element signature="e#995#996#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,20 +146,26 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/db/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JdbcEmployeeDap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JDBCEmployeeDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Engineer.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/UserHelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/JpaEngineerDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JpaEngineerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JpaEngineer.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/JpaEngineerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeceDB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDBTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDBDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDbDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDbDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -69,11 +176,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="922" />
     <option name="y" value="50" />
-    <option name="width" value="1930" />
-    <option name="height" value="685" />
+    <option name="width" value="1005" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,20 +197,177 @@
               <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbcH2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Course" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sda" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sda" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sda" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jdbcH2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="jdbcH2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sda" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jdbc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553631528292" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553968155008" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Basic" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibraryDBHibTraining" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -134,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaEngineerTest">
+  <component name="RunManager" selected="JUnit.EmployeeDbDaoTest">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -153,11 +419,26 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="EmployeeDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcH2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.EmployeeDBTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbcH2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.jdbc.JdbcEmployeeDao" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,22 +449,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaEngineerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcH2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.jdbc.JdbcEmployeeDao" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.JpaEngineerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpaEngineerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeDbDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbcH2" />
       <extension name="coverage">
         <pattern>
@@ -192,39 +458,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.JpaEngineerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserHelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbcH2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.jdbc.JdbcEmployeeDao" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.UserHelloWorldTest" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.EmployeeDbDaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserHelloWorldTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeDbDaoTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdbcH2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.jdbc.JdbcEmployeeDao" />
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.UserHelloWorldTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.EmployeeDbDaoTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeDbDaoTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbcH2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jdbc.EmployeeDbDaoTest" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +498,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaEngineerTest" />
-        <item itemvalue="JUnit.JpaEngineerTest.test" />
+        <item itemvalue="JUnit.EmployeeDbDaoTest" />
+        <item itemvalue="JUnit.EmployeeDbDaoTest.test7" />
+        <item itemvalue="JUnit.EmployeeDbDaoTest.test6" />
         <item itemvalue="JUnit.EmployeeDaoTest" />
-        <item itemvalue="JUnit.UserHelloWorldTest" />
-        <item itemvalue="JUnit.UserHelloWorldTest.test2" />
+        <item itemvalue="JUnit.EmployeeDBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,75 +516,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553335036686</updated>
+      <workItem from="1553952607143" duration="4719000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 09m 41s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 14h 58m 57s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 10m 49s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 14h 59m 58s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 11m 44s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 15h 00m 23s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 12m 22s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 15h 07m 36s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 12m 43s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 15h 22m 13s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 13m 47s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest_test7 - 2019.03.30 at 15h 30m 41s.xml">
+      <configuration name="EmployeeDbDaoTest.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 14m 05s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest - 2019.03.30 at 15h 30m 59s.xml">
+      <configuration name="EmployeeDbDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 15m 06s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest - 2019.03.30 at 15h 37m 58s.xml">
+      <configuration name="EmployeeDbDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 15m 17s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest - 2019.03.30 at 15h 39m 05s.xml">
+      <configuration name="EmployeeDbDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JpaEngineerTest - 2019.03.26 at 21h 15m 39s.xml">
-      <configuration name="JpaEngineerTest" configurationId="JUnit" />
+    <history-entry file="EmployeeDbDaoTest - 2019.03.30 at 15h 40m 02s.xml">
+      <configuration name="EmployeeDbDaoTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4719000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="40" width="1544" height="548" extended-state="1" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Learn" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21495956" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32719547" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.5155807" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info id="Persistence" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.14228188" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067115" side_tool="true" weight="0.40509915" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32719547" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932885" weight="0.32577905" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Leiningen" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="REPL" order="5" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="REPL" order="5" show_stripe_button="false" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.24966443" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -327,16 +599,16 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.21208054" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.44228187" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50067115" side_tool="true" weight="0.40509915" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32719547" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.07648725" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49932885" visible="true" weight="0.32577905" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -346,12 +618,19 @@
       <window_info anchor="right" id="Leiningen" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="REPL" order="5" side_tool="true" />
+      <window_info anchor="right" id="REPL" order="5" show_stripe_button="false" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.24966443" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Main.java">
@@ -366,54 +645,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JdbcEmployeeDap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Engineer.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.12.2/assertj-core-3.12.2.jar!/org/assertj/core/api/AbstractIterableAssert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="127" column="55" lean-forward="true" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/UserHelloWorldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="76" column="29" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,13 +661,6 @@
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -454,23 +682,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/JpaEngineerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="66" column="3" lean-forward="true" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/UserHelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/JpaEngineerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/sda/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/JdbcEmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="355">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/jdbc/EmployeeDbDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/EmployeeDbDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jdbc/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
         </state>
       </provider>
     </entry>
